@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Digitale Edition der Memoiren Gräfin Schwerin</title>
+            <respStmt>
+               <resp>Projektleitung</resp>
+               <persName>
+                  <forename>Ines</forename>
+                  <surname>Peper</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Datenmodellierung</resp>
+               <persName>
+                  <forename>Selina</forename>
+                  <surname>Galka</surname>
+               </persName>
+            </respStmt>
+            <funder>FWF</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="http://d-nb.info/gnd/1137284463"
+                  corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+               <country>Austria</country>
+            </publisher>
+            <authority>
+               <orgName ref="http://d-nb.info/gnd/1137284463"
+                  corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+               <country>Austria</country>
+            </authority>
+            <distributor>
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                  Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                  BY-NC 4.0</licence>
+            </availability>
+            <date when="2023">2023</date>
+            <pubPlace>Graz</pubPlace>
+            <idno type="PID">o:mgs.lesefassung</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="http://gams.uni-graz.at/konde">Memoiren Gräfin Schwerin</title>
+            <respStmt>
+               <resp>Projektleitung</resp>
+               <persName>
+                  <forename>Ines</forename>
+                  <surname>Peper</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title> Memoiren Gräfin Schwerin </title>
+               <publisher>xxx</publisher>
+               <date>xxx</date>
+               <country>xxx</country>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <ab>
+               <ref target="context:mgs" type="context">Memoiren Gräfin Schwerin</ref>
+            </ab>
+            <p>xxx</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <!-- in unserem Fall werden die Personenliste und Liste der Beziehungen in ein seperates TEI-Dokument verlagert -->
+   <standOff>
+      <listPerson>
+         <person xml:id="P210">
+            <name>Comtesse de Colloredo</name>
+         </person>
+         <person xml:id="P13">
+            <name>Madame de Blaspiel</name>
+         </person>
+         <person xml:id="P1">
+            <name>Madame de Kinsky</name>
+         </person>
+         <person xml:id="P2">
+            <name>Prince</name>
+         </person>
+         <listRelation>
+            <relation type="family" name="sister-in-law" active="#P210" passive="#P13" xml:id="R1"/>
+            <relation type="familiy" name="sister-in-law" active="#P1" passive="#P2" xml:id="R2"/>
+         </listRelation>
+      </listPerson>
+   </standOff>
+   <text>
+      <body>
+         <p>Après avoir congédié mes gens de Vienne, hors la nourrice, je pris une fille catholique
+            qui avait servi la <seg ana="#R1" xml:id="S1"><persName ref="#P210">comtesse de
+                  Colloredo</persName>, belle-sœur de <persName ref="#P13">madame de
+                  Blaspiel</persName></seg>. Mais comme je ne me fiais pas à cette fille, j’en fis
+            venir une de Vienne, âgée de dix-huit ans, sotte et simple, mais à ce que je croyais
+            fidèle. Effectivement, elle ne m’a manqué dans la suite que par bêtise. Elle couchait
+            dans ma chambre, mais elle dormait comme une souche. Je pouvais me coucher et me lever
+            sans qu’elle s’en aperçût, et c’est ce qui me charmait dans la situation où j’étais, qui
+            est fort difficile à dépeindre, et qui se fait mieux sentir que d’écrire.</p>
+         <p>Dès qu’il fut sorti, je voulus dîner, mais il n’y avait rien. <seg ana="#R2" xml:id="S2"
+                  ><persName ref="#P1">Madame de Kinsky</persName>, belle-sœur du <persName
+                  ref="#P2">Prince</persName></seg> , vint me voir dans un équipage superbe. Elle me
+            pria de la part de Mgr l’Évêque de venir dîner au château. J’étais dans un équipage fort
+            dérangé, et outre cela un mal de tête extrême. Il fallut pourtant obéir. Je partis avec
+            elle, me voilà donc d’un instant de dessus la paille dans un équipage brillant. Cela me
+            fit faire réflexion sur les vissisitudes et les variations humaines. Dès que nous
+            arrivâmes au château, le Référendaire de la Couronne, frère de Mgr l’Évêque, vint
+            au-devant de nous, et en me donnant la main il me fit excuse que le prince n’était pas
+            venu lui-même, mais qu’il ne quittait pas sa chambre depuis quelques jours. On se mit
+            même à table avant que j’eus le bonheur de le voir. Madame la comtesse de Potoski,
+            épouse du Référendaire, me reçut de la manière du monde la plus gracieuse. C’est la
+            personne du monde la plus aimable et la plus vertueuse, joint à sa dévotion exemplaire.
+            C’est elle qui est une protectrice ou plutôt un ferme appui du tiers-ordre de saint
+            François de Paule, dont elle fait l’ornement et l’exemple en Pologne. Elle ne verra
+            jamais sans doute cet écrit, ainsi j’ose dire cette vérité, sans cela je craindrais de
+            déplaire à sa profonde humilité. Elle était charmée de mon changement de religion. Elle
+            m’en louait et me disait mille choses édifiantes et me promit son appui auprès de Mgr
+            l’Evêque son beau-frère.</p>
+      </body>
+   </text>
+</TEI>
