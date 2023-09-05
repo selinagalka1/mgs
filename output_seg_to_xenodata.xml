@@ -3,7 +3,14 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <teiHeader xmlns:bio="http://purl.org/vocab/bio/0.1/"
+              xmlns:dc="http://purl.org/dc/elements/1.1/"
+              xmlns:ex="http://example.org/"
+              xmlns:foaf="http://xmlns.com/foaf/0.1/"
+              xmlns:mgs="https://gams.uni-graz.at/ontology:mgs#"
+              xmlns:oa="http://www.w3.org/ns/oa#"
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+              xmlns:rel="http://purl.org/vocab/relationship/">
       <fileDesc>
          <titleStmt>
             <title type="main">Digitale Edition der Memoiren Gräfin Schwerin</title>
@@ -26,21 +33,25 @@
          <publicationStmt>
             <publisher>
                <orgName ref="http://d-nb.info/gnd/1137284463"
-                  corresp="https://informationsmodellierung.uni-graz.at" instant="false" full="yes"
-                  >Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities,
+                        corresp="https://informationsmodellierung.uni-graz.at"
+                        instant="false"
+                        full="yes">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
                   Karl-Franzens-Universität Graz</orgName>
                <country>Austria</country>
             </publisher>
             <authority>
                <orgName ref="http://d-nb.info/gnd/1137284463"
-                  corresp="https://informationsmodellierung.uni-graz.at" instant="false" full="yes"
-                  >Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities,
+                        corresp="https://informationsmodellierung.uni-graz.at"
+                        instant="false"
+                        full="yes">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
                   Karl-Franzens-Universität Graz</orgName>
                <country>Austria</country>
             </authority>
             <distributor>
-               <orgName ref="https://gams.uni-graz.at" instant="false" full="yes">GAMS -
-                  Geisteswissenschaftliches Asset Management System</orgName>
+               <orgName ref="https://gams.uni-graz.at" instant="false" full="yes">GAMS - Geisteswissenschaftliches Asset
+                  Management System</orgName>
             </distributor>
             <availability default="false">
                <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
@@ -83,38 +94,36 @@
          </langUsage>
       </profileDesc>
       <xenoData>
-         <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:oa="http://www.w3.org/ns/oa#"
-            xmlns:mgs="https://gams-staging.uni-graz.at/context:mgs"
-            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+         <rdf:RDF>
             <oa:Annotation>
                <oa:hasTarget rdf:resource="https://gams.uni-graz.at/o:mgs.lesefassung#S1"/>
                <oa:hasBody>
-                  <rdf:Description rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#R1">
-                     <foaf:Person rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#P210">
-                        <foaf:name>Comtesse de Colloredo</foaf:name>
-                        <mgs:sister-in-law
-                           rdf:resource="https://gams.uni-graz.at/o:mgs.lesefassung#P13"
-                        /></foaf:Person>
-                     <foaf:Person rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#P13">
-                        <foaf:name>Madame de Blaspiel</foaf:name>
-                     </foaf:Person>
-                  </rdf:Description>
+                  <bio:Relationship rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#R1">
+                     <rdf:type rdf:resource="https://gams.uni-graz.at/o:mgs.ontology#family"/>
+                     <bio:hasParticipant>
+                        <foaf:Person rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#P210">
+                           <mgs:sister-in-law rdf:resource="https://gams.uni-graz.at/o:mgs.lesefassung#P13"/>
+                        </foaf:Person>
+                        <foaf:Person rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#P13"/>
+                     </bio:hasParticipant>
+                  </bio:Relationship>
                </oa:hasBody>
+               <oa:bodyValue>Comtesse de Colloredo sister-in-law Madame de Blaspiel</oa:bodyValue>
             </oa:Annotation>
             <oa:Annotation>
                <oa:hasTarget rdf:resource="https://gams.uni-graz.at/o:mgs.lesefassung#S2"/>
                <oa:hasBody>
-                  <rdf:Description rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#R2">
-                     <foaf:Person rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#P1">
-                        <foaf:name>Madame de Kinsky</foaf:name>
-                        <mgs:sister-in-law
-                           rdf:resource="https://gams.uni-graz.at/o:mgs.lesefassung#P2"
-                        /></foaf:Person>
-                     <foaf:Person rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#P2">
-                        <foaf:name>Prince</foaf:name>
-                     </foaf:Person>
-                  </rdf:Description>
+                  <bio:Relationship rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#R2">
+                     <rdf:type rdf:resource="https://gams.uni-graz.at/o:mgs.ontology#familiy"/>
+                     <bio:hasParticipant>
+                        <foaf:Person rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#P1">
+                           <mgs:sister-in-law rdf:resource="https://gams.uni-graz.at/o:mgs.lesefassung#P2"/>
+                        </foaf:Person>
+                        <foaf:Person rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#P2"/>
+                     </bio:hasParticipant>
+                  </bio:Relationship>
                </oa:hasBody>
+               <oa:bodyValue>Madame de Kinsky sister-in-law Prince</oa:bodyValue>
             </oa:Annotation>
          </rdf:RDF>
       </xenoData>
@@ -135,46 +144,53 @@
             <name full="yes" instant="false">Prince</name>
          </person>
          <listRelation>
-            <relation type="family" name="sister-in-law" active="#P210" passive="#P13" xml:id="R1"
-               instant="false"/>
-            <relation type="familiy" name="sister-in-law" active="#P1" passive="#P2" xml:id="R2"
-               instant="false"/>
+            <relation type="family"
+                      name="sister-in-law"
+                      active="#P210"
+                      passive="#P13"
+                      xml:id="R1"
+                      instant="false"/>
+            <relation type="familiy"
+                      name="sister-in-law"
+                      active="#P1"
+                      passive="#P2"
+                      xml:id="R2"
+                      instant="false"/>
          </listRelation>
       </listPerson>
    </standOff>
    <text>
       <body>
-         <p part="N">Après avoir congédié mes gens de Vienne, hors la nourrice, je pris une fille
-            catholique qui avait servi la <seg ana="#R1" xml:id="S1" part="N">
-               <persName ref="#P210" instant="false" full="yes">comtesse de Colloredo</persName>,
-               belle-sœur de <persName ref="#P13" instant="false" full="yes">madame de
+         <p part="N">Après avoir congédié mes gens de Vienne, hors la nourrice, je pris une fille catholique
+            qui avait servi la <seg ana="#R1" xml:id="S1" part="N">
+               <persName ref="#P210" instant="false" full="yes">comtesse de
+                  Colloredo</persName>, belle-sœur de <persName ref="#P13" instant="false" full="yes">madame de
                   Blaspiel</persName>
-            </seg>. Mais comme je ne me fiais pas à cette fille, j’en fis venir une de Vienne, âgée
-            de dix-huit ans, sotte et simple, mais à ce que je croyais fidèle. Effectivement, elle
-            ne m’a manqué dans la suite que par bêtise. Elle couchait dans ma chambre, mais elle
-            dormait comme une souche. Je pouvais me coucher et me lever sans qu’elle s’en aperçût,
-            et c’est ce qui me charmait dans la situation où j’étais, qui est fort difficile à
-            dépeindre, et qui se fait mieux sentir que d’écrire.</p>
-         <p part="N">Dès qu’il fut sorti, je voulus dîner, mais il n’y avait rien. <seg ana="#R2"
-               xml:id="S2" part="N">
-               <persName ref="#P1" instant="false" full="yes">Madame de Kinsky</persName>,
-               belle-sœur du <persName ref="#P2" instant="false" full="yes">Prince</persName>
-            </seg> , vint me voir dans un équipage superbe. Elle me pria de la part de Mgr l’Évêque
-            de venir dîner au château. J’étais dans un équipage fort dérangé, et outre cela un mal
-            de tête extrême. Il fallut pourtant obéir. Je partis avec elle, me voilà donc d’un
-            instant de dessus la paille dans un équipage brillant. Cela me fit faire réflexion sur
-            les vissisitudes et les variations humaines. Dès que nous arrivâmes au château, le
-            Référendaire de la Couronne, frère de Mgr l’Évêque, vint au-devant de nous, et en me
-            donnant la main il me fit excuse que le prince n’était pas venu lui-même, mais qu’il ne
-            quittait pas sa chambre depuis quelques jours. On se mit même à table avant que j’eus le
-            bonheur de le voir. Madame la comtesse de Potoski, épouse du Référendaire, me reçut de
-            la manière du monde la plus gracieuse. C’est la personne du monde la plus aimable et la
-            plus vertueuse, joint à sa dévotion exemplaire. C’est elle qui est une protectrice ou
-            plutôt un ferme appui du tiers-ordre de saint François de Paule, dont elle fait
-            l’ornement et l’exemple en Pologne. Elle ne verra jamais sans doute cet écrit, ainsi
-            j’ose dire cette vérité, sans cela je craindrais de déplaire à sa profonde humilité.
-            Elle était charmée de mon changement de religion. Elle m’en louait et me disait mille
-            choses édifiantes et me promit son appui auprès de Mgr l’Evêque son beau-frère.</p>
+            </seg>. Mais comme je ne me fiais pas à cette fille, j’en fis
+            venir une de Vienne, âgée de dix-huit ans, sotte et simple, mais à ce que je croyais
+            fidèle. Effectivement, elle ne m’a manqué dans la suite que par bêtise. Elle couchait
+            dans ma chambre, mais elle dormait comme une souche. Je pouvais me coucher et me lever
+            sans qu’elle s’en aperçût, et c’est ce qui me charmait dans la situation où j’étais, qui
+            est fort difficile à dépeindre, et qui se fait mieux sentir que d’écrire.</p>
+         <p part="N">Dès qu’il fut sorti, je voulus dîner, mais il n’y avait rien. <seg ana="#R2" xml:id="S2" part="N">
+               <persName ref="#P1" instant="false" full="yes">Madame de Kinsky</persName>, belle-sœur du <persName ref="#P2" instant="false" full="yes">Prince</persName>
+            </seg> , vint me voir dans un équipage superbe. Elle me
+            pria de la part de Mgr l’Évêque de venir dîner au château. J’étais dans un équipage fort
+            dérangé, et outre cela un mal de tête extrême. Il fallut pourtant obéir. Je partis avec
+            elle, me voilà donc d’un instant de dessus la paille dans un équipage brillant. Cela me
+            fit faire réflexion sur les vissisitudes et les variations humaines. Dès que nous
+            arrivâmes au château, le Référendaire de la Couronne, frère de Mgr l’Évêque, vint
+            au-devant de nous, et en me donnant la main il me fit excuse que le prince n’était pas
+            venu lui-même, mais qu’il ne quittait pas sa chambre depuis quelques jours. On se mit
+            même à table avant que j’eus le bonheur de le voir. Madame la comtesse de Potoski,
+            épouse du Référendaire, me reçut de la manière du monde la plus gracieuse. C’est la
+            personne du monde la plus aimable et la plus vertueuse, joint à sa dévotion exemplaire.
+            C’est elle qui est une protectrice ou plutôt un ferme appui du tiers-ordre de saint
+            François de Paule, dont elle fait l’ornement et l’exemple en Pologne. Elle ne verra
+            jamais sans doute cet écrit, ainsi j’ose dire cette vérité, sans cela je craindrais de
+            déplaire à sa profonde humilité. Elle était charmée de mon changement de religion. Elle
+            m’en louait et me disait mille choses édifiantes et me promit son appui auprès de Mgr
+            l’Evêque son beau-frère.</p>
       </body>
    </text>
 </TEI>
