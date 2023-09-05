@@ -77,7 +77,6 @@
 	</xsl:template>
 
 	<xsl:template match="//*[@ana]" mode="xenoData" priority="-1">
-		<xsl:variable name="annotation" select="//t:standOff//t:*[@xml:id=substring-after(current()/@ana,'#')]"/>
 		<oa:Annotation>
 			<oa:hasTarget>
 				<xsl:attribute name="rdf:resource">
@@ -86,11 +85,7 @@
 				</xsl:attribute>
 			</oa:hasTarget>
 			<oa:hasBody>
-				<rdf:Description rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#{$annotation/@xml:id}">
-					<rdf:type rdf:resource="https://tei-c.org/ns/1.0/{$annotation/name()}"/>
-					<rdf:type rdf:resource="https://gams.uni-graz.at/o:mgs.ontology#{$annotation/@type}"/>
-					<xsl:apply-templates select="*" mode="tei2rdf"/>
-				</rdf:Description>
+				<xsl:apply-templates select="//t:standOff//t:*[@xml:id=substring-after(current()/@ana,'#')]" mode="#current"/>
 			</oa:hasBody>
 		</oa:Annotation>
 	</xsl:template>
