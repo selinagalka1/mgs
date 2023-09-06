@@ -42,7 +42,8 @@
             </xenoData>
         </teiHeader>
     </xsl:template>
-
+	<!-- Convert annotations to RDF: relations
+	FixMe: this is the prototype, proposal for a generic solution below -->
 	<xsl:template match="//*[@ana]" mode="xenoData">
 		<xsl:variable name="annotation" select="//t:relation[@xml:id=substring-after(current()/@ana,'#')]"/>
 		<oa:Annotation>
@@ -75,7 +76,8 @@
 				</xsl:call-template></oa:bodyValue>
 		</oa:Annotation>
 	</xsl:template>
-
+	
+	<!-- Generic handling of references to annotations in t:standOff -->
 	<xsl:template match="//*[@ana]" mode="xenoData" priority="-1">
 		<oa:Annotation>
 			<oa:hasTarget>
@@ -89,6 +91,15 @@
 			</oa:hasBody>
 		</oa:Annotation>
 	</xsl:template>
+	<!-- Converting generic standOff annotations to RDF -->
+	<xsl:template match="//t:standOff//t:*" mode="xenoData">
+		<rdf:Description rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#{$annotation/@xml:id}">
+			<rdf:type rdf:resource="https://tei-c.org/ns/1.0/{$annotation/name()}"/>
+			<rdf:type rdf:resource="https://gams.uni-graz.at/o:mgs.ontology#{$annotation/@type}"/>
+			<xsl:apply-templates select="*" mode="#current"/><!-- ToDo: define further RDF mappings -->
+		</rdf:Description>
+	</xsl:template>
+	
 	<xsl:template name="person_name">
         <xsl:param name="ID"/>
 		<xsl:value-of select="//t:person[@xml:id = $ID]/t:name"/>
