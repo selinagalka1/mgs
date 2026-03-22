@@ -2,12 +2,12 @@
 
 Accompanying data and materials for the paper:
 
-**Selina Galka: "Relation³: Modeling and relating text describing (family) relationships with structured encoding of the relationships in digital editions"**
+**"Relation³: Modeling and relating text describing (family) relationships with structured encoding of the relationships in digital editions"**
 
 > **Note on the data:** The TEI and RDF files in this repository are **exploratory sample data**, not the authoritative edition data. They are based on a manual annotation of a sample of 100 paragraphs distributed across the text, conducted to explore the range of family relationships mentioned in the memoirs. Encoding of person relationships across the full text is planned for a later phase of the project.
 >
 > The authoritative digital edition is published in GAMS and should be cited as:
-> Digitale Edition der Memoiren der Gräfin Schwerin (1684–1732). Hrsg. von Selina Galka, Ines Peper, Michael Pölzl, Chiara Petrolini, Georg Vogeler und Joëlle Weiss, unter Mitarbeit von Sabine Amon. Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (ÖAW) / Institut für Digitale Geisteswissenschaften (Universität Graz), 2026. GAMS – Geisteswissenschaftliches Asset Management System. [gams.uni-graz.at/context:mgs](https://gams.uni-graz.at/context:mgs). Zuletzt geändert: März 2026.
+> Digitale Edition der Memoiren der Gräfin Schwerin (1684–1732). Hrsg. von Selina Galka, Ines Peper, Michael Pölzl, Chiara Petrolini, Georg Vogeler und Joëlle Weiss, unter Mitarbeit von Sabine Amon. Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (ÖAW) / Institut für Digitale Geisteswissenschaften (Universität Graz), 2026. GAMS – Geisteswissenschaftliches Asset Management System. TODO: ADD URL. Zuletzt geändert: März 2026.
 
 This repository provides the sample TEI/XML data, XSLT stylesheets, a project ontology, and a relationship visualization illustrating the modeling approach described in the paper.
 
@@ -38,8 +38,8 @@ The normalized TEI P5 text of the memoirs with annotated relationship mentions. 
 
 ### `person_index.xml`
 The TEI person register and relationship index. It contains:
-- `<listPerson>` — all persons mentioned in the memoirs, with biographical metadata (name, birth/death dates, gender, religious denomination, authority identifiers such as GND)
-- `<listRelation>` — 25 project relationship assertions (primarily *sister-in-law* and *female cousin*), encoding the relationship type in `@name` and linking to the ontology via `@ana`
+- `<listPerson>` — all persons mentioned in the memoirs, with biographical metadata (name, birth/death dates, gender, religious denomination, authority identifiers such as GND). The data has been collected by Ines Peper and Michael Pölzl.
+- `<listRelation>` — 26 project relationship assertions (primarily *sister-in-law* and *female cousin*), encoding the relationship type in `@name` and linking to the ontology via `@ana`
 - `<listRelation subtype="exploratory">` — ~80 relationship assertions from the exploratory annotation of the 100-paragraph sample, covering 18 relationship types; this is the primary dataset in this repository
 
 In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to ontology terms: PersonLink properties (e.g. `pl:ChildOf`) where available, and project-specific terms (e.g. `mgs:AuntOf`) for types not covered by PersonLink.
@@ -101,7 +101,7 @@ Removes redundant entries where both a specific label (e.g. `daughterOf`) and a 
 
 The data originates from the FWF-funded project *"Tout Vienne me riait": Family and Court Relations in the Memoirs of Countess Louise Charlotte von Schwerin (1684–1732)* (Grant DOI: [10.55776/P34943](https://doi.org/10.55776/P34943)), carried out at the Institute for Habsburg and Balkan Studies (ÖAW) in cooperation with the Department of Digital Humanities, University of Graz.
 
-The digital edition is published in the long-term repository [GAMS](https://gams.uni-graz.at) at: [gams.uni-graz.at/context:mgs](https://gams.uni-graz.at/context:mgs)
+The digital edition is published in the long-term repository [GAMS](https://gams.uni-graz.at) at: TODO: ADD URL.
 
 ---
 
