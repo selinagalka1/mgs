@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Relations – Memoiren der Gräfin Schwerin</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex; flex-direction: column; height: 100vh; overflow: hidden;
+  }
+  header {
+    background: #fff; border-bottom: 1px solid #ddd;
+    padding: 0.6rem 1rem; display: flex; align-items: center;
+    gap: 1rem; flex-wrap: wrap; z-index: 10;
+  }
+  header h1 { font-size: 1rem; font-weight: 700; color: #222; }
+  .stats { font-size: 0.82rem; color: #666; }
+  .controls { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-left: auto; }
+  .controls label { font-size: 0.82rem; color: #555; }
+  .controls input[type=range] { width: 80px; }
+  select, button {
+    font-size: 0.82rem; padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc; border-radius: 4px;
+    background: #fff; cursor: pointer;
+  }
+  button:hover { background: #f0f0f0; }
+  #main { display: flex; flex: 1; overflow: hidden; }
+  #graph-container { flex: 1; position: relative; }
+  svg { width: 100%; height: 100%; }
+
+  .link { stroke-opacity: 0.65; stroke-width: 1.5px; }
+  .link.uncertain { stroke-dasharray: 6 3; }
+  .link.faded { stroke-opacity: 0.07; pointer-events: none; }
+  .link.highlighted { stroke-width: 3px; stroke-opacity: 1; }
+
+  .node circle {
+    stroke: #fff; stroke-width: 2px;
+    cursor: pointer; transition: r 0.15s;
+  }
+  .node.countess circle { stroke: #FFD700; stroke-width: 3.5px; }
+  .node.faded circle { opacity: 0.1; }
+  .node.faded text  { opacity: 0.1; }
+  .node text {
+    font-size: 10px; fill: #333; pointer-events: none;
+    paint-order: stroke; stroke: #f5f5f5; stroke-width: 3px;
+  }
+
+  #sidebar {
+    width: 280px; background: #fff; border-left: 1px solid #ddd;
+    overflow-y: auto; padding: 0.75rem;
+    display: flex; flex-direction: column; gap: 0.75rem;
+  }
+  #sidebar h2 { font-size: 0.9rem; font-weight: 700; color: #333; }
+  #info-panel {
+    background: #fafafa; border: 1px solid #eee;
+    border-radius: 6px; padding: 0.6rem;
+    font-size: 0.82rem; min-height: 60px; color: #555;
+  }
+  #info-panel .info-name { font-weight: 700; font-size: 0.95rem; color: #222; margin-bottom: 0.3rem; }
+  #info-panel .info-rel { margin: 0.25rem 0; line-height: 1.5; }
+  .pill {
+    display: inline-block; padding: 1px 7px; border-radius: 999px;
+    font-size: 0.78rem; font-weight: 600; color: #fff; margin-right: 4px;
+    vertical-align: middle;
+  }
+  #legend { display: flex; flex-direction: column; gap: 3px; }
+  .legend-item {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 0.8rem; cursor: pointer; padding: 2px 4px; border-radius: 4px; user-select: none;
+  }
+  .legend-item:hover { background: #f5f5f5; }
+  .legend-item.hidden { opacity: 0.35; text-decoration: line-through; }
+  .legend-swatch { width: 22px; height: 3px; border-radius: 2px; flex-shrink: 0; }
+  .legend-count { color: #999; font-size: 0.74rem; margin-left: auto; }
+  #tooltip {
+    position: absolute; background: rgba(20,20,20,0.9); color: #fff;
+    padding: 0.45rem 0.65rem; border-radius: 6px; font-size: 0.8rem;
+    pointer-events: none; max-width: 230px; line-height: 1.4;
+    display: none; z-index: 100;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Family Relations – Memoiren der Gräfin Schwerin (exploratory annotation)</h1>
+  <span class="stats" id="stats-label"></span>
+  <div class="controls">
+    <label>Filter: <select id="rel-filter"><option value="">All types</option></select></label>
+    <label>Force: <input type="range" id="charge-slider" min="-800" max="-50" value="-250" step="10"></label>
+    <button id="reset-btn">Reset view</button>
+  </div>
+</header>
+<div id="main">
+  <div id="graph-container">
+    <svg id="svg"></svg>
+    <div id="tooltip"></div>
+  </div>
+  <div id="sidebar">
+    <div>
+      <h2>Details</h2>
+      <div id="info-panel">Click a node or edge.</div>
+    </div>
+    <div>
+      <h2>Relation types <span style="font-weight:400;font-size:0.78rem;color:#999">(click to hide)</span></h2>
+      <div id="legend"></div>
+    </div>
+  </div>
+</div>
+<script>
+const NODES = [{"id": "P0", "name": "Luise Charlotte von Schwerin", "sex": "female", "degree": 41, "isCountess": true}, {"id": "P5", "name": "Elisabeth van Arnhem", "sex": "female", "degree": 2, "isCountess": false}, {"id": "P6", "name": "Jan / Johan van Arnhem", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P10", "name": "Eleonore Strattmann", "sex": "female", "degree": 2, "isCountess": false}, {"id": "P17", "name": "Friedrich Wilhelm I. Brandenburg-Preußen", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P24", "name": "Amalia Wilhelmina Braunschweig-Lüneburg", "sex": "female", "degree": 2, "isCountess": false}, {"id": "P28", "name": "Christine Bylandt", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P29", "name": "Helena Dorothea Kanitz", "sex": "female", "degree": 5, "isCountess": false}, {"id": "P30", "name": "Maria Gottliebe Schaack de Wittenau", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P34", "name": "Karl Friedrich Danckelmann", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P38", "name": "Élisabeth Espérance Dohna-Ferassières", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P42", "name": "(Wilhelmine) Amalie Luise Dohna-Schlobitten", "sex": "female", "degree": 9, "isCountess": false}, {"id": "P50", "name": "Luise Amalie Callenberg", "sex": "female", "degree": 2, "isCountess": false}, {"id": "P51", "name": "Ludwig Dünewald", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P62", "name": "Maria Amalia Österreich", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P63", "name": "Maria Josepha Österreich", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P78", "name": "Ferdinand Sigismund Heyden", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P79", "name": "Friedrich Adolf Heyden", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P80", "name": "Johann Friedrich Heyden", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P81", "name": "Johann Sigismund Wilhelm Heyden", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P82", "name": "Luise Charlotte Schwerin", "sex": "female", "degree": 5, "isCountess": false}, {"id": "P87", "name": "Teresa Kącka", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P96", "name": "P96", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P98", "name": "Albertine Eleonore Wittenhorst-Sonsfeld", "sex": "female", "degree": 3, "isCountess": false}, {"id": "P109", "name": "Marie Antonia Saufré-Caraille", "sex": "female", "degree": 3, "isCountess": false}, {"id": "P111", "name": "P111", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P138", "name": "Eugen Savoyen", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P147", "name": "Karl Albrecht Schönaich", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P154", "name": "Dorothea Luise Albertine Schwerin", "sex": "female", "degree": 3, "isCountess": false}, {"id": "P155", "name": "Dorothea Maria Schwerin", "sex": "female", "degree": 2, "isCountess": false}, {"id": "P157", "name": "Elisabeth Sophie Schwerin", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P158", "name": "Ermgardt Maria Quadt von Wickradt", "sex": "female", "degree": 2, "isCountess": false}, {"id": "P159", "name": "Eugenius Schwerin", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P160", "name": "Friedrich Alexander Schwerin", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P161", "name": "Friedrich Bogislav Schwerin", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P162", "name": "Friedrich Wilhelm Schwerin", "sex": "male", "degree": 11, "isCountess": false}, {"id": "P163", "name": "Hedwig Henriette Schwerin", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P164", "name": "Karl Schwerin", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P165", "name": "Leopold Ferdinand Schwerin", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P167", "name": "Ludwig Otto Sigismund Schwerin", "sex": "male", "degree": 3, "isCountess": false}, {"id": "P169", "name": "Otto Schwerin", "sex": "male", "degree": 4, "isCountess": false}, {"id": "P170", "name": "Ottonette Wilhelmine Schwerin", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P171", "name": "Wilhelm Schwerin", "sex": "male", "degree": 3, "isCountess": false}, {"id": "P173", "name": "Otto Schwerin von Wolfshagen", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P174", "name": "Reinhold Seel", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P188", "name": "Karl Gotthard Schaffgotsch", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P194", "name": "Karl Heinrich Truchseß zu Waldburg", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P202", "name": "Wergeau", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P205", "name": "Dorothea Luise Wittenhorst-Sonsfeld", "sex": "female", "degree": 4, "isCountess": false}, {"id": "P231", "name": "Friedrich Schwerin", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P332", "name": "Seel", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P367", "name": "P367", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P399", "name": "Hermine Alexandrine Wittenhorst-Sonsfeld", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P408", "name": "P408", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P413", "name": "P413", "sex": "male", "degree": 2, "isCountess": false}, {"id": "P414", "name": "P414", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P422", "name": "Christina Luise Maria Schönrad von Heyden", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P435", "name": "Sophia Schwerin", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P441", "name": "Friedrich Wilhelm Wittenhorst-Sonsfeld", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P445", "name": "Luise Charlotte Dohna-Schlobitten", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P449", "name": "Alexander Dohna-Schlobitten", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P474", "name": "Eberhard Christoph Balthasar Danckelmann", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P503", "name": "Otto Friedrich Groeben", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P514", "name": "P514", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P515", "name": "P515", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P519", "name": "Ursula Anna Dohna-Schlobitten", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P520", "name": "Sophie Wilhelmine Dohna-Schlobitten", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P521", "name": "Johanna Charlotte Dohna-Schlobitten", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P522", "name": "P522", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P523", "name": "Se.", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P597", "name": "Casimir Heinrich Wurmbrand", "sex": "male", "degree": 3, "isCountess": false}, {"id": "P624", "name": "P624", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P626", "name": "P626", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P655", "name": "Carl Florus Dohna-Schlodien", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P660", "name": "Charlotte Eleonore Amalia Dorothea Dönhoff", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P661", "name": "Friedrich Dönhoff", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P662", "name": "Philipp Otto Dönhoff", "sex": "male", "degree": 1, "isCountess": false}, {"id": "P663", "name": "Luise Eleonore Dönhoff", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P664", "name": "Sophie Dorothea Dönhoff", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P671", "name": "Katharine Albertine Kanitz", "sex": "female", "degree": 2, "isCountess": false}, {"id": "P675", "name": "P675", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P676", "name": "P676", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P677", "name": "P677", "sex": "female", "degree": 1, "isCountess": false}, {"id": "P682", "name": "P682", "sex": "female", "degree": 1, "isCountess": false}];
+const LINKS = [{"source": "P154", "target": "P0", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.302", "P.375", "P.450", "P.470", "P.476", "P.482", "P.496", "P.5", "P.509", "P.590", "P.617"]}, {"source": "P159", "target": "P0", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.302", "P.375", "P.450", "P.470", "P.476", "P.482", "P.496", "P.5", "P.509", "P.590", "P.617"]}, {"source": "P160", "target": "P0", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.302", "P.375", "P.450", "P.470", "P.476", "P.482", "P.496", "P.5", "P.509", "P.590", "P.617"]}, {"source": "P165", "target": "P0", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.302", "P.375", "P.450", "P.470", "P.476", "P.482", "P.496", "P.5", "P.509", "P.590", "P.617"]}, {"source": "P167", "target": "P0", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.375", "P.450", "P.470", "P.476", "P.482", "P.496", "P.5", "P.509", "P.590", "P.617"]}, {"source": "P82", "target": "P0", "relation": "motherInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.105", "P.11", "P.18", "P.24", "P.32", "P.59", "P.65"]}, {"source": "P81", "target": "P0", "relation": "fatherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.11", "P.146", "P.153", "P.194", "P.437", "P.45", "P.59"]}, {"source": "P157", "target": "P82", "relation": "sisterOf", "certainty": "medium", "mentions": 1, "paragraphs": ["P.11"]}, {"source": "P162", "target": "P82", "relation": "brotherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.11", "P.18"]}, {"source": "P169", "target": "P82", "relation": "fatherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.18"]}, {"source": "P408", "target": "P626", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.18"]}, {"source": "P82", "target": "P162", "relation": "sisterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.18"]}, {"source": "P414", "target": "P413", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.24"]}, {"source": "P682", "target": "P413", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.24"]}, {"source": "P5", "target": "P0", "relation": "auntOf", "certainty": null, "mentions": 1, "paragraphs": ["P.119", "P.24", "P.38", "P.45", "P.51", "P.72"]}, {"source": "P162", "target": "P0", "relation": "relativeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.180", "P.24", "P.503"]}, {"source": "P169", "target": "P158", "relation": "husbandOf", "certainty": null, "mentions": 1, "paragraphs": ["P.32"]}, {"source": "P80", "target": "P0", "relation": "uncleOf", "certainty": null, "mentions": 1, "paragraphs": ["P.119", "P.38"]}, {"source": "P28", "target": "P80", "relation": "wifeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.38"]}, {"source": "P79", "target": "P0", "relation": "brotherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.38"]}, {"source": "P162", "target": "P173", "relation": "brotherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.45"]}, {"source": "P6", "target": "P5", "relation": "brotherInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.51"]}, {"source": "P169", "target": "P162", "relation": "fatherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.65"]}, {"source": "P205", "target": "P162", "relation": "relativeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.78"]}, {"source": "P169", "target": "P0", "relation": "fatherInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.86", "P.92"]}, {"source": "P155", "target": "P0", "relation": "sisterInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.86"]}, {"source": "P170", "target": "P0", "relation": "sisterInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.86"]}, {"source": "P422", "target": "P0", "relation": "cousinOf", "certainty": null, "mentions": 1, "paragraphs": ["P.119"]}, {"source": "P173", "target": "P0", "relation": "brotherInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.126", "P.294", "P.416"]}, {"source": "P205", "target": "P98", "relation": "sisterOf", "certainty": "medium", "mentions": 1, "paragraphs": ["P.132"]}, {"source": "P205", "target": "P399", "relation": "sisterOf", "certainty": "medium", "mentions": 1, "paragraphs": ["P.132"]}, {"source": "P162", "target": "P0", "relation": "spouseOf", "certainty": null, "mentions": 1, "paragraphs": ["P.140", "P.146", "P.159", "P.254", "P.315", "P.437", "P.450", "P.464", "P.509", "P.590"]}, {"source": "P167", "target": "P0", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.146", "P.153", "P.335", "P.437", "P.456"]}, {"source": "P441", "target": "P98", "relation": "fatherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.153"]}, {"source": "P435", "target": "P0", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.159"]}, {"source": "P167", "target": "P162", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.159", "P.437"]}, {"source": "P231", "target": "P162", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.159"]}, {"source": "P98", "target": "P205", "relation": "siblingOf", "certainty": null, "mentions": 1, "paragraphs": ["P.159"]}, {"source": "P515", "target": "P514", "relation": "fatherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.180"]}, {"source": "P445", "target": "P42", "relation": "sisterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.194"]}, {"source": "P519", "target": "P42", "relation": "sisterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.194"]}, {"source": "P520", "target": "P42", "relation": "sisterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.194"]}, {"source": "P521", "target": "P42", "relation": "sisterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.194"]}, {"source": "P29", "target": "P161", "relation": "wifeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.194", "P.294"]}, {"source": "P523", "target": "P522", "relation": "wifeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.194"]}, {"source": "P503", "target": "P29", "relation": "brotherInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.194"]}, {"source": "P160", "target": "P0", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.200", "P.410", "P.450"]}, {"source": "P165", "target": "P0", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.207", "P.294", "P.450"]}, {"source": "P38", "target": "P0", "relation": "sisterInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.207", "P.416"]}, {"source": "P162", "target": "P0", "relation": "husbandOf", "certainty": null, "mentions": 1, "paragraphs": ["P.221", "P.227", "P.288", "P.429", "P.443", "P.456", "P.470", "P.476", "P.544", "P.550", "P.577"]}, {"source": "P34", "target": "P474", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.227"]}, {"source": "P62", "target": "P24", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.240"]}, {"source": "P63", "target": "P24", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.240"]}, {"source": "P50", "target": "P51", "relation": "wifeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.275"]}, {"source": "P51", "target": "P50", "relation": "husbandOf", "certainty": null, "mentions": 1, "paragraphs": ["P.275"]}, {"source": "P10", "target": "P138", "relation": "sisterInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.288"]}, {"source": "P159", "target": "P0", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.288", "P.429", "P.450"]}, {"source": "P29", "target": "P0", "relation": "sisterInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.294"]}, {"source": "P158", "target": "P0", "relation": "motherInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.294", "P.450"]}, {"source": "P164", "target": "P0", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.302"]}, {"source": "P78", "target": "P0", "relation": "brotherOf", "certainty": null, "mentions": 1, "paragraphs": ["P.302", "P.315", "P.604"]}, {"source": "P164", "target": "P0", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.315"]}, {"source": "P597", "target": "P109", "relation": "husbandOf", "certainty": null, "mentions": 1, "paragraphs": ["P.321"]}, {"source": "P231", "target": "P0", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.356"]}, {"source": "P111", "target": "P367", "relation": "wifeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.369"]}, {"source": "P624", "target": "P10", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.383"]}, {"source": "P597", "target": "P109", "relation": "spouseOf", "certainty": null, "mentions": 1, "paragraphs": ["P.396"]}, {"source": "P109", "target": "P597", "relation": "spouseOf", "certainty": null, "mentions": 1, "paragraphs": ["P.396"]}, {"source": "P147", "target": "P0", "relation": "brotherInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.410"]}, {"source": "P155", "target": "P147", "relation": "wifeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.410"]}, {"source": "P163", "target": "P0", "relation": "sisterInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.410", "P.450"]}, {"source": "P154", "target": "P0", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.423", "P.437", "P.450", "P.470"]}, {"source": "P154", "target": "P162", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.437"]}, {"source": "P449", "target": "P655", "relation": "uncleOf", "certainty": null, "mentions": 1, "paragraphs": ["P.470"]}, {"source": "P29", "target": "P30", "relation": "daughterOf", "certainty": "low", "mentions": 1, "paragraphs": ["P.503"]}, {"source": "P671", "target": "P0", "relation": "daughterOf", "certainty": "low", "mentions": 1, "paragraphs": ["P.503"]}, {"source": "P675", "target": "P0", "relation": "daughterOf", "certainty": "low", "mentions": 1, "paragraphs": ["P.503"]}, {"source": "P676", "target": "P0", "relation": "daughterOf", "certainty": "low", "mentions": 1, "paragraphs": ["P.503"]}, {"source": "P677", "target": "P0", "relation": "daughterOf", "certainty": "low", "mentions": 1, "paragraphs": ["P.503"]}, {"source": "P660", "target": "P42", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.509"]}, {"source": "P661", "target": "P42", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.509"]}, {"source": "P662", "target": "P42", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.509"]}, {"source": "P663", "target": "P42", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.509"]}, {"source": "P664", "target": "P42", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.509"]}, {"source": "P29", "target": "P194", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.509"]}, {"source": "P671", "target": "P194", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.509"]}, {"source": "P171", "target": "P0", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.509", "P.571", "P.598"]}, {"source": "P332", "target": "P174", "relation": "wifeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.550", "P.577"]}, {"source": "P171", "target": "P17", "relation": "childOf", "certainty": null, "mentions": 1, "paragraphs": ["P.571"]}, {"source": "P202", "target": "P0", "relation": "motherInLawOf", "certainty": null, "mentions": 1, "paragraphs": ["P.577"]}, {"source": "P171", "target": "P0", "relation": "sonOf", "certainty": null, "mentions": 1, "paragraphs": ["P.598"]}, {"source": "P87", "target": "P188", "relation": "wifeOf", "certainty": null, "mentions": 1, "paragraphs": ["P.644"]}, {"source": "P96", "target": "P0", "relation": "daughterOf", "certainty": null, "mentions": 1, "paragraphs": ["P.658"]}];
+const COLORS = {"childOf": "#4CAF50", "daughterOf": "#66BB6A", "sonOf": "#81C784", "fatherOf": "#1565C0", "sisterOf": "#E91E63", "brotherOf": "#9C27B0", "siblingOf": "#CE93D8", "spouseOf": "#FF5722", "husbandOf": "#FF7043", "wifeOf": "#FFAB91", "mother-in-lawOf": "#795548", "father-in-lawOf": "#A1887F", "sister-in-lawOf": "#F06292", "brother-in-lawOf": "#AB47BC", "auntOf": "#00BCD4", "uncleOf": "#0097A7", "cousinOf": "#26C6DA", "relativeOf": "#90A4AE"};
+const REL_TYPES = ["auntOf", "brotherInLawOf", "brotherOf", "childOf", "cousinOf", "daughterOf", "fatherInLawOf", "fatherOf", "husbandOf", "motherInLawOf", "relativeOf", "siblingOf", "sisterInLawOf", "sisterOf", "sonOf", "spouseOf", "uncleOf", "wifeOf"];
+
+// Stats
+document.getElementById('stats-label').textContent =
+  `${NODES.length} persons · ${LINKS.length} distinct relations · ${LINKS.reduce((s,l)=>s+l.mentions,0)} text mentions`;
+
+// Legend + filter
+const hiddenTypes = new Set();
+const legendEl = document.getElementById('legend');
+const filterSel = document.getElementById('rel-filter');
+
+REL_TYPES.forEach(rt => {
+  const count = LINKS.filter(l => l.relation === rt).length;
+  const color = COLORS[rt] || '#aaa';
+  const row = document.createElement('div');
+  row.className = 'legend-item';
+  row.innerHTML = `<div class="legend-swatch" style="background:${color}"></div>
+    <span>${rt}</span><span class="legend-count">${count}</span>`;
+  row.addEventListener('click', () => {
+    hiddenTypes.has(rt) ? hiddenTypes.delete(rt) : hiddenTypes.add(rt);
+    row.classList.toggle('hidden');
+    applyFilter();
+  });
+  legendEl.appendChild(row);
+
+  const opt = document.createElement('option');
+  opt.value = rt; opt.textContent = rt;
+  filterSel.appendChild(opt);
+});
+filterSel.addEventListener('change', applyFilter);
+
+// SVG
+const svg = d3.select('#svg');
+const container = document.getElementById('graph-container');
+const g = svg.append('g');
+const zoom = d3.zoom().scaleExtent([0.05, 6])
+  .on('zoom', e => g.attr('transform', e.transform));
+svg.call(zoom);
+
+// Arrow markers
+const defs = svg.append('defs');
+REL_TYPES.forEach(rt => {
+  const color = COLORS[rt] || '#aaa';
+  defs.append('marker')
+    .attr('id', `arrow-${rt}`)
+    .attr('viewBox', '0 -4 8 8').attr('refX', 20).attr('refY', 0)
+    .attr('markerWidth', 5).attr('markerHeight', 5).attr('orient', 'auto')
+    .append('path').attr('d', 'M0,-4L8,0L0,4').attr('fill', color);
+});
+
+// Simulation
+const W = () => container.clientWidth;
+const H = () => container.clientHeight;
+
+const simulation = d3.forceSimulation()
+  .force('link', d3.forceLink().id(d => d.id).distance(100).strength(0.5))
+  .force('charge', d3.forceManyBody().strength(-250))
+  .force('collide', d3.forceCollide(24))
+  .force('center', d3.forceCenter(W()/2, H()/2))
+  .force('x', d3.forceX(W()/2).strength(0.04))
+  .force('y', d3.forceY(H()/2).strength(0.04));
+
+document.getElementById('charge-slider').addEventListener('input', function() {
+  simulation.force('charge', d3.forceManyBody().strength(+this.value));
+  simulation.alpha(0.3).restart();
+});
+
+const nodes = NODES.map(d => ({...d}));
+const links = LINKS.map(d => ({...d}));
+
+const linkSel = g.append('g')
+  .selectAll('line').data(links).join('line')
+    .attr('class', d => `link ${d.certainty ? 'uncertain' : ''}`)
+    .attr('stroke', d => COLORS[d.relation] || '#aaa')
+    .attr('marker-end', d => `url(#arrow-${d.relation})`)
+    .on('mouseover', onLinkHover).on('mouseout', hideTooltip)
+    .on('click', onLinkClick);
+
+const nodeSel = g.append('g')
+  .selectAll('g').data(nodes).join('g')
+    .attr('class', d => `node${d.isCountess ? ' countess' : ''}`)
+    .call(drag(simulation))
+    .on('mouseover', onNodeHover).on('mouseout', hideTooltip)
+    .on('click', onNodeClick);
+
+nodeSel.append('circle')
+  .attr('r', d => d.isCountess ? 14 : Math.max(6, 4 + d.degree * 0.5))
+  .attr('fill', d => d.sex === 'female' ? '#e91e8c' : d.sex === 'male' ? '#1976d2' : '#78909c');
+
+nodeSel.append('text')
+  .attr('dy', d => (d.isCountess ? 20 : Math.max(6, 4 + d.degree * 0.5) + 6))
+  .attr('text-anchor', 'middle')
+  .text(d => d.name.length > 24 ? d.name.slice(0, 22) + '…' : d.name);
+
+simulation.nodes(nodes).on('tick', () => {
+  linkSel.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+         .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+  nodeSel.attr('transform', d => `translate(${d.x},${d.y})`);
+});
+simulation.force('link').links(links);
+
+new ResizeObserver(() => {
+  simulation.force('center', d3.forceCenter(W()/2, H()/2))
+            .force('x', d3.forceX(W()/2).strength(0.04))
+            .force('y', d3.forceY(H()/2).strength(0.04))
+            .alpha(0.2).restart();
+}).observe(container);
+
+document.getElementById('reset-btn').addEventListener('click', () =>
+  svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity));
+
+// ── Filter ────────────────────────────────────────────────────────────────────
+function applyFilter() {
+  const selType = filterSel.value;
+  linkSel
+    .classed('faded', d => hiddenTypes.has(d.relation) || (selType && d.relation !== selType))
+    .attr('display', d => hiddenTypes.has(d.relation) ? 'none' : null);
+  if (selType) {
+    const active = new Set();
+    links.forEach(l => {
+      if (l.relation === selType && !hiddenTypes.has(l.relation)) {
+        active.add(typeof l.source === 'object' ? l.source.id : l.source);
+        active.add(typeof l.target === 'object' ? l.target.id : l.target);
+      }
+    });
+    nodeSel.classed('faded', d => !active.has(d.id));
+  } else {
+    nodeSel.classed('faded', false);
+  }
+}
+
+// ── Tooltip & info panel ──────────────────────────────────────────────────────
+const tooltip   = document.getElementById('tooltip');
+const infoPanel = document.getElementById('info-panel');
+
+function sid(l) { return typeof l.source === 'object' ? l.source.id : l.source; }
+function tid(l) { return typeof l.target === 'object' ? l.target.id : l.target; }
+function sname(l){ return typeof l.source === 'object' ? l.source.name : l.source; }
+function tname(l){ return typeof l.target === 'object' ? l.target.name : l.target; }
+
+function onNodeHover(event, d) {
+  const count = links.filter(l => sid(l)===d.id || tid(l)===d.id).length;
+  tooltip.innerHTML = `<strong>${d.name}</strong> (${d.id})<br>${d.sex} · ${count} relation(s)`;
+  showTip(event);
+}
+
+function onLinkHover(event, d) {
+  const color = COLORS[d.relation] || '#aaa';
+  const cert  = d.certainty ? ` <em style="color:#ffa">(${d.certainty})</em>` : '';
+  tooltip.innerHTML =
+    `<strong>${sname(d)}</strong><br>
+     <span style="color:${color}">→ ${d.relation} →</span><br>
+     <strong>${tname(d)}</strong><br>
+     ${d.mentions} mention(s)${cert}`;
+  showTip(event);
+}
+
+function showTip(event) {
+  tooltip.style.display = 'block';
+  tooltip.style.left = (event.pageX + 14) + 'px';
+  tooltip.style.top  = (event.pageY - 30) + 'px';
+}
+function hideTooltip() { tooltip.style.display = 'none'; }
+
+function onNodeClick(event, d) {
+  event.stopPropagation();
+  const rels = links.filter(l => sid(l)===d.id || tid(l)===d.id);
+  const nb   = new Set([d.id, ...rels.map(l=>sid(l)), ...rels.map(l=>tid(l))]);
+  linkSel.classed('faded', l => !(nb.has(sid(l)) && nb.has(tid(l))));
+  nodeSel.classed('faded', n => !nb.has(n.id));
+
+  let html = `<div class="info-name">${d.name} (${d.id})</div>
+    <div style="color:#888;margin-bottom:0.4rem">${d.sex} · ${rels.length} relation(s)</div>`;
+  rels.forEach(l => {
+    const color = COLORS[l.relation] || '#aaa';
+    const cert  = l.certainty ? ` <span style="color:#e67e22;font-size:0.75rem">(${l.certainty})</span>` : '';
+    html += `<div class="info-rel">
+      <span class="pill" style="background:${color}">${l.relation}</span>
+      ${sname(l)} → ${tname(l)}${cert}
+      <span style="color:#bbb;font-size:0.74rem"> · ${l.mentions}×</span>
+    </div>`;
+  });
+  infoPanel.innerHTML = html;
+}
+
+function onLinkClick(event, d) {
+  event.stopPropagation();
+  const color = COLORS[d.relation] || '#aaa';
+  const cert  = d.certainty
+    ? `<div class="info-rel" style="color:#e67e22">Certainty: ${d.certainty}</div>` : '';
+  infoPanel.innerHTML =
+    `<div class="info-name">
+       <span class="pill" style="background:${color}">${d.relation}</span>
+     </div>
+     <div class="info-rel"><strong>Active:</strong> ${sname(d)} (${sid(d)})</div>
+     <div class="info-rel"><strong>Passive:</strong> ${tname(d)} (${tid(d)})</div>
+     <div class="info-rel"><strong>Mentions:</strong> ${d.mentions}</div>
+     <div class="info-rel"><strong>Paragraphs:</strong> ${d.paragraphs.join(', ')}</div>
+     ${cert}`;
+}
+
+svg.on('click', () => {
+  linkSel.classed('faded', false);
+  nodeSel.classed('faded', false);
+  infoPanel.textContent = 'Click a node or edge.';
+  applyFilter();
+});
+
+function drag(sim) {
+  return d3.drag()
+    .on('start', (e,d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+    .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
+    .on('end',   (e,d) => { if (!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; });
+}
+</script>
+</body>
+</html>
