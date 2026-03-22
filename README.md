@@ -3,7 +3,7 @@
 Data, scripts, and supplementary materials for the digital edition of the Memoirs of Countess Louise Charlotte von Schwerin (1684–1732).
 
 The authoritative digital edition is published in GAMS:
-Digitale Edition der Memoiren der Gräfin Schwerin (1684–1732). Hrsg. von Selina Galka, Ines Peper, Michael Pölzl, Chiara Petrolini, Georg Vogeler und Joëlle Weiss, unter Mitarbeit von Sabine Amon. Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (ÖAW) / Institut für Digitale Geisteswissenschaften (Universität Graz), 2026. GAMS – Geisteswissenschaftliches Asset Management System. [gams.uni-graz.at/context:mgs](https://gams.uni-graz.at/context:mgs). Zuletzt geändert: März 2026.
+Digitale Edition der Memoiren der Gräfin Schwerin (1684–1732). Hrsg. von Selina Galka, Ines Peper, Michael Pölzl, Chiara Petrolini, Georg Vogeler und Joëlle Weiss, unter Mitarbeit von Sabine Amon. Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (ÖAW) / Institut für Digitale Geisteswissenschaften (Universität Graz), 2026. GAMS – Geisteswissenschaftliches Asset Management System. TODO: ADD URL. Zuletzt geändert: März 2026.
 
 ---
 
