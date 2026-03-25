@@ -77,8 +77,8 @@
                 <xsl:value-of select="$rel_uri"/>
             </xsl:attribute>
             <!-- Resolved full ontology URI from @ana on <relation>:
-                 pl:ChildOf → http://purl.org/vocab/relationship/ChildOf
-                 mgs:MotherInLawOf → http://gams.uni-graz.at/o:mgs#MotherInLawOf -->
+                 agrelon:hasChild → https://d-nb.info/standards/elementset/agrelon#hasChild
+                 mgs:isMotherInLawOf → https://gams.uni-graz.at/o:mgs.ontology#isMotherInLawOf -->
             <xsl:attribute name="ana">
                 <xsl:call-template name="resolve_ana_uri">
                     <xsl:with-param name="ana" select="@ana"/>
@@ -146,13 +146,13 @@
 
 
     <!-- Resolves @ana prefix notation to full URIs.
-         pl:ChildOf  → http://purl.org/vocab/relationship/ChildOf
-         mgs:AuntOf  → http://gams.uni-graz.at/o:mgs#AuntOf -->
+         agrelon:hasChild → https://d-nb.info/standards/elementset/agrelon#hasChild
+         mgs:isAuntOf      → https://gams.uni-graz.at/o:mgs.ontology#isAuntOf -->
     <xsl:template name="resolve_ana_uri">
         <xsl:param name="ana"/>
         <xsl:choose>
-            <xsl:when test="starts-with($ana, 'pl:')">
-                <xsl:value-of select="concat('http://cedric.cnam.fr/isid/ontologies/PersonLink.owl#', substring-after($ana, 'pl:'))"/>
+            <xsl:when test="starts-with($ana, 'agrelon:')">
+                <xsl:value-of select="concat('https://d-nb.info/standards/elementset/agrelon#', substring-after($ana, 'agrelon:'))"/>
             </xsl:when>
             <xsl:when test="starts-with($ana, 'mgs:')">
                 <xsl:value-of select="concat('https://gams.uni-graz.at/o:mgs.ontology#', substring-after($ana, 'mgs:'))"/>

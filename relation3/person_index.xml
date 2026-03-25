@@ -99,223 +99,223 @@
       <body>
          <!-- Personenbeziehungen -->
          <listRelation>
-            <relation type="family" xml:id="R1" active="#P155" passive="#P153" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R2" active="#P38" passive="#P153" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R3" active="#P157" passive="#P153" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R4" active="#P163" passive="#P153" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R5" active="#P82" passive="#P153" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R6" active="#P170" passive="#P153" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R25" active="#P539" passive="#P153" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R7" active="#P98" passive="#P153" name="cousinOf" ana="pl:CousinOf"/>
-            <relation type="family" xml:id="R8" active="#P205" passive="#P153" name="cousinOf" ana="pl:CousinOf"/>
-            <relation type="family" xml:id="R9" active="#P206" passive="#P153" name="cousinOf" ana="pl:CousinOf"/>
-            <relation type="family" xml:id="R10" active="#P399" passive="#P153" name="cousinOf" ana="pl:CousinOf"/>
-            <relation type="family" xml:id="R11" active="#P42" passive="#P153" name="cousinOf" ana="pl:CousinOf"/>
-            <relation type="family" xml:id="R12" active="#P422" passive="#P153" name="cousinOf" ana="pl:CousinOf"/>
-            <relation type="family" xml:id="R13" active="#P208" passive="#P153" name="relativeOf" ana="mgs:RelativeOf"/>
-            <relation type="family" xml:id="R14" active="#P29" passive="#P153" name="relativeOf" ana="mgs:RelativeOf"/>
-            <relation type="family" xml:id="R26" active="#P564" passive="#P153" name="cousinOf" ana="pl:CousinOf"/>
-            <relation type="family" xml:id="R15" active="#P10" passive="#P181" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R16" active="#P121" passive="#P181" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R17" active="#P182" passive="#P181" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R18" active="#P185" passive="#P181" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R20" active="#P5" passive="#P76" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R21" active="#P7" passive="#P76" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R22" active="#P28" passive="#P76" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R24" active="#P38" passive="#P42" name="cousinOf" ana="pl:CousinOf"/>
-            <relation type="family" xml:id="R19" active="#P501" passive="#P13" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
-            <relation type="family" xml:id="R27" active="#P46" passive="#P153" name="sisterInLawOf" ana="mgs:SisterInLawOf"/>
+            <relation type="family" xml:id="R1" active="#P155" passive="#P153" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R2" active="#P38" passive="#P153" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R3" active="#P157" passive="#P153" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R4" active="#P163" passive="#P153" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R5" active="#P82" passive="#P153" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R6" active="#P170" passive="#P153" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R25" active="#P539" passive="#P153" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R7" active="#P98" passive="#P153" name="cousinOf" ana="agrelon:hasCousin"/>
+            <relation type="family" xml:id="R8" active="#P205" passive="#P153" name="cousinOf" ana="agrelon:hasCousin"/>
+            <relation type="family" xml:id="R9" active="#P206" passive="#P153" name="cousinOf" ana="agrelon:hasCousin"/>
+            <relation type="family" xml:id="R10" active="#P399" passive="#P153" name="cousinOf" ana="agrelon:hasCousin"/>
+            <relation type="family" xml:id="R11" active="#P42" passive="#P153" name="cousinOf" ana="agrelon:hasCousin"/>
+            <relation type="family" xml:id="R12" active="#P422" passive="#P153" name="cousinOf" ana="agrelon:hasCousin"/>
+            <relation type="family" xml:id="R13" active="#P208" passive="#P153" name="relativeOf" ana="mgs:isRelativeOf"/>
+            <relation type="family" xml:id="R14" active="#P29" passive="#P153" name="relativeOf" ana="mgs:isRelativeOf"/>
+            <relation type="family" xml:id="R26" active="#P564" passive="#P153" name="cousinOf" ana="agrelon:hasCousin"/>
+            <relation type="family" xml:id="R15" active="#P10" passive="#P181" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R16" active="#P121" passive="#P181" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R17" active="#P182" passive="#P181" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R18" active="#P185" passive="#P181" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R20" active="#P5" passive="#P76" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R21" active="#P7" passive="#P76" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R22" active="#P28" passive="#P76" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R24" active="#P38" passive="#P42" name="cousinOf" ana="agrelon:hasCousin"/>
+            <relation type="family" xml:id="R19" active="#P501" passive="#P13" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
+            <relation type="family" xml:id="R27" active="#P46" passive="#P153" name="sisterInLawOf" ana="mgs:isSisterInLawOf"/>
          </listRelation>
          <!-- Explorative Annotation: 91 distinkte Relationsbehauptungen (Galka 2026) -->
          <listRelation type="family" subtype="exploratory"
-                       xmlns:mgs="http://gams.uni-graz.at/o:mgs#"
-                       xmlns:pl="http://purl.org/vocab/relationship/">
+                       xmlns:mgs="https://gams.uni-graz.at/o:mgs.ontology#"
+                       xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#">
             <!-- P154 -[childOf]-> P0 -->
-            <relation xml:id="REL1" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P154" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL1" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P154" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P159 -[childOf]-> P0 -->
-            <relation xml:id="REL2" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P159" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL2" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P159" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P160 -[childOf]-> P0 -->
-            <relation xml:id="REL3" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P160" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL3" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P160" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P165 -[childOf]-> P0 -->
-            <relation xml:id="REL4" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P165" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL4" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P165" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P167 -[childOf]-> P0 -->
-            <relation xml:id="REL5" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P167" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL5" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P167" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P82 -[mother-in-lawOf]-> P0 -->
-            <relation xml:id="REL6" type="family" name="motherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P82" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:MotherInLawOf"/>
+            <relation xml:id="REL6" type="family" name="motherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P82" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isMotherInLawOf"/>
             <!-- P81 -[fatherOf]-> P0 -->
-            <relation xml:id="REL7" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P81" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ParentOf"/>
+            <relation xml:id="REL7" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P81" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasChild"/>
             <!-- P157 -[sisterOf]-> P82 -->
-            <relation xml:id="REL8" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P157" passive="http://gams.uni-graz.at/o:mgs.persons#P82" ana="pl:SiblingOf" cert="medium"/>
+            <relation xml:id="REL8" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P157" passive="http://gams.uni-graz.at/o:mgs.persons#P82" ana="agrelon:hasSibling" cert="medium"/>
             <!-- P162 -[brotherOf]-> P82 -->
-            <relation xml:id="REL9" type="family" name="brotherOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P82" ana="pl:SiblingOf"/>
+            <relation xml:id="REL9" type="family" name="brotherOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P82" ana="agrelon:hasSibling"/>
             <!-- P169 -[fatherOf]-> P82 -->
-            <relation xml:id="REL10" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P169" passive="http://gams.uni-graz.at/o:mgs.persons#P82" ana="pl:ParentOf"/>
+            <relation xml:id="REL10" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P169" passive="http://gams.uni-graz.at/o:mgs.persons#P82" ana="agrelon:hasChild"/>
             <!-- P82 -[sisterOf]-> P162 -->
-            <relation xml:id="REL11" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P82" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="pl:SiblingOf"/>
+            <relation xml:id="REL11" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P82" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="agrelon:hasSibling"/>
             <!-- P408 -[daughterOf]-> P626 -->
-            <relation xml:id="REL12" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P408" passive="http://gams.uni-graz.at/o:mgs.persons#P626" ana="pl:ChildOf"/>
+            <relation xml:id="REL12" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P408" passive="http://gams.uni-graz.at/o:mgs.persons#P626" ana="agrelon:hasParent"/>
             <!-- P414 -[sonOf]-> P413 -->
-            <relation xml:id="REL13" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P414" passive="http://gams.uni-graz.at/o:mgs.persons#P413" ana="pl:ChildOf"/>
+            <relation xml:id="REL13" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P414" passive="http://gams.uni-graz.at/o:mgs.persons#P413" ana="agrelon:hasParent"/>
             <!-- P682 -[daughterOf]-> P413 -->
-            <relation xml:id="REL14" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P682" passive="http://gams.uni-graz.at/o:mgs.persons#P413" ana="pl:ChildOf"/>
+            <relation xml:id="REL14" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P682" passive="http://gams.uni-graz.at/o:mgs.persons#P413" ana="agrelon:hasParent"/>
             <!-- P5 -[auntOf]-> P0 -->
-            <relation xml:id="REL15" type="family" name="auntOf" active="http://gams.uni-graz.at/o:mgs.persons#P5" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:AuntOf"/>
+            <relation xml:id="REL15" type="family" name="auntOf" active="http://gams.uni-graz.at/o:mgs.persons#P5" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isAuntOf"/>
             <!-- P169 -[husbandOf]-> P158 -->
-            <relation xml:id="REL16" type="family" name="husbandOf" active="http://gams.uni-graz.at/o:mgs.persons#P169" passive="http://gams.uni-graz.at/o:mgs.persons#P158" ana="pl:SpouseOf"/>
+            <relation xml:id="REL16" type="family" name="husbandOf" active="http://gams.uni-graz.at/o:mgs.persons#P169" passive="http://gams.uni-graz.at/o:mgs.persons#P158" ana="agrelon:hasSpouse"/>
             <!-- P80 -[uncleOf]-> P0 -->
-            <relation xml:id="REL17" type="family" name="uncleOf" active="http://gams.uni-graz.at/o:mgs.persons#P80" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:UncleOf"/>
+            <relation xml:id="REL17" type="family" name="uncleOf" active="http://gams.uni-graz.at/o:mgs.persons#P80" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isUncleOf"/>
             <!-- P28 -[wifeOf]-> P80 -->
-            <relation xml:id="REL18" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P28" passive="http://gams.uni-graz.at/o:mgs.persons#P80" ana="pl:SpouseOf"/>
+            <relation xml:id="REL18" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P28" passive="http://gams.uni-graz.at/o:mgs.persons#P80" ana="agrelon:hasSpouse"/>
             <!-- P79 -[brotherOf]-> P0 -->
-            <relation xml:id="REL19" type="family" name="brotherOf" active="http://gams.uni-graz.at/o:mgs.persons#P79" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:SiblingOf"/>
+            <relation xml:id="REL19" type="family" name="brotherOf" active="http://gams.uni-graz.at/o:mgs.persons#P79" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasSibling"/>
             <!-- P162 -[brotherOf]-> P173 -->
-            <relation xml:id="REL20" type="family" name="brotherOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P173" ana="pl:SiblingOf"/>
+            <relation xml:id="REL20" type="family" name="brotherOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P173" ana="agrelon:hasSibling"/>
             <!-- P6 -[brother-in-lawOf]-> P5 -->
-            <relation xml:id="REL21" type="family" name="brotherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P6" passive="http://gams.uni-graz.at/o:mgs.persons#P5" ana="mgs:BrotherInLawOf"/>
+            <relation xml:id="REL21" type="family" name="brotherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P6" passive="http://gams.uni-graz.at/o:mgs.persons#P5" ana="mgs:isBrotherInLawOf"/>
             <!-- P169 -[fatherOf]-> P162 -->
-            <relation xml:id="REL22" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P169" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="pl:ParentOf"/>
+            <relation xml:id="REL22" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P169" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="agrelon:hasChild"/>
             <!-- P205 -[relativeOf]-> P162 -->
-            <relation xml:id="REL23" type="family" name="relativeOf" active="http://gams.uni-graz.at/o:mgs.persons#P205" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="mgs:RelativeOf"/>
+            <relation xml:id="REL23" type="family" name="relativeOf" active="http://gams.uni-graz.at/o:mgs.persons#P205" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="mgs:isRelativeOf"/>
             <!-- P169 -[father-in-lawOf]-> P0 -->
-            <relation xml:id="REL24" type="family" name="fatherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P169" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:FatherInLawOf"/>
+            <relation xml:id="REL24" type="family" name="fatherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P169" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isFatherInLawOf"/>
             <!-- P155 -[sister-in-lawOf]-> P0 -->
-            <relation xml:id="REL25" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P155" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:SisterInLawOf"/>
+            <relation xml:id="REL25" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P155" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isSisterInLawOf"/>
             <!-- P170 -[sister-in-lawOf]-> P0 -->
-            <relation xml:id="REL26" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P170" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:SisterInLawOf"/>
+            <relation xml:id="REL26" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P170" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isSisterInLawOf"/>
             <!-- P422 -[cousinOf]-> P0 -->
-            <relation xml:id="REL27" type="family" name="cousinOf" active="http://gams.uni-graz.at/o:mgs.persons#P422" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:CousinOf"/>
+            <relation xml:id="REL27" type="family" name="cousinOf" active="http://gams.uni-graz.at/o:mgs.persons#P422" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasCousin"/>
             <!-- P173 -[brother-in-lawOf]-> P0 -->
-            <relation xml:id="REL28" type="family" name="brotherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P173" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:BrotherInLawOf"/>
+            <relation xml:id="REL28" type="family" name="brotherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P173" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isBrotherInLawOf"/>
             <!-- P205 -[sisterOf]-> P98 -->
-            <relation xml:id="REL29" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P205" passive="http://gams.uni-graz.at/o:mgs.persons#P98" ana="pl:SiblingOf" cert="medium"/>
+            <relation xml:id="REL29" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P205" passive="http://gams.uni-graz.at/o:mgs.persons#P98" ana="agrelon:hasSibling" cert="medium"/>
             <!-- P205 -[sisterOf]-> P399 -->
-            <relation xml:id="REL30" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P205" passive="http://gams.uni-graz.at/o:mgs.persons#P399" ana="pl:SiblingOf" cert="medium"/>
+            <relation xml:id="REL30" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P205" passive="http://gams.uni-graz.at/o:mgs.persons#P399" ana="agrelon:hasSibling" cert="medium"/>
             <!-- P162 -[spouseOf]-> P0 -->
-            <relation xml:id="REL31" type="family" name="spouseOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:SpouseOf"/>
+            <relation xml:id="REL31" type="family" name="spouseOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasSpouse"/>
             <!-- P167 -[sonOf]-> P0 -->
-            <relation xml:id="REL32" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P167" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL32" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P167" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P441 -[fatherOf]-> P98 -->
-            <relation xml:id="REL33" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P441" passive="http://gams.uni-graz.at/o:mgs.persons#P98" ana="pl:ParentOf"/>
+            <relation xml:id="REL33" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P441" passive="http://gams.uni-graz.at/o:mgs.persons#P98" ana="agrelon:hasChild"/>
             <!-- P515 -[fatherOf]-> P514 -->
-            <relation xml:id="REL34" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P515" passive="http://gams.uni-graz.at/o:mgs.persons#P514" ana="pl:ParentOf"/>
+            <relation xml:id="REL34" type="family" name="fatherOf" active="http://gams.uni-graz.at/o:mgs.persons#P515" passive="http://gams.uni-graz.at/o:mgs.persons#P514" ana="agrelon:hasChild"/>
             <!-- P435 -[daughterOf]-> P0 -->
-            <relation xml:id="REL35" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P435" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL35" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P435" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P167 -[sonOf]-> P162 -->
-            <relation xml:id="REL36" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P167" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="pl:ChildOf"/>
+            <relation xml:id="REL36" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P167" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="agrelon:hasParent"/>
             <!-- P231 -[sonOf]-> P162 -->
-            <relation xml:id="REL37" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P231" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="pl:ChildOf"/>
+            <relation xml:id="REL37" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P231" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="agrelon:hasParent"/>
             <!-- P98 -[siblingOf]-> P205 -->
-            <relation xml:id="REL38" type="family" name="siblingOf" active="http://gams.uni-graz.at/o:mgs.persons#P98" passive="http://gams.uni-graz.at/o:mgs.persons#P205" ana="pl:SiblingOf"/>
+            <relation xml:id="REL38" type="family" name="siblingOf" active="http://gams.uni-graz.at/o:mgs.persons#P98" passive="http://gams.uni-graz.at/o:mgs.persons#P205" ana="agrelon:hasSibling"/>
             <!-- P445 -[sisterOf]-> P42 -->
-            <relation xml:id="REL39" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P445" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:SiblingOf"/>
+            <relation xml:id="REL39" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P445" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasSibling"/>
             <!-- P519 -[sisterOf]-> P42 -->
-            <relation xml:id="REL40" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P519" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:SiblingOf"/>
+            <relation xml:id="REL40" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P519" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasSibling"/>
             <!-- P520 -[sisterOf]-> P42 -->
-            <relation xml:id="REL41" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P520" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:SiblingOf"/>
+            <relation xml:id="REL41" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P520" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasSibling"/>
             <!-- P521 -[sisterOf]-> P42 -->
-            <relation xml:id="REL42" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P521" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:SiblingOf"/>
+            <relation xml:id="REL42" type="family" name="sisterOf" active="http://gams.uni-graz.at/o:mgs.persons#P521" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasSibling"/>
             <!-- P29 -[wifeOf]-> P161 -->
-            <relation xml:id="REL43" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P29" passive="http://gams.uni-graz.at/o:mgs.persons#P161" ana="pl:SpouseOf"/>
+            <relation xml:id="REL43" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P29" passive="http://gams.uni-graz.at/o:mgs.persons#P161" ana="agrelon:hasSpouse"/>
             <!-- P523 -[wifeOf]-> P522 -->
-            <relation xml:id="REL44" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P523" passive="http://gams.uni-graz.at/o:mgs.persons#P522" ana="pl:SpouseOf"/>
+            <relation xml:id="REL44" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P523" passive="http://gams.uni-graz.at/o:mgs.persons#P522" ana="agrelon:hasSpouse"/>
             <!-- P503 -[brother-in-lawOf]-> P29 -->
-            <relation xml:id="REL45" type="family" name="brotherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P503" passive="http://gams.uni-graz.at/o:mgs.persons#P29" ana="mgs:BrotherInLawOf"/>
+            <relation xml:id="REL45" type="family" name="brotherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P503" passive="http://gams.uni-graz.at/o:mgs.persons#P29" ana="mgs:isBrotherInLawOf"/>
             <!-- P160 -[sonOf]-> P0 -->
-            <relation xml:id="REL46" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P160" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL46" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P160" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P165 -[sonOf]-> P0 -->
-            <relation xml:id="REL47" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P165" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL47" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P165" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P38 -[sister-in-lawOf]-> P0 -->
-            <relation xml:id="REL48" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P38" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:SisterInLawOf"/>
+            <relation xml:id="REL48" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P38" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isSisterInLawOf"/>
             <!-- P162 -[husbandOf]-> P0 -->
-            <relation xml:id="REL49" type="family" name="husbandOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:SpouseOf"/>
+            <relation xml:id="REL49" type="family" name="husbandOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasSpouse"/>
             <!-- P34 -[sonOf]-> P474 -->
-            <relation xml:id="REL50" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P34" passive="http://gams.uni-graz.at/o:mgs.persons#P474" ana="pl:ChildOf"/>
+            <relation xml:id="REL50" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P34" passive="http://gams.uni-graz.at/o:mgs.persons#P474" ana="agrelon:hasParent"/>
             <!-- P62 -[daughterOf]-> P24 -->
-            <relation xml:id="REL51" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P62" passive="http://gams.uni-graz.at/o:mgs.persons#P24" ana="pl:ChildOf"/>
+            <relation xml:id="REL51" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P62" passive="http://gams.uni-graz.at/o:mgs.persons#P24" ana="agrelon:hasParent"/>
             <!-- P63 -[daughterOf]-> P24 -->
-            <relation xml:id="REL52" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P63" passive="http://gams.uni-graz.at/o:mgs.persons#P24" ana="pl:ChildOf"/>
+            <relation xml:id="REL52" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P63" passive="http://gams.uni-graz.at/o:mgs.persons#P24" ana="agrelon:hasParent"/>
             <!-- P50 -[wifeOf]-> P51 -->
-            <relation xml:id="REL53" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P50" passive="http://gams.uni-graz.at/o:mgs.persons#P51" ana="pl:SpouseOf"/>
+            <relation xml:id="REL53" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P50" passive="http://gams.uni-graz.at/o:mgs.persons#P51" ana="agrelon:hasSpouse"/>
             <!-- P51 -[husbandOf]-> P50 -->
-            <relation xml:id="REL54" type="family" name="husbandOf" active="http://gams.uni-graz.at/o:mgs.persons#P51" passive="http://gams.uni-graz.at/o:mgs.persons#P50" ana="pl:SpouseOf"/>
+            <relation xml:id="REL54" type="family" name="husbandOf" active="http://gams.uni-graz.at/o:mgs.persons#P51" passive="http://gams.uni-graz.at/o:mgs.persons#P50" ana="agrelon:hasSpouse"/>
             <!-- P10 -[sister-in-lawOf]-> P138 -->
-            <relation xml:id="REL55" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P10" passive="http://gams.uni-graz.at/o:mgs.persons#P138" ana="mgs:SisterInLawOf"/>
+            <relation xml:id="REL55" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P10" passive="http://gams.uni-graz.at/o:mgs.persons#P138" ana="mgs:isSisterInLawOf"/>
             <!-- P159 -[sonOf]-> P0 -->
-            <relation xml:id="REL56" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P159" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL56" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P159" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P29 -[sister-in-lawOf]-> P0 -->
-            <relation xml:id="REL57" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P29" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:SisterInLawOf"/>
+            <relation xml:id="REL57" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P29" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isSisterInLawOf"/>
             <!-- P158 -[mother-in-lawOf]-> P0 -->
-            <relation xml:id="REL58" type="family" name="motherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P158" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:MotherInLawOf"/>
+            <relation xml:id="REL58" type="family" name="motherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P158" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isMotherInLawOf"/>
             <!-- P164 -[childOf]-> P0 -->
-            <relation xml:id="REL59" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P164" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL59" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P164" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P78 -[brotherOf]-> P0 -->
-            <relation xml:id="REL60" type="family" name="brotherOf" active="http://gams.uni-graz.at/o:mgs.persons#P78" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:SiblingOf"/>
+            <relation xml:id="REL60" type="family" name="brotherOf" active="http://gams.uni-graz.at/o:mgs.persons#P78" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasSibling"/>
             <!-- P164 -[sonOf]-> P0 -->
-            <relation xml:id="REL61" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P164" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL61" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P164" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P597 -[husbandOf]-> P109 -->
-            <relation xml:id="REL62" type="family" name="husbandOf" active="http://gams.uni-graz.at/o:mgs.persons#P597" passive="http://gams.uni-graz.at/o:mgs.persons#P109" ana="pl:SpouseOf"/>
+            <relation xml:id="REL62" type="family" name="husbandOf" active="http://gams.uni-graz.at/o:mgs.persons#P597" passive="http://gams.uni-graz.at/o:mgs.persons#P109" ana="agrelon:hasSpouse"/>
             <!-- P231 -[sonOf]-> P0 -->
-            <relation xml:id="REL63" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P231" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL63" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P231" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P111 -[wifeOf]-> P367 -->
-            <relation xml:id="REL64" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P111" passive="http://gams.uni-graz.at/o:mgs.persons#P367" ana="pl:SpouseOf"/>
+            <relation xml:id="REL64" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P111" passive="http://gams.uni-graz.at/o:mgs.persons#P367" ana="agrelon:hasSpouse"/>
             <!-- P624 -[daughterOf]-> P10 -->
-            <relation xml:id="REL65" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P624" passive="http://gams.uni-graz.at/o:mgs.persons#P10" ana="pl:ChildOf"/>
+            <relation xml:id="REL65" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P624" passive="http://gams.uni-graz.at/o:mgs.persons#P10" ana="agrelon:hasParent"/>
             <!-- P597 -[spouseOf]-> P109 -->
-            <relation xml:id="REL66" type="family" name="spouseOf" active="http://gams.uni-graz.at/o:mgs.persons#P597" passive="http://gams.uni-graz.at/o:mgs.persons#P109" ana="pl:SpouseOf"/>
+            <relation xml:id="REL66" type="family" name="spouseOf" active="http://gams.uni-graz.at/o:mgs.persons#P597" passive="http://gams.uni-graz.at/o:mgs.persons#P109" ana="agrelon:hasSpouse"/>
             <!-- P109 -[spouseOf]-> P597 -->
-            <relation xml:id="REL67" type="family" name="spouseOf" active="http://gams.uni-graz.at/o:mgs.persons#P109" passive="http://gams.uni-graz.at/o:mgs.persons#P597" ana="pl:SpouseOf"/>
+            <relation xml:id="REL67" type="family" name="spouseOf" active="http://gams.uni-graz.at/o:mgs.persons#P109" passive="http://gams.uni-graz.at/o:mgs.persons#P597" ana="agrelon:hasSpouse"/>
             <!-- P147 -[brother-in-lawOf]-> P0 -->
-            <relation xml:id="REL68" type="family" name="brotherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P147" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:BrotherInLawOf"/>
+            <relation xml:id="REL68" type="family" name="brotherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P147" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isBrotherInLawOf"/>
             <!-- P163 -[sister-in-lawOf]-> P0 -->
-            <relation xml:id="REL69" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P163" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:SisterInLawOf"/>
+            <relation xml:id="REL69" type="family" name="sisterInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P163" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isSisterInLawOf"/>
             <!-- P155 -[wifeOf]-> P147 -->
-            <relation xml:id="REL70" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P155" passive="http://gams.uni-graz.at/o:mgs.persons#P147" ana="pl:SpouseOf"/>
+            <relation xml:id="REL70" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P155" passive="http://gams.uni-graz.at/o:mgs.persons#P147" ana="agrelon:hasSpouse"/>
             <!-- P154 -[daughterOf]-> P0 -->
-            <relation xml:id="REL71" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P154" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL71" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P154" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P154 -[daughterOf]-> P162 -->
-            <relation xml:id="REL72" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P154" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="pl:ChildOf"/>
+            <relation xml:id="REL72" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P154" passive="http://gams.uni-graz.at/o:mgs.persons#P162" ana="agrelon:hasParent"/>
             <!-- P449 -[uncleOf]-> P655 -->
-            <relation xml:id="REL73" type="family" name="uncleOf" active="http://gams.uni-graz.at/o:mgs.persons#P449" passive="http://gams.uni-graz.at/o:mgs.persons#P655" ana="mgs:UncleOf"/>
+            <relation xml:id="REL73" type="family" name="uncleOf" active="http://gams.uni-graz.at/o:mgs.persons#P449" passive="http://gams.uni-graz.at/o:mgs.persons#P655" ana="mgs:isUncleOf"/>
             <!-- P29 -[daughterOf]-> P30 -->
-            <relation xml:id="REL74" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P29" passive="http://gams.uni-graz.at/o:mgs.persons#P30" ana="pl:ChildOf" cert="low"/>
+            <relation xml:id="REL74" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P29" passive="http://gams.uni-graz.at/o:mgs.persons#P30" ana="agrelon:hasParent" cert="low"/>
             <!-- P671 -[daughterOf]-> P0 -->
-            <relation xml:id="REL75" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P671" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf" cert="low"/>
+            <relation xml:id="REL75" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P671" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent" cert="low"/>
             <!-- P675 -[daughterOf]-> P0 -->
-            <relation xml:id="REL76" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P675" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf" cert="low"/>
+            <relation xml:id="REL76" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P675" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent" cert="low"/>
             <!-- P676 -[daughterOf]-> P0 -->
-            <relation xml:id="REL77" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P676" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf" cert="low"/>
+            <relation xml:id="REL77" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P676" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent" cert="low"/>
             <!-- P677 -[daughterOf]-> P0 -->
-            <relation xml:id="REL78" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P677" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf" cert="low"/>
+            <relation xml:id="REL78" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P677" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent" cert="low"/>
             <!-- P660 -[childOf]-> P42 -->
-            <relation xml:id="REL79" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P660" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:ChildOf"/>
+            <relation xml:id="REL79" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P660" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasParent"/>
             <!-- P661 -[childOf]-> P42 -->
-            <relation xml:id="REL80" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P661" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:ChildOf"/>
+            <relation xml:id="REL80" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P661" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasParent"/>
             <!-- P662 -[childOf]-> P42 -->
-            <relation xml:id="REL81" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P662" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:ChildOf"/>
+            <relation xml:id="REL81" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P662" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasParent"/>
             <!-- P663 -[childOf]-> P42 -->
-            <relation xml:id="REL82" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P663" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:ChildOf"/>
+            <relation xml:id="REL82" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P663" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasParent"/>
             <!-- P664 -[childOf]-> P42 -->
-            <relation xml:id="REL83" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P664" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="pl:ChildOf"/>
+            <relation xml:id="REL83" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P664" passive="http://gams.uni-graz.at/o:mgs.persons#P42" ana="agrelon:hasParent"/>
             <!-- P171 -[childOf]-> P0 -->
-            <relation xml:id="REL84" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P171" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL84" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P171" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P29 -[daughterOf]-> P194 -->
-            <relation xml:id="REL85" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P29" passive="http://gams.uni-graz.at/o:mgs.persons#P194" ana="pl:ChildOf"/>
+            <relation xml:id="REL85" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P29" passive="http://gams.uni-graz.at/o:mgs.persons#P194" ana="agrelon:hasParent"/>
             <!-- P671 -[daughterOf]-> P194 -->
-            <relation xml:id="REL86" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P671" passive="http://gams.uni-graz.at/o:mgs.persons#P194" ana="pl:ChildOf"/>
+            <relation xml:id="REL86" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P671" passive="http://gams.uni-graz.at/o:mgs.persons#P194" ana="agrelon:hasParent"/>
             <!-- P332 -[wifeOf]-> P174 -->
-            <relation xml:id="REL87" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P332" passive="http://gams.uni-graz.at/o:mgs.persons#P174" ana="pl:SpouseOf"/>
+            <relation xml:id="REL87" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P332" passive="http://gams.uni-graz.at/o:mgs.persons#P174" ana="agrelon:hasSpouse"/>
             <!-- P171 -[childOf]-> P17 -->
-            <relation xml:id="REL88" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P171" passive="http://gams.uni-graz.at/o:mgs.persons#P17" ana="pl:ChildOf"/>
+            <relation xml:id="REL88" type="family" name="childOf" active="http://gams.uni-graz.at/o:mgs.persons#P171" passive="http://gams.uni-graz.at/o:mgs.persons#P17" ana="agrelon:hasParent"/>
             <!-- P171 -[sonOf]-> P0 -->
-            <relation xml:id="REL89" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P171" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL89" type="family" name="sonOf" active="http://gams.uni-graz.at/o:mgs.persons#P171" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P87 -[wifeOf]-> P188 -->
-            <relation xml:id="REL90" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P87" passive="http://gams.uni-graz.at/o:mgs.persons#P188" ana="pl:SpouseOf"/>
+            <relation xml:id="REL90" type="family" name="wifeOf" active="http://gams.uni-graz.at/o:mgs.persons#P87" passive="http://gams.uni-graz.at/o:mgs.persons#P188" ana="agrelon:hasSpouse"/>
             <!-- P96 -[daughterOf]-> P0 -->
-            <relation xml:id="REL91" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P96" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="pl:ChildOf"/>
+            <relation xml:id="REL91" type="family" name="daughterOf" active="http://gams.uni-graz.at/o:mgs.persons#P96" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="agrelon:hasParent"/>
             <!-- P162 -[relativeOf]-> P0 -->
-            <relation xml:id="REL92" type="family" name="relativeOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:RelativeOf"/>
+            <relation xml:id="REL92" type="family" name="relativeOf" active="http://gams.uni-graz.at/o:mgs.persons#P162" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isRelativeOf"/>
             <!-- P202 -[mother-in-lawOf]-> P0 -->
-            <relation xml:id="REL93" type="family" name="motherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P202" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:MotherInLawOf"/>
+            <relation xml:id="REL93" type="family" name="motherInLawOf" active="http://gams.uni-graz.at/o:mgs.persons#P202" passive="http://gams.uni-graz.at/o:mgs.persons#P0" ana="mgs:isMotherInLawOf"/>
          </listRelation>
          <!-- Personenindex -->
          <listPerson>

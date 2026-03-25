@@ -4,15 +4,14 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:pl="http://cedric.cnam.fr/isid/ontologies/PersonLink.owl#"
     xmlns:schema="http://schema.org/"
     xmlns:ex="http://example.org/vocab#"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:mgs="https://gams.uni-graz.at/o:mgs.ontology#"
     exclude-result-prefixes="tei xs">
-    
-    <!-- annotated_TEI.xml as second input document -->
-    <xsl:variable name="teiText" select="document('annotated_TEI.xml')"/>
+
+    <!-- annotated_text.xml as second input document (one level up from xslt/) -->
+    <xsl:variable name="teiText" select="document('../annotated_text.xml')"/>
     
     <!-- Parameters -->
     <!-- Base URI to mint person URIs from TEI xml:id, e.g. https://edition.example.org/register -->
@@ -44,38 +43,39 @@
         "/>
     </xsl:function>
     
-    <!-- Extract namespace prefix (pl or mgs) from ana="pl:ChildOf" or "mgs:SisterInLawOf" -->
+    <!-- Extract namespace prefix (agrelon or mgs) from ana="agrelon:hasChild" or "mgs:isSisterInLawOf" -->
     <xsl:function name="ex:ana-prefix" as="xs:string?">
         <xsl:param name="ana" as="xs:string?"/>
         <xsl:variable name="a" select="normalize-space($ana)"/>
         <xsl:sequence select="
-            if (matches($a, '(^|\s)(pl|mgs):[A-Za-z0-9_]+'))
-            then replace($a, '.*(^|\s)(pl|mgs):([A-Za-z0-9_]+).*', '$2')
+            if (matches($a, '(^|\s)(agrelon|mgs):[A-Za-z0-9_]+'))
+            then replace($a, '.*(^|\s)(agrelon|mgs):([A-Za-z0-9_]+).*', '$2')
             else ()
         "/>
     </xsl:function>
 
-    <!-- Extract local name from ana="pl:ChildOf" or "mgs:SisterInLawOf" -->
+    <!-- Extract local name from ana="agrelon:hasChild" or "mgs:isSisterInLawOf" -->
     <xsl:function name="ex:ana-local" as="xs:string?">
         <xsl:param name="ana" as="xs:string?"/>
         <xsl:variable name="a" select="normalize-space($ana)"/>
         <xsl:sequence select="
-            if (matches($a, '(^|\s)(pl|mgs):[A-Za-z0-9_]+'))
-            then replace($a, '.*(^|\s)(pl|mgs):([A-Za-z0-9_]+).*', '$3')
+            if (matches($a, '(^|\s)(agrelon|mgs):[A-Za-z0-9_]+'))
+            then replace($a, '.*(^|\s)(agrelon|mgs):([A-Za-z0-9_]+).*', '$3')
             else ()
         "/>
     </xsl:function>
     
-    <!-- Fallback mapping for listRelation entries without @ana -->
-    <xsl:function name="ex:pl-local-from-name" as="xs:string?">
+    <!-- Fallback mapping for listRelation entries without @ana.
+         Only triggered if @ana is absent; all current data has @ana so this is a safety net. -->
+    <xsl:function name="ex:local-from-name" as="xs:string?">
         <xsl:param name="name" as="xs:string?"/>
         <xsl:variable name="n" select="lower-case(normalize-space($name))"/>
         <xsl:sequence select="
-            if ($n = 'sister-in-law') then 'sisterInLawOf'
-            else if ($n = 'brother-in-law') then 'brotherInLawOf'
-            else if ($n = 'cousin') then 'cousinOf'
-            else if ($n = 'relative') then 'relativeOf'
-            else if ($n = 'spouse' or $n = 'spouseof') then 'spouseOf'
+            if ($n = 'sisterinlawof' or $n = 'sister-in-law') then 'isSisterInLawOf'
+            else if ($n = 'brotherinlawof' or $n = 'brother-in-law') then 'isBrotherInLawOf'
+            else if ($n = 'cousinof' or $n = 'cousin') then 'hasCousin'
+            else if ($n = 'relativeof' or $n = 'relative') then 'isRelativeOf'
+            else if ($n = 'spouseof' or $n = 'spouse') then 'hasSpouse'
             else ()
             "/>
     </xsl:function>
@@ -119,7 +119,7 @@
         <rdf:RDF
             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-            xmlns:pl="http://cedric.cnam.fr/isid/ontologies/PersonLink.owl#"
+            xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
             xmlns:mgs="https://gams.uni-graz.at/o:mgs.ontology#"
             xmlns:schema="https://schema.org/">
             
@@ -247,11 +247,11 @@
 
                 <xsl:variable name="anaPrefix" select="
                     if (ex:ana-prefix(string(@ana))) then ex:ana-prefix(string(@ana))
-                    else if (ex:pl-local-from-name(string(@name))) then 'pl'
+                    else if (ex:local-from-name(string(@name))) then 'mgs'
                     else ()
                 "/>
                 <xsl:variable name="anaLocal" select="
-                    (ex:ana-local(string(@ana)), ex:pl-local-from-name(string(@name)))[1]
+                    (ex:ana-local(string(@ana)), ex:local-from-name(string(@name)))[1]
                 "/>
 
                 <xsl:variable name="skipPassive"
@@ -275,8 +275,8 @@
                         <rdf:Statement rdf:about="{concat($base-uri, '#', ex:norm-id(string(@xml:id)))}">
                             <rdf:subject rdf:resource="{ex:person-uri($active-id)}"/>
                             <rdf:predicate rdf:resource="{
-                                if ($anaPrefix = 'pl')
-                                then concat('http://cedric.cnam.fr/isid/ontologies/PersonLink.owl#', $anaLocal)
+                                if ($anaPrefix = 'agrelon')
+                                then concat('https://d-nb.info/standards/elementset/agrelon#', $anaLocal)
                                 else concat('https://gams.uni-graz.at/o:mgs.ontology#', $anaLocal)
                             }"/>
                             <rdf:object rdf:resource="{ex:person-uri($passive-id)}"/>

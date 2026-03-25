@@ -18,7 +18,6 @@ This repository provides the sample TEI/XML data, XSLT stylesheets, a project on
 ```
 annotated_text.xml        TEI/XML edition text with relationship mentions
 person_index.xml          TEI/XML person register and relationship index
-ontology.xml              MGS project ontology (RDF/OWL)
 relations_graph.html      Interactive visualization of encoded relationships
 xslt/
   tei_to_RDF.xsl          Transform person index + text to RDF/XML
@@ -42,15 +41,7 @@ The TEI person register and relationship index. It contains:
 - `<listRelation>` — 26 project relationship assertions (primarily *sister-in-law* and *female cousin*), encoding the relationship type in `@name` and linking to the ontology via `@ana`
 - `<listRelation subtype="exploratory">` — ~80 relationship assertions from the exploratory annotation of the 100-paragraph sample, covering 18 relationship types; this is the primary dataset in this repository
 
-In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to ontology terms: PersonLink properties (e.g. `pl:ChildOf`) where available, and project-specific terms (e.g. `mgs:AuntOf`) for types not covered by PersonLink.
-
-### `ontology.xml`
-The MGS project ontology (`https://gams.uni-graz.at/o:mgs.ontology#`). It defines:
-- Custom relationship properties not available in PersonLink: `SisterInLawOf`, `BrotherInLawOf`, `MotherInLawOf`, `FatherInLawOf`, `AuntOf`, `UncleOf`, `CousinOf`, `RelativeOf`
-- Datatype properties for person metadata: `faith`, `description`, `confession`, `conversion`, `conversion_year`, `cleric`, `vienna`
-- Object properties: `relationshipMention` (links a person to a text passage mentioning their relationship), `occursIn` (links a person to a text document)
-- Stubs documenting the five PersonLink properties used in this dataset (`ChildOf`, `ParentOf`, `SiblingOf`, `SpouseOf`, `CousinOf`)
-- Imports the [PersonLink ontology](http://cedric.cnam.fr/isid/ontologies/PersonLink.owl)
+In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to ontology terms: AgRelOn properties (e.g. `agrelon:hasChild`) for core kinship relations, and project-specific terms (e.g. `mgs:isAuntOf`) for gender-specific types not covered by AgRelOn.
 
 ---
 
@@ -63,7 +54,7 @@ All stylesheets require an XSLT 2.0 or 3.0 processor (e.g. Saxon).
 **Secondary input:** `annotated_text.xml` (referenced internally as `annotated_TEI.xml`)
 **Output:** RDF/XML
 
-Transforms all persons in `<listPerson>` into RDF resources typed as `schema:Person` and `mgs:Person`, with names, dates, authority identifiers, and occurrence links. Transforms all `<relation>` elements into direct RDF triples (`active → predicate → passive`), where the predicate is derived from `@ana` (either a `pl:` or `mgs:` term). Each assertion is additionally linked to its textual evidence via `mgs:relationshipMention`.
+Transforms all persons in `<listPerson>` into RDF resources typed as `schema:Person` and `mgs:Person`, with names, dates, authority identifiers, and occurrence links. Transforms all `<relation>` elements into direct RDF triples (`active → predicate → passive`), where the predicate is derived from `@ana` (either an `agrelon:` or `mgs:` term). Each assertion is additionally linked to its textual evidence via `mgs:relationshipMention`.
 
 ### `tei_to_annotation.xsl`
 **Primary input:** `annotated_text.xml`
@@ -92,7 +83,7 @@ Removes redundant entries where both a specific label (e.g. `daughterOf`) and a 
 | Prefix | Namespace | Used for |
 |--------|-----------|----------|
 | `mgs:` | `https://gams.uni-graz.at/o:mgs.ontology#` | Project-specific relations and person properties |
-| `pl:` | `http://cedric.cnam.fr/isid/ontologies/PersonLink.owl#` | Standard kinship relations (PersonLink ontology) |
+| `agrelon:` | `https://d-nb.info/standards/elementset/agrelon#` | Core kinship relations (AgRelOn, Deutsche Nationalbibliothek) |
 | `schema:` | `https://schema.org/` | Person metadata (name, birth/death, gender, identifiers) |
 
 ---
