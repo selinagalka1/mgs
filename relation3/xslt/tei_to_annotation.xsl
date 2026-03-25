@@ -8,7 +8,7 @@
 
     <!-- This stylesheet transforms the Relation³ annotation scheme to tei:annotation.
 
-    Primary input:   annotated_tei.xml  (text with <seg type="relationship_mention"> elements)
+    Primary input:   annotated_text.xml  (text with <seg type="relationship_mention"> elements)
     Secondary input: person_index.xml   (loaded via doc(), contains relations and persons)
 
     For each relation in the exploratory <listRelation subtype="exploratory"> of the person index,
@@ -29,7 +29,7 @@
     <xsl:variable name="tei_doc" select="/"/>
 
     <!-- Base URI for relations in the person index -->
-    <xsl:variable name="persons_base_uri" select="'https://gams.uni-graz.at/o:mgs.persons#'"/>
+    <xsl:variable name="persons_base_uri" select="'http://gams.uni-graz.at/o:mgs.persons#'"/>
 
     <!-- Base URI for text segments in the edition text -->
     <xsl:variable name="text_base_uri" select="'https://gams.uni-graz.at/o:mgs.normalizedText#'"/>
@@ -76,14 +76,6 @@
             <xsl:attribute name="target">
                 <xsl:value-of select="$rel_uri"/>
             </xsl:attribute>
-            <!-- Resolved full ontology URI from @ana on <relation>:
-                 agrelon:hasChild → https://d-nb.info/standards/elementset/agrelon#hasChild
-                 mgs:isMotherInLawOf → https://gams.uni-graz.at/o:mgs.ontology#isMotherInLawOf -->
-            <xsl:attribute name="ana">
-                <xsl:call-template name="resolve_ana_uri">
-                    <xsl:with-param name="ana" select="@ana"/>
-                </xsl:call-template>
-            </xsl:attribute>
             <!-- Certainty of the relation, if present (@cert is a global TEI attribute) -->
             <xsl:if test="@cert">
                 <xsl:attribute name="cert">
@@ -99,50 +91,20 @@
             </revisionDesc>
             <licence target="http://creativecommons.org/licenses/by/4.0/"/>
 
-            <!-- Text passages from all segments referencing this relation -->
-            <note type="editiontext">
-                <xsl:for-each select="$segs">
-                    <xsl:if test="position() > 1">; </xsl:if>
-                    <xsl:value-of select="normalize-space(.)"/>
-                </xsl:for-each>
-            </note>
-
-            <!-- Human-readable description of the relationship -->
-            <note type="relation">
-                <xsl:call-template name="relation_description">
-                    <xsl:with-param name="active_uri" select="@active"/>
-                    <xsl:with-param name="passive_uri" select="@passive"/>
-                    <xsl:with-param name="rel_name" select="@name"/>
-                </xsl:call-template>
-            </note>
-
+         
+           
             <!-- Pointer to the relation in the person index -->
-            <ptr target="{$rel_uri}"/>
+            <ptr type="relation" target="{$rel_uri}"/>
 
             <!-- Pointers to all referencing text segments -->
             <xsl:for-each select="$segs">
-                <ptr target="#{@xml:id}"/>
+                <ptr type="relationship_mention" target="{concat($text_base_uri, @xml:id)}"/>
             </xsl:for-each>
         </annotation>
     </xsl:template>
 
 
-    <!-- Builds the relation description: "Person A is the relationType of Person B." -->
-    <xsl:template name="relation_description">
-        <xsl:param name="active_uri"/>
-        <xsl:param name="passive_uri"/>
-        <xsl:param name="rel_name"/>
-        <xsl:call-template name="person_display_name">
-            <xsl:with-param name="person_uri" select="$active_uri"/>
-        </xsl:call-template>
-        <xsl:text> is the </xsl:text>
-        <xsl:value-of select="$rel_name"/>
-        <xsl:text> of </xsl:text>
-        <xsl:call-template name="person_display_name">
-            <xsl:with-param name="person_uri" select="$passive_uri"/>
-        </xsl:call-template>
-        <xsl:text>.</xsl:text>
-    </xsl:template>
+
 
 
     <!-- Resolves @ana prefix notation to full URIs.
