@@ -11,7 +11,7 @@
 
     <!-- This stylesheet transforms the Relation³ annotation scheme to RDF/tei:xenoData.
 
-    Primary input:   annotated_tei.xml  (text with <seg type="relationship_mention"> elements)
+    Primary input:   annotated_text.xml  (text with <seg type="relationship_mention"> elements)
     Secondary input: person_index.xml   (loaded via doc(), contains relations and persons)
 
     For each relation in the exploratory <listRelation subtype="exploratory">, one direct RDF
@@ -21,20 +21,7 @@
 
     Each relationship assertion is additionally linked to all text segments mentioning it via
     the project-specific property mgs:relationshipMention, ensuring traceability between the
-    interpretative assertion and its textual evidence.
-
-    RDF structure per relation (e.g. REL6: P82 motherInLawOf P0, mentioned in RM_R11_1 etc.):
-      <P82> mgs:isMotherInLawOf <P0>
-      <P82> mgs:relationshipMention <RM_R11_1>
-      <P82> mgs:relationshipMention <RM_R18_1>
-      ...
-
-    Differences from the old scheme:
-      - Direct RDF triple per relation instead of oa:Annotation / bio:Relationship wrappers
-      - RDF predicate comes from @ana on <relation> (agrelon: or mgs: prefix, resolved to full URI)
-      - mgs:relationshipMention links each assertion to its textual evidence
-      - Two-document input (annotated_tei.xml + person_index.xml)
-      - @active/@passive in <relation> are full URIs (used directly as rdf:about / rdf:resource)
+    interpretative assertion and its textual evidence. 
     -->
 
     <xsl:output indent="yes"/>
@@ -49,7 +36,7 @@
     <xsl:variable name="text_base_uri" select="'https://gams.uni-graz.at/o:mgs.normalizedText#'"/>
 
     <!-- Base URI for relations in the person index -->
-    <xsl:variable name="persons_base_uri" select="'https://gams.uni-graz.at/o:mgs.persons#'"/>
+    <xsl:variable name="persons_base_uri" select="'http://gams.uni-graz.at/o:mgs.persons#'"/>
 
 
     <!-- Identity transform: copy all nodes unchanged -->
