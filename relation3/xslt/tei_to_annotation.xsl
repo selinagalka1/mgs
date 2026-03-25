@@ -89,9 +89,6 @@
             </revisionDesc>
             <licence target="http://creativecommons.org/licenses/by/4.0/"/>
 
-            <!-- Pointer to the relation in the person index -->
-            <ptr target="{$rel_uri}"/>
-
             <!-- Pointers to all referencing text segments -->
             <xsl:for-each select="$segs">
                 <ptr target="{concat($text_base_uri, @xml:id)}"/>
