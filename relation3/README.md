@@ -41,7 +41,7 @@ The TEI person register and relationship index. It contains:
 - `<listRelation>` — 26 project relationship assertions (primarily *sister-in-law* and *female cousin*), encoding the relationship type in `@name` and linking to the ontology via `@ana`
 - `<listRelation subtype="exploratory">` — ~80 relationship assertions from the exploratory annotation of the 100-paragraph sample, covering 18 relationship types; this is the primary dataset in this repository
 
-In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to ontology terms: AgRelOn properties (e.g. `agrelon:hasChild`) for core kinship relations, and project-specific terms (e.g. `mgs:isAuntOf`) for gender-specific types not covered by AgRelOn.
+In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to AgRelOn properties (e.g. `agrelon:hasChild`, `agrelon:hasNieceNephew`, `agrelon:hasSiblingInlaw`). All kinship relation types are covered by AgRelOn; the `mgs:` namespace is used only for person metadata properties (certainty, biographical notes, text links).
 
 ---
 
@@ -51,10 +51,10 @@ All stylesheets require an XSLT 2.0 or 3.0 processor (e.g. Saxon).
 
 ### `tei_to_RDF.xsl`
 **Primary input:** `person_index.xml`
-**Secondary input:** `annotated_text.xml` (referenced internally as `annotated_TEI.xml`)
+**Secondary input:** `annotated_text.xml`
 **Output:** RDF/XML
 
-Transforms all persons in `<listPerson>` into RDF resources typed as `schema:Person` and `mgs:Person`, with names, dates, authority identifiers, and occurrence links. Transforms all `<relation>` elements into direct RDF triples (`active → predicate → passive`), where the predicate is derived from `@ana` (either an `agrelon:` or `mgs:` term). Each assertion is additionally linked to its textual evidence via `mgs:relationshipMention`.
+Transforms all persons in `<listPerson>` into RDF resources typed as `schema:Person` and `mgs:Person`, with names, dates, authority identifiers, and occurrence links. Transforms all `<relation>` elements into direct RDF triples (`active → predicate → passive`), where the predicate is derived from `@ana` (an `agrelon:` term). Each assertion is additionally linked to its textual evidence via `mgs:relationshipMention`, and certainty values from `@cert` are emitted as `mgs:cert`.
 
 ### `tei_to_annotation.xsl`
 **Primary input:** `annotated_text.xml`
@@ -74,7 +74,7 @@ Embeds one direct RDF triple per relation as an `rdf:Description` inside `<xenoD
 **Input:** `person_index.xml`
 **Output:** `person_index.xml` with the exploratory listRelation deduplicated
 
-Removes redundant entries where both a specific label (e.g. `daughterOf`) and a general label (e.g. `childOf`) exist for the same active–passive pair and `@ana` value. Suppressed entries are replaced by XML comments.
+Removes redundant entries where both a specific label (e.g. `daughterOf`) and a general label (e.g. `childOf`) exist for the same `@active`–`@passive` pair. Suppressed entries are replaced by XML comments.
 
 ---
 

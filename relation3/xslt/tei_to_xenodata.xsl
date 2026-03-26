@@ -79,8 +79,8 @@
 
         <rdf:Description rdf:about="{@active}">
 
-            <!-- Direct relationship triple: active [agrelon:hasChild | mgs:isMotherInLawOf | ...] passive
-                 Predicate is resolved from @ana (agrelon: → AgRelOn ontology, mgs: → project ontology) -->
+            <!-- Direct relationship triple: active [agrelon:hasChild | agrelon:hasChildInlaw | ...] passive
+                 Predicate is resolved from @ana (agrelon: → AgRelOn ontology) -->
             <xsl:call-template name="relationship_predicate">
                 <xsl:with-param name="ana" select="@ana"/>
                 <xsl:with-param name="passive" select="@passive"/>
@@ -101,8 +101,7 @@
 
 
     <!-- Creates the relationship predicate element from @ana.
-         agrelon:hasChild   → <agrelon:hasChild> in https://d-nb.info/standards/elementset/agrelon#
-         mgs:isMotherInLawOf → <mgs:isMotherInLawOf> in https://gams.uni-graz.at/o:mgs.ontology# -->
+         agrelon:hasChild → <agrelon:hasChild> in https://d-nb.info/standards/elementset/agrelon# -->
     <xsl:template name="relationship_predicate">
         <xsl:param name="ana"/>
         <xsl:param name="passive"/>
@@ -110,14 +109,6 @@
             <xsl:when test="starts-with($ana, 'agrelon:')">
                 <xsl:element name="agrelon:{substring-after($ana, 'agrelon:')}"
                     namespace="https://d-nb.info/standards/elementset/agrelon#">
-                    <xsl:attribute name="rdf:resource">
-                        <xsl:value-of select="$passive"/>
-                    </xsl:attribute>
-                </xsl:element>
-            </xsl:when>
-            <xsl:when test="starts-with($ana, 'mgs:')">
-                <xsl:element name="mgs:{substring-after($ana, 'mgs:')}"
-                    namespace="https://gams.uni-graz.at/o:mgs.ontology#">
                     <xsl:attribute name="rdf:resource">
                         <xsl:value-of select="$passive"/>
                     </xsl:attribute>

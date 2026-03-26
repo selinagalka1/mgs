@@ -4,7 +4,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:schema="http://schema.org/"
+    xmlns:schema="https://schema.org/"
     xmlns:ex="http://example.org/vocab#"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:mgs="https://gams.uni-graz.at/o:mgs.ontology#"
@@ -66,15 +66,20 @@
     </xsl:function>
     
     <!-- Fallback mapping for listRelation entries without @ana.
-         Only triggered if @ana is absent; all current data has @ana so this is a safety net. -->
+         Only triggered if @ana is absent; all current data has @ana so this is a safety net.
+         All relation types now map to agrelon: properties (prefix resolved by caller as 'agrelon'). -->
     <xsl:function name="ex:local-from-name" as="xs:string?">
         <xsl:param name="name" as="xs:string?"/>
         <xsl:variable name="n" select="lower-case(normalize-space($name))"/>
         <xsl:sequence select="
-            if ($n = 'sisterinlawof' or $n = 'sister-in-law') then 'isSisterInLawOf'
-            else if ($n = 'brotherinlawof' or $n = 'brother-in-law') then 'isBrotherInLawOf'
+            if ($n = 'sisterinlawof' or $n = 'sister-in-law') then 'hasSiblingInlaw'
+            else if ($n = 'brotherinlawof' or $n = 'brother-in-law') then 'hasSiblingInlaw'
+            else if ($n = 'motherinlawof' or $n = 'mother-in-law') then 'hasChildInlaw'
+            else if ($n = 'fatherinlawof' or $n = 'father-in-law') then 'hasChildInlaw'
+            else if ($n = 'auntof' or $n = 'aunt') then 'hasNieceNephew'
+            else if ($n = 'uncleof' or $n = 'uncle') then 'hasNieceNephew'
             else if ($n = 'cousinof' or $n = 'cousin') then 'hasCousin'
-            else if ($n = 'relativeof' or $n = 'relative') then 'isRelativeOf'
+            else if ($n = 'relativeof' or $n = 'relative') then 'hasRelative'
             else if ($n = 'spouseof' or $n = 'spouse') then 'hasSpouse'
             else ()
             "/>
@@ -247,7 +252,7 @@
 
                 <xsl:variable name="anaPrefix" select="
                     if (ex:ana-prefix(string(@ana))) then ex:ana-prefix(string(@ana))
-                    else if (ex:local-from-name(string(@name))) then 'mgs'
+                    else if (ex:local-from-name(string(@name))) then 'agrelon'
                     else ()
                 "/>
                 <xsl:variable name="anaLocal" select="
@@ -263,6 +268,10 @@
                         <xsl:element name="{$anaPrefix}:{$anaLocal}">
                             <xsl:attribute name="rdf:resource" select="ex:person-uri($passive-id)"/>
                         </xsl:element>
+                        <!-- Certainty value from TEI @cert (high / medium / low) -->
+                        <xsl:if test="normalize-space(@cert) != ''">
+                            <mgs:cert><xsl:value-of select="normalize-space(@cert)"/></mgs:cert>
+                        </xsl:if>
                         <!-- Find matching <seg> elements in the secondary TEI text document -->
                         <xsl:variable name="relid" select="string(@xml:id)"/>
                         <xsl:for-each select="$teiText//tei:seg[@xml:id][some $a in tokenize(normalize-space(@ana), '\s+') satisfies ends-with($a, concat('#', $relid))]">
