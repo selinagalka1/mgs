@@ -92,7 +92,7 @@ Removes redundant entries where both a specific label (e.g. `daughterOf`) and a 
 
 The data originates from the FWF-funded project *"Tout Vienne me riait": Family and Court Relations in the Memoirs of Countess Louise Charlotte von Schwerin (1684–1732)* (Grant DOI: [10.55776/P34943](https://doi.org/10.55776/P34943)), carried out at the Institute for Habsburg and Balkan Studies (ÖAW) in cooperation with the Department of Digital Humanities, University of Graz.
 
-The digital edition is published in the long-term repository [GAMS](https://gams.uni-graz.at) at: TODO: ADD URL.
+The digital edition is published in the long-term repository [GAMS](https://gams.uni-graz.at): Galka, Selina, Ines Peper, Michael Pölzl, Chiara Petrolini, Georg Vogeler, and Joëlle Weis, eds. Digitale Edition der Memoiren der Gräfin Schwerin (1684–1732). With Sabine Amon. Vienna: Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (ÖAW); Graz: Institut für Digitale Geisteswissenschaften (Universität Graz), 2026. GAMS – Geisteswissenschaftliches Asset Management System. Last modified March 2026. (https://gams.uni-graz.at/context:mgs).
 
 ---
 
