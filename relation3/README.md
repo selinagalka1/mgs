@@ -41,7 +41,7 @@ The TEI person register and relationship index. It contains:
 - `<listRelation>` — 26 project relationship assertions (primarily *sister-in-law* and *female cousin*), encoding the relationship type in `@name` and linking to the ontology via `@ana`
 - `<listRelation subtype="exploratory">` — ~80 relationship assertions from the exploratory annotation of the 100-paragraph sample, covering 18 relationship types; this is the primary dataset in this repository
 
-In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to AgRelOn properties (e.g. `agrelon:hasChild`, `agrelon:hasNieceNephew`, `agrelon:hasSiblingInlaw`). All kinship relation types are covered by AgRelOn; the `mgs:` namespace is used only for person metadata properties (certainty, biographical notes, text links).
+In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to AgRelOn properties (e.g. `agrelon:hasParent`, `agrelon:hasNieceNephew`, `agrelon:hasSiblingInlaw`). All kinship relation types are covered by AgRelOn; the `mgs:` namespace is used only for person metadata properties (certainty, biographical notes, text links).
 
 ---
 
