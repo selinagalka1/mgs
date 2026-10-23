@@ -102,4 +102,4 @@ The data and stylesheets are made available under [CC BY 4.0](https://creativeco
 
 ## Citation
 
-Selina Galka (2026): Relation³ — Data and XSLT Transformations. Accompanying materials for "Relation³: Modeling and relating text describing (family) relationships with structured encoding of the relationships in digital editions". GitHub. [URL]
+Selina Galka (2026): Relation³ — Data and XSLT Transformations. Accompanying materials for "Relation³: Modeling and relating text describing (family) relationships with structured encoding of the relationships in digital editions". GitHub. (https://github.com/selinagalka1/mgs/tree/main/relation3)
