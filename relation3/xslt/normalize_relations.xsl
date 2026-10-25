@@ -2,8 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:t="http://www.tei-c.org/ns/1.0"
+    xmlns:f="urn:relation3:normalize"
     xmlns="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs t" version="2.0">
+    exclude-result-prefixes="xs t f" version="2.0">
 
 
     <!-- This stylesheet normalizes the exploratory <listRelation> in person_index.xml by
@@ -28,8 +29,16 @@
            siblingOf ← sisterOf, brotherOf
            spouseOf  ← husbandOf, wifeOf
 
+         The stylesheet must be applied to both files, so that the text keeps pointing to
+         existing relations:
+
          Input:  person_index.xml
          Output: person_index.xml with the exploratory listRelation deduplicated
+
+         Input:  annotated_text.xml (person_index.xml is loaded via doc())
+         Output: annotated_text.xml in which every @ana reference to a suppressed relation
+                 is redirected to the general relation that subsumes it
+                 (e.g. "mon second fils": REL32 sonOf → REL5 childOf)
     -->
 
     <xsl:output indent="yes"/>
@@ -51,6 +60,26 @@
     </xsl:variable>
 
 
+    <!-- Person index (needed when the stylesheet is applied to annotated_text.xml) -->
+    <xsl:variable name="person_index" select="doc('../person_index.xml')"/>
+
+
+    <!-- Returns the general relation that subsumes $rel, or nothing if $rel is kept -->
+    <xsl:function name="f:general-counterpart" as="element(t:relation)?">
+        <xsl:param name="rel" as="element(t:relation)"/>
+        <xsl:variable name="general_name" as="xs:string?"
+            select="$hierarchy/entry[@specific = $rel/@name]/@general"/>
+        <xsl:sequence select="
+            if (empty($general_name)) then ()
+            else $rel/../t:relation[
+                @active  = $rel/@active  and
+                @passive = $rel/@passive and
+                @xml:id  != $rel/@xml:id and
+                @name    = $general_name
+            ][1]"/>
+    </xsl:function>
+
+
     <!-- Identity transform: copy all nodes unchanged -->
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -59,7 +88,7 @@
     </xsl:template>
 
 
-    <!-- Exploratory listRelation: apply deduplication logic to its children -->
+    <!-- PERSON INDEX: exploratory listRelation, apply deduplication logic to its children -->
     <xsl:template match="t:listRelation[@subtype='exploratory']">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
@@ -78,25 +107,12 @@
 
     <!-- Core deduplication rule for each <relation> -->
     <xsl:template match="t:relation" mode="deduplicate">
-        <xsl:variable name="current" select="."/>
-
-        <!-- Look up the general (parent) name for this relation's @name -->
-        <xsl:variable name="general_name" as="xs:string?"
-            select="$hierarchy/entry[@specific = $current/@name]/@general"/>
-
-        <!-- Is there a relation with that general name for the same active–passive pair? -->
-        <xsl:variable name="general_counterpart"
-            select="../t:relation[
-                @active  = $current/@active  and
-                @passive = $current/@passive and
-                @xml:id  != $current/@xml:id and
-                @name    = $general_name
-            ][1]"/>
+        <xsl:variable name="general_counterpart" select="f:general-counterpart(.)"/>
 
         <xsl:choose>
 
             <!-- Suppress: the general label covers this specific one for the same pair -->
-            <xsl:when test="$general_name and $general_counterpart">
+            <xsl:when test="$general_counterpart">
                 <xsl:comment>
                     <xsl:value-of select="concat(
                         ' ', @xml:id, ' (', @name, ') suppressed:',
@@ -116,6 +132,25 @@
             </xsl:otherwise>
 
         </xsl:choose>
+    </xsl:template>
+
+
+    <!-- ANNOTATED TEXT: redirect references to suppressed relations to their general relation.
+         Duplicates are removed if a <seg> already points to the general relation as well. -->
+    <xsl:template match="t:seg[@type='relationship_mention']/@ana">
+        <xsl:variable name="tokens" as="xs:string*">
+            <xsl:for-each select="tokenize(normalize-space(.), '\s+')">
+                <xsl:variable name="token" select="."/>
+                <xsl:variable name="rel"
+                    select="$person_index//t:listRelation[@subtype='exploratory']/t:relation[@xml:id = substring-after($token, '#')]"/>
+                <xsl:variable name="general" select="if ($rel) then f:general-counterpart($rel) else ()"/>
+                <xsl:sequence select="
+                    if ($general)
+                    then concat(substring-before($token, '#'), '#', $general/@xml:id)
+                    else $token"/>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:attribute name="ana" select="string-join(distinct-values($tokens), ' ')"/>
     </xsl:template>
 
 </xsl:stylesheet>

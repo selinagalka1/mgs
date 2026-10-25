@@ -71,10 +71,10 @@ Creates one `<annotation motivation="linking">` per relation in the exploratory 
 Embeds one direct RDF triple per relation as an `rdf:Description` inside `<xenoData>`, using the same predicate resolution as `tei_to_RDF.xsl`. Each assertion is linked to its textual mentions via `mgs:relationshipMention`.
 
 ### `normalize_relations.xsl`
-**Input:** `person_index.xml`
-**Output:** `person_index.xml` with the exploratory listRelation deduplicated
+**Input 1:** `person_index.xml` → **Output:** `person_index.xml` with the exploratory listRelation deduplicated
+**Input 2:** `annotated_text.xml` (loads `../person_index.xml`) → **Output:** `annotated_text.xml` with redirected references
 
-Removes redundant entries where both a specific label (e.g. `daughterOf`) and a general label (e.g. `childOf`) exist for the same `@active`–`@passive` pair. Suppressed entries are replaced by XML comments.
+Removes redundant entries where both a specific label (e.g. `daughterOf`) and a general label (e.g. `childOf`) exist for the same `@active`–`@passive` pair (93 → 84 relations). Suppressed entries are replaced by XML comments. Apply the stylesheet to both files: in the annotated text, every `@ana` reference to a suppressed relation is redirected to the general relation that subsumes it (e.g. *mon second fils*: `REL32` *sonOf* → `REL5` *childOf*), so that no text passage points to a removed relation.
 
 ---
 
