@@ -181,7 +181,7 @@
                     <xsl:variable name="bVal" select="ex:date-value($b)"/>
                     <xsl:if test="$bVal">
                         <xsl:choose>
-                            <xsl:when test="matches($bVal, '^[0-9]{4}$')">
+                            <xsl:when test="matches($bVal, '^-?[0-9]{4}$')">
                                 <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
                                     <xsl:value-of select="$bVal"/>
                                 </schema:birthDate>
@@ -199,7 +199,7 @@
                     <xsl:variable name="dVal" select="ex:date-value($d)"/>
                     <xsl:if test="$dVal">
                         <xsl:choose>
-                            <xsl:when test="matches($dVal, '^[0-9]{4}$')">
+                            <xsl:when test="matches($dVal, '^-?[0-9]{4}$')">
                                 <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
                                     <xsl:value-of select="$dVal"/>
                                 </schema:deathDate>
