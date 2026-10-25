@@ -7,9 +7,9 @@ Accompanying data and materials for the paper:
 > **Note on the data:** The TEI and RDF files in this repository are **exploratory sample data**, not the authoritative edition data. They are based on a manual annotation of a sample of 100 paragraphs distributed across the text, conducted to explore the range of family relationships mentioned in the memoirs. Encoding of person relationships across the full text is planned for a later phase of the project.
 >
 > The authoritative digital edition is published in GAMS and should be cited as:
-> Digitale Edition der Memoiren der Gräfin Schwerin (1684–1732). Hrsg. von Selina Galka, Ines Peper, Michael Pölzl, Chiara Petrolini, Georg Vogeler und Joëlle Weiss, unter Mitarbeit von Sabine Amon. Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (ÖAW) / Institut für Digitale Geisteswissenschaften (Universität Graz), 2026. GAMS – Geisteswissenschaftliches Asset Management System. TODO: ADD URL. Zuletzt geändert: März 2026.
+> Digitale Edition der Memoiren der Gräfin Schwerin (1684–1732). Hrsg. von Selina Galka, Ines Peper, Michael Pölzl, Chiara Petrolini, Georg Vogeler und Joëlle Weis, unter Mitarbeit von Sabine Amon. Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (ÖAW) / Institut für Digitale Geisteswissenschaften (Universität Graz), 2026. GAMS – Geisteswissenschaftliches Asset Management System. https://gams.uni-graz.at/context:mgs. Zuletzt geändert: März 2026.
 
-This repository provides the sample TEI/XML data, XSLT stylesheets, a project ontology, and a relationship visualization illustrating the modeling approach described in the paper.
+This repository provides the sample TEI/XML data, XSLT stylesheets, and a relationship visualization illustrating the modeling approach described in the paper.
 
 ---
 
@@ -39,7 +39,7 @@ The normalized TEI P5 text of the memoirs with annotated relationship mentions. 
 The TEI person register and relationship index. It contains:
 - `<listPerson>` — all persons mentioned in the memoirs, with biographical metadata (name, birth/death dates, gender, religious denomination, authority identifiers such as GND). The data has been collected by Ines Peper and Michael Pölzl.
 - `<listRelation>` — 26 project relationship assertions (primarily *sister-in-law* and *female cousin*), encoding the relationship type in `@name` and linking to the ontology via `@ana`
-- `<listRelation subtype="exploratory">` — ~80 relationship assertions from the exploratory annotation of the 100-paragraph sample, covering 18 relationship types; this is the primary dataset in this repository
+- `<listRelation subtype="exploratory">` — 93 relationship assertions (84 distinct after normalization) from the exploratory annotation of the 100-paragraph sample, covering 18 relationship types; this is the primary dataset in this repository
 
 In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to AgRelOn properties (e.g. `agrelon:hasParent`, `agrelon:hasNieceNephew`, `agrelon:hasSiblingInlaw`). All kinship relation types are covered by AgRelOn; the `mgs:` namespace is used only for person metadata properties (certainty, biographical notes, text links).
 
@@ -61,7 +61,7 @@ Transforms all persons in `<listPerson>` into RDF resources typed as `schema:Per
 **Secondary input:** `person_index.xml` (referenced as `../person_index.xml`)
 **Output:** TEI with an appended `<standOff><listAnnotation>` block
 
-Creates one `<annotation motivation="linking">` per relation in the exploratory listRelation. Each annotation contains a human-readable relation description, pointers to the relation URI and all referencing text segments, and a resolved full ontology URI in `@ana`.
+Creates one `<annotation motivation="linking">` per relation in the exploratory listRelation. Each annotation points to the relation via `@target`, contains `<ptr>` elements pointing to all referencing text segments, and carries `@cert` if present, together with responsibility (`<respStmt>`), creation date (`<revisionDesc>`) and licence information.
 
 ### `tei_to_xenodata.xsl`
 **Primary input:** `annotated_text.xml`
@@ -82,7 +82,7 @@ Removes redundant entries where both a specific label (e.g. `daughterOf`) and a 
 
 | Prefix | Namespace | Used for |
 |--------|-----------|----------|
-| `mgs:` | `https://gams.uni-graz.at/o:mgs.ontology#` | Project-specific relations and person properties |
+| `mgs:` | `https://gams.uni-graz.at/o:mgs.ontology#` | Project-specific properties (person metadata, `mgs:relationshipMention`, `mgs:cert`) |
 | `agrelon:` | `https://d-nb.info/standards/elementset/agrelon#` | Core kinship relations (AgRelOn, Deutsche Nationalbibliothek) |
 | `schema:` | `https://schema.org/` | Person metadata (name, birth/death, gender, identifiers) |
 

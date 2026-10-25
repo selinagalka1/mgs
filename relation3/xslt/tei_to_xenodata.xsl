@@ -16,8 +16,7 @@
 
     For each relation in the exploratory <listRelation subtype="exploratory">, one direct RDF
     triple is generated linking the active person to the passive person. The RDF predicate is
-    derived from the @ana attribute of <relation> using AgRelOn (agrelon:) properties where
-    available, and project-specific (mgs:) properties for relation types not covered by AgRelOn.
+    derived from the @ana attribute of <relation> using AgRelOn (agrelon:) properties.
 
     Each relationship assertion is additionally linked to all text segments mentioning it via
     the project-specific property mgs:relationshipMention, ensuring traceability between the
@@ -36,7 +35,7 @@
     <xsl:variable name="text_base_uri" select="'https://gams.uni-graz.at/o:mgs.normalizedText#'"/>
 
     <!-- Base URI for relations in the person index -->
-    <xsl:variable name="persons_base_uri" select="'http://gams.uni-graz.at/o:mgs.persons#'"/>
+    <xsl:variable name="persons_base_uri" select="'https://gams.uni-graz.at/o:mgs.persons#'"/>
 
 
     <!-- Identity transform: copy all nodes unchanged -->

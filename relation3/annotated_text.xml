@@ -143,7 +143,7 @@
                monde, que ma curiosité m’a portée en premier lieu d’en rassembler le cours, et <app>
                   <rdg wit="#A">deuxièmement</rdg>
                   <rdg wit="#W">secondement</rdg>
-               </app> pour qu’un jour <seg xml:id="RM_R5_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes chers enfants <note type="persons">
+               </app> pour qu’un jour <seg xml:id="RM_R5_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes chers enfants <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -201,17 +201,17 @@
                </app>. <note type="marginalia_W">NB: les suites malheureuses d'une éducation peu
                   chrétienne.</note></p>
             <p xml:id="P.11">
-               <seg xml:id="RM_R11_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">Ma
+               <seg xml:id="RM_R11_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">Ma
                      belle-mère</persName></seg> avait des vues particulières sur moi, ainsi elle
                fut la première qui me voulut donner quelque teinture du monde. Elle proposait
-               souvent à <seg xml:id="RM_R11_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon
+               souvent à <seg xml:id="RM_R11_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon
                      père</persName></seg> de me reprendre chez lui ; mais il n’osa jamais le lui
                accorder de peur de passer pour ingrat dans l’esprit de mes bienfaiteurs. <app>
                   <rdg wit="#A">Ayant tout le raffinement d’esprit du monde,</rdg>
                </app> elle inventa <app>
                   <rdg wit="#W">donc, ayant tout le rafinements d'<anchor corresp="#facs_13" xml:id="normalized_facs_13"/>esprit du monde,</rdg>
                </app> tous les moyens propres pour venir à son but. Je n’avais que huit ans alors et
-               j’étais déjà sensible à la louange et très curieuse. <seg xml:id="RM_R11_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">Ma belle-mère</persName></seg>
+               j’étais déjà sensible à la louange et très curieuse. <seg xml:id="RM_R11_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">Ma belle-mère</persName></seg>
                avait trop <app>
                   <rdg wit="#A">d’esprit</rdg>
                   <rdg wit="#W">de pénétration</rdg>
@@ -219,7 +219,7 @@
                   <rdg wit="#A">cœur</rdg>
                   <rdg wit="#W">esprit</rdg>
                </app> comme le mien, elle me flattait, m’applaudissait toujours. Un jour qu’elle et
-                  <seg xml:id="RM_R11_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL8" type="relationship_mention"><persName ref="#P157">sa sœur<certainty locus="value">
+                  <seg xml:id="RM_R11_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL8" type="relationship_mention"><persName ref="#P157">sa sœur<certainty locus="value">
                      <desc>unsichere Identifizierunge Identifizierung</desc>
                   </certainty>
                </persName></seg> qui l’avait accompagnée étaient seules, et qu’elle m’avait amusée à des
@@ -228,7 +228,7 @@
                et de savoir toutes les nouveautés, et elle s’aperçut d’abord que quoiqu’elle et sa
                sœur s’étaient éloignées, que la distance n’était pas assez grande pour que
                j’entendisse leurs discours. Elle avait raison car la campagne où on m’élevait me
-               paraissait déjà ennuyeuse (suite pernicieuse d’une éducation oisive). Enfin <seg xml:id="RM_R11_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
+               paraissait déjà ennuyeuse (suite pernicieuse d’une éducation oisive). Enfin <seg xml:id="RM_R11_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
                      belle-mère</persName></seg> débuta par me louer <app>
                   <rdg wit="#A">et</rdg>
                </app> ensuite <app>
@@ -263,19 +263,19 @@
                   </note>
                </persName> d’un âge si avancé, qui ne peuvent lui donner une éducation convenable
                pour paraître à la Cour. » Ce mot de Cour frappa d’abord mon faible esprit et
-               redoubla mon attention. <seg xml:id="RM_R11_12" ana="http://gams.uni-graz.at/o:mgs.persons#REL8" type="relationship_mention"><persName ref="#P157">Sa sœur<certainty locus="value">
+               redoubla mon attention. <seg xml:id="RM_R11_12" ana="https://gams.uni-graz.at/o:mgs.persons#REL8" type="relationship_mention"><persName ref="#P157">Sa sœur<certainty locus="value">
                      <desc>unsichere Identifizierunge Identifizierung</desc>
                   </certainty>
                </persName></seg> lui répondit : « Quoi, vous voulez la mettre à la Cour ? » « Non, dit
-                  <seg xml:id="RM_R11_9" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
+                  <seg xml:id="RM_R11_9" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
                      belle-mère</persName></seg>, j’en suis fort éloignée, je voudrais la <anchor corresp="#facs_14" xml:id="normalized_facs_14"/>marier. » L’autre se mit à rire,
                avec beaucoup de raison et répliqua : « Quoi, à son âge vous songez à l’établir ? »
-               « Oui » répliqua <seg xml:id="RM_R11_10" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg> (et voilà la première fois que la
-               bonté de mon cœur me séduit), « je voudrais la voir heureuse en lui donnant <seg xml:id="RM_R11_11" ana="http://gams.uni-graz.at/o:mgs.persons#REL9" type="relationship_mention"><persName ref="#P162">mon
+               « Oui » répliqua <seg xml:id="RM_R11_10" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg> (et voilà la première fois que la
+               bonté de mon cœur me séduit), « je voudrais la voir heureuse en lui donnant <seg xml:id="RM_R11_11" ana="https://gams.uni-graz.at/o:mgs.persons#REL9" type="relationship_mention"><persName ref="#P162">mon
                      frère</persName></seg>», à quoi sa sœur applaudit.</p>
             <p xml:id="P.18">
                <persName ref="#P7">La dame</persName> avec qui j’étais s’en retourna chez elle, et
-               peu de jours après <seg xml:id="RM_R18_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg> arriva avec <seg xml:id="RM_R18_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL10" type="relationship_mention"><persName ref="#P169">monsieur son père</persName></seg>
+               peu de jours après <seg xml:id="RM_R18_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg> arriva avec <seg xml:id="RM_R18_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL10" type="relationship_mention"><persName ref="#P169">monsieur son père</persName></seg>
                et le <persName ref="#P162">comte de Schwerin</persName>. J’eus une joie extrême de
                les voir, et quoique leur vue <app>
                   <rdg wit="#A">me</rdg>
@@ -284,7 +284,7 @@
                   <rdg wit="#A">venir</rdg>
                   <rdg wit="#W">revenir</rdg>
                </app> en poste le <persName ref="#P162">comte de Schwerin</persName> pour épouser
-                  <seg xml:id="RM_R18_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL12" type="relationship_mention">
+                  <seg xml:id="RM_R18_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL12" type="relationship_mention">
                   <persName ref="#P408">une fille</persName> d’un <persName ref="#P626">premier
                      ministre de la Cour</persName></seg>, mais <persName ref="#P409">un homme d’un
                   plus grand caractère</persName><note type="editorial">Caractère bedeutet ici
@@ -297,12 +297,12 @@
                réflexion et mon âge ne le permettait même pas. Le <persName ref="#P162">comte de
                   Schwerin</persName> prit pour manque d’éducation l’embarras où j’étais. J’étais
                dès lors entêtée de mon prétendu mérite, que peu s’en fallut <anchor corresp="#facs_20" xml:id="normalized_facs_20"/>que je ne m’en offensasse jusqu’à
-               rompre tous les desseins de <seg xml:id="RM_R18_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg> ; mais elle fut trop
+               rompre tous les desseins de <seg xml:id="RM_R18_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg> ; mais elle fut trop
                adroite pour ne pas couvrir <app>
                   <rdg wit="#A">le</rdg>
                   <rdg wit="#W">l'air de</rdg>
-               </app> mépris de <seg xml:id="RM_R18_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL9" type="relationship_mention"><persName ref="#P162">son frère</persName></seg> et mon embarras. Il eut assez de complaisance pour
-                  <seg xml:id="RM_R18_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL11" type="relationship_mention"><persName ref="#P82">sa
+               </app> mépris de <seg xml:id="RM_R18_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL9" type="relationship_mention"><persName ref="#P162">son frère</persName></seg> et mon embarras. Il eut assez de complaisance pour
+                  <seg xml:id="RM_R18_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL11" type="relationship_mention"><persName ref="#P82">sa
                      sœur</persName></seg> pour condescendre à ce qu’elle voulut et il commença à me
                parler. Mais n’ayant en tête que la perte qu’il venait de faire, il ne sut quelle
                conversation tenir avec une fille qui lui paraissait aussi innocente que mal élevée,
@@ -315,8 +315,8 @@
                   auch unklar, ob "c." für einen Adels- oder Amtstitel steht. Zeitlich lässt sich
                   diese Episode auf zwischen 1697 und 1700 eingrenzen.</note>
                <anchor corresp="#facs_26" xml:id="normalized_facs_26"/>vint où j’étais et me demanda
-               pour <seg xml:id="RM_R24_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL13" type="relationship_mention"><persName ref="#P414">son
-                     fils</persName></seg>. Il l’avait emmené avec toute sa famille. <seg xml:id="RM_R24_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL14" type="relationship_mention"><persName ref="#P682">Ses
+               pour <seg xml:id="RM_R24_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL13" type="relationship_mention"><persName ref="#P414">son
+                     fils</persName></seg>. Il l’avait emmené avec toute sa famille. <seg xml:id="RM_R24_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL14" type="relationship_mention"><persName ref="#P682">Ses
                      filles</persName></seg> qui étaient les dames du monde les plus aimables <app>
                   <rdg wit="#W">et les plus accomplies</rdg>
                </app> me firent mille caresses et m’engagèrent à me lier d’amitié avec elles.
@@ -326,15 +326,15 @@
                si cela pouvait plaire ou désobliger. Je ne pouvais même me figurer qu’il y eut du
                mal, croyant toujours qu’il fallait fuir le mensonge <app>
                   <rdg wit="#W">et la fausseté</rdg>
-               </app>. Mon âge fit excuser mon impolie sincérité, et <seg xml:id="RM_R24_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma tante</persName></seg> eut soin de
+               </app>. Mon âge fit excuser mon impolie sincérité, et <seg xml:id="RM_R24_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma tante</persName></seg> eut soin de
                cacher mes défauts. Toute cette illustre famille s’empressait de m’attirer, et on
-               pria <seg xml:id="RM_R24_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma
+               pria <seg xml:id="RM_R24_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma
                      tante</persName></seg> de me permettre d’aller avec eux à La <app>
                   <rdg wit="#A">
                      <placeName ref="#O57">Haye</placeName>
                   </rdg>
-               </app>. Elle le fit de grand cœur, espérant que par là j’oublierai <seg xml:id="RM_R24_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
-                     belle-mère</persName></seg>, ou plutôt le <seg xml:id="RM_R24_7" ana="http://gams.uni-graz.at/o:mgs.persons#REL92" type="relationship_mention"><persName ref="#P162">comte de
+               </app>. Elle le fit de grand cœur, espérant que par là j’oublierai <seg xml:id="RM_R24_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
+                     belle-mère</persName></seg>, ou plutôt le <seg xml:id="RM_R24_7" ana="https://gams.uni-graz.at/o:mgs.persons#REL92" type="relationship_mention"><persName ref="#P162">comte de
                Schwerin</persName></seg>, mais j’avais une si haute idée de la fermeté et de la
                constance, que je vantais ces vertus par-dessus toutes les autres. Tous ceux avec qui
                j’étais étaient étonnés de voir un pareil sentiment dans une fille de mon âge. <persName ref="#P413">Le c. de
@@ -342,10 +342,10 @@
                le crédit que par ses vertus, fut fort surpris de me voir tant de résolutions, et je
                m’attirai son amitié et son estime par là que j’aurais dû la perdre. Il ordonna que
                je devais être traitée chez lui comme une personne qui devait tenir le premier rang
-               dans cette famille, n’ayant que <seg xml:id="RM_R24_9" ana="http://gams.uni-graz.at/o:mgs.persons#REL13" type="relationship_mention"><persName ref="#P414">ce fils</persName></seg>. J’avais assez de réflexion pour
+               dans cette famille, n’ayant que <seg xml:id="RM_R24_9" ana="https://gams.uni-graz.at/o:mgs.persons#REL13" type="relationship_mention"><persName ref="#P414">ce fils</persName></seg>. J’avais assez de réflexion pour
                m’apercevoir qu’on n’agissait pas pour mon mérite, mais pour obtenir son but. Je
                payais d’honnêteté, et j’étais fort soumise au<persName ref="#P413">c. de S.</persName>, <app>
-                  <rdg wit="#A">sans vouloir jamais entrer en aucun entretien avec <seg xml:id="RM_R24_11" ana="http://gams.uni-graz.at/o:mgs.persons#REL13" type="relationship_mention"><persName ref="#P414">son
+                  <rdg wit="#A">sans vouloir jamais entrer en aucun entretien avec <seg xml:id="RM_R24_11" ana="https://gams.uni-graz.at/o:mgs.persons#REL13" type="relationship_mention"><persName ref="#P414">son
                            fils</persName></seg>, <app>
                         <rdg wit="#A">ni</rdg>
                      </app>
@@ -353,7 +353,7 @@
                </app> sans vouloir entendre parler d’engagement. Je restai dans cette illustre
                famille cinq mois entiers sans démordre de mes sentiments malgré toutes leurs
                caresses et les biens immenses que <persName ref="#P413">ce seigneur</persName> possédait, qui auraient pu
-               m’éblouir, joint à cela les belles qualités de <seg xml:id="RM_R24_13" ana="http://gams.uni-graz.at/o:mgs.persons#REL13" type="relationship_mention"><persName ref="#P414">son fils</persName></seg>. Mais ce
+               m’éblouir, joint à cela les belles qualités de <seg xml:id="RM_R24_13" ana="https://gams.uni-graz.at/o:mgs.persons#REL13" type="relationship_mention"><persName ref="#P414">son fils</persName></seg>. Mais ce
                n’est là qu’un faible échantillon de la fermeté de mes sentiments pour le <anchor corresp="#facs_30" xml:id="normalized_facs_30"/>
               <persName ref="#P162">comte de
                      Schwerin</persName> et je ne l’ai cité que pour marquer que dans un âge
@@ -368,11 +368,11 @@
                </app> On me mena d’abord chez la <persName ref="#P158">comtesse de Schwerin sa
                   mère</persName>, qui <app>
                   <rdg wit="#W">était au lit déjà alors depuis 15 ans. Elle</rdg>
-               </app> me reçut très gracieusement, m’appelant sa petite fille par rapport à <seg xml:id="RM_R32_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
-                     belle-mère</persName></seg>. <seg xml:id="RM_R32_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL16" type="relationship_mention"><persName ref="#P169">Monsieur son époux</persName></seg> fit de même, et ce
+               </app> me reçut très gracieusement, m’appelant sa petite fille par rapport à <seg xml:id="RM_R32_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
+                     belle-mère</persName></seg>. <seg xml:id="RM_R32_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL16" type="relationship_mention"><persName ref="#P169">Monsieur son époux</persName></seg> fit de même, et ce
                nom me demeura. Le <persName ref="#P162">comte de Schwerin</persName> était avec le
                   <persName ref="#P17">Prince Royal</persName> lorsque nous arrivâmes, et il ne vint
-               que fort tard. J’étais avec <seg xml:id="RM_R32_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg>. Il fut fort surpris de me
+               que fort tard. J’étais avec <seg xml:id="RM_R32_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg>. Il fut fort surpris de me
                voir puisque j’étais extrêmement grandie, ainsi il me méconnut. J’en sentis une
                secrète joie, espérant qu’il me trouverait plus <app>
                   <rdg wit="#W">de</rdg>
@@ -389,7 +389,7 @@
                sentiment sans façon. Élevée comme j’étais avec tant de douceur et de complaisance,
                cela me semblait fort rude, surtout là où tout le monde disait qu’on me destinait au
                   <persName ref="#P162">comte de Schwerin</persName>. Il fut le premier à le
-               remarquer et en parla à <seg xml:id="RM_R32_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg>, et cela fut le premier pas qu’il fit
+               remarquer et en parla à <seg xml:id="RM_R32_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg>, et cela fut le premier pas qu’il fit
                en ma faveur. Elle se réjouit de voir qu’il prenait parti dans mes petits chagrins.
                Elle lui répliqua que toutes ces <app>
                   <rdg wit="#W">petites</rdg>
@@ -411,10 +411,10 @@
                   <rdg wit="#W">tour à tour</rdg>
                </app>.</p>
             <p xml:id="P.38">Dès que nous fûmes à <placeName ref="#O103">Wesel</placeName>, on
-                  m’en<anchor corresp="#facs_51" xml:id="normalized_facs_51"/>voya chez <seg xml:id="RM_R38_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL17" type="relationship_mention"><persName ref="#P80">mon
-                  oncle</persName></seg> qui ne demeurait qu’à douze lieues de chez <seg xml:id="RM_R38_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma
-               tante</persName></seg>. <seg xml:id="RM_R38_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL18" type="relationship_mention"><persName ref="#P28">Madame sa femme</persName></seg> s’empressa de donner cette nouvelle
-               à <seg xml:id="RM_R38_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma
+                  m’en<anchor corresp="#facs_51" xml:id="normalized_facs_51"/>voya chez <seg xml:id="RM_R38_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL17" type="relationship_mention"><persName ref="#P80">mon
+                  oncle</persName></seg> qui ne demeurait qu’à douze lieues de chez <seg xml:id="RM_R38_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma
+               tante</persName></seg>. <seg xml:id="RM_R38_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL18" type="relationship_mention"><persName ref="#P28">Madame sa femme</persName></seg> s’empressa de donner cette nouvelle
+               à <seg xml:id="RM_R38_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma
                   tante</persName></seg> et lui donna rendez-vous à <placeName ref="#O142">Zutphen</placeName>, <app>
                   <rdg wit="#W">une ville</rdg>
                </app> proche de chez elle, où elle avait une maison. Elle s’y rendit d’abord et me
@@ -425,7 +425,7 @@
                hardiment que non, voilà les beaux fruits que j’ai recueillis des railleries <app>
                   <rdg wit="#W">qu’on avait fait</rdg>
                </app> de ma sincérité. Je ne mentais pas dans mon principe, croyant fortement que je
-               ne l’étais pas. <seg xml:id="RM_R38_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">Ma
+               ne l’étais pas. <seg xml:id="RM_R38_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">Ma
                      tante</persName></seg> m’épiait de près, et elle découvrit ma correspondance.
                Elle voulut voir si je la lui avouerais. Elle dit : « J’ai vu qu’on vous a porté des
                lettres de <placeName ref="#O6">Berlin</placeName>, sont-elles du <persName ref="#P162">comte de Schwerin</persName>
@@ -437,7 +437,7 @@
                rougissais d’abord, ce qui <app>
                   <rdg wit="#W">encore</rdg>
                </app> augmentait ma peine. Je m’avisai de faire aller mes lettres dans le couvert de
-                  <seg xml:id="RM_R38_8" ana="http://gams.uni-graz.at/o:mgs.persons#REL19" type="relationship_mention"><persName ref="#P79">mon frère
+                  <seg xml:id="RM_R38_8" ana="https://gams.uni-graz.at/o:mgs.persons#REL19" type="relationship_mention"><persName ref="#P79">mon frère
                      aîné</persName></seg>, qui eut la complaisance pour moi d’accepter cette
                commission. Ainsi elles firent un détour de vingt-quatre lieues et paraissaient venir
                d’endroits tout opposés que là où était le <persName ref="#P162">comte de
@@ -451,20 +451,20 @@
                      <rdg wit="#W">jeune</rdg>
                   </app>comte de Schwerin</persName> me fit sa déclaration dans tous les termes les
                plus polis. Jamais je ne fus plus surprise, et pour ne pas perdre la confiance d’un
-               futur beau-frère, je lui dis où j’en étais avec <seg xml:id="RM_R45_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL20" type="relationship_mention"><persName ref="#P162">son frère</persName></seg>. Il crut
+               futur beau-frère, je lui dis où j’en étais avec <seg xml:id="RM_R45_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL20" type="relationship_mention"><persName ref="#P162">son frère</persName></seg>. Il crut
                qu’il n’y avait rien de sûr, et se croyant le favori de la famille, il crut que sa
-               demande l’emporterait. Il me dit que <seg xml:id="RM_R45_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL20" type="relationship_mention"><persName ref="#P162">son frère</persName></seg> était un inconstant et que
+               demande l’emporterait. Il me dit que <seg xml:id="RM_R45_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL20" type="relationship_mention"><persName ref="#P162">son frère</persName></seg> était un inconstant et que
                j’en serai la dupe. Il m’en conta plusieurs exemples. J’écoutais son discours comme
-               un songe, quoiqu’après je fis de très sérieuses réflexions. Je lui dis que si <seg xml:id="RM_R45_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL20" type="relationship_mention"><persName ref="#P162">son
+               un songe, quoiqu’après je fis de très sérieuses réflexions. Je lui dis que si <seg xml:id="RM_R45_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL20" type="relationship_mention"><persName ref="#P162">son
                   frère</persName></seg> me manquait de parole, je m’engagerais à lui. Cela le
                contenta et il repartit d’abord. On fut charmé que son séjour avait si peu duré, mais
-               ce contentement dura très peu, puisque <seg xml:id="RM_R45_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon père</persName></seg> m’envoya son équipage pour me
-               chercher. On prit encore congé avec bien des larmes, et <seg xml:id="RM_R45_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma bonne tante</persName></seg> me
+               ce contentement dura très peu, puisque <seg xml:id="RM_R45_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon père</persName></seg> m’envoya son équipage pour me
+               chercher. On prit encore congé avec bien des larmes, et <seg xml:id="RM_R45_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma bonne tante</persName></seg> me
                prophétisait <anchor corresp="#facs_63" xml:id="normalized_facs_63"/>toujours mille
                maux ; mais elle m’accoutumait si fort à <app>
                   <rdg wit="#A">toutes</rdg>
                </app> ces répétitions que je ne les estimais plus.</p>
-            <p xml:id="P.51">Enfin <seg xml:id="RM_R51_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL21" type="relationship_mention"><persName ref="#P6">le beau-frère</persName></seg> de <seg xml:id="RM_R51_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma tante</persName></seg>, un homme de
+            <p xml:id="P.51">Enfin <seg xml:id="RM_R51_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL21" type="relationship_mention"><persName ref="#P6">le beau-frère</persName></seg> de <seg xml:id="RM_R51_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma tante</persName></seg>, un homme de
                mérite et d’une politesse achevée, la fit souvenir que ce n’était pas là le temps de
                faire ces déclarations, et qu’elle devait recevoir la visite. Elle le fit. Dès que le
                   <persName ref="#P162">comte de Schwerin</persName> entra, tous les yeux se
@@ -472,17 +472,17 @@
                fit rougir si extraordinairement que je ne savais où me mettre. <persName ref="#P425">L’hôte du logis</persName>, qui était fort obligeant et qui voulait se compter du
                parentage du <persName ref="#P162">comte de Schwerin</persName>, vint me retirer
                d’embarras et me rassura, en me faisant voir que c’était le premier feu, que cela se
-               radoucirait. Cela me remit, et après les premiers compliments de <seg xml:id="RM_R51_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma tante</persName></seg> avec le
+               radoucirait. Cela me remit, et après les premiers compliments de <seg xml:id="RM_R51_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma tante</persName></seg> avec le
                   <persName ref="#P162">comte de Schwerin</persName>, il s’approcha de nous et me
                demanda et à <persName ref="#P425">ce seigneur</persName> si nous étions du nombre <app>
                   <rdg wit="#W">de ceux</rdg>
                </app> que sa vue épouvantait, puisqu’il s’était aperçu de l’alarme générale.</p>
-            <p xml:id="P.59" ana="#T1 #S4 #S5">Le lendemain, <seg xml:id="RM_R59_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg>
+            <p xml:id="P.59" ana="#T1 #S4 #S5">Le lendemain, <seg xml:id="RM_R59_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma belle-mère</persName></seg>
                me fit venir et me dit que le jour des noces était fixé au lundi prochain <date type="month-year" when-iso="1704-12">1e décembre</date>. <anchor corresp="#facs_79" xml:id="normalized_facs_79"/>C’était le vendredi alors, et le
                dimanche les annonces se feraient à <placeName ref="#O172">la terre<certainty locus="value">
                      <desc>unsichere Identifizierunge Identifizierung</desc>
                   </certainty>
-               </placeName> de <seg xml:id="RM_R59_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon
+               </placeName> de <seg xml:id="RM_R59_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon
                      père</persName></seg>. Je lui expliquai que ce serait bien de mauvaise grâce de
                précipiter si fort une affaire qui avait duré tant d’années et que je n’avais point
                d’habit pour une telle fête. <app>
@@ -498,13 +498,13 @@
                   <rdg wit="#A">d'un air doux</rdg>
                </app> m’ont engagée à des choses qui m’ont été souvent très fatales.</p>
             <p xml:id="P.65">Le <persName ref="#P162">comte de Schwerin</persName> entra justement
-               et me voyant dans ce désordre, il fut fort déconcerté. Il demanda la raison à <seg xml:id="RM_R65_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
+               et me voyant dans ce désordre, il fut fort déconcerté. Il demanda la raison à <seg xml:id="RM_R65_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
                      belle-mère</persName></seg>, qui lui en dit le sujet. Il ne put se vaincre et
                dit assez haut : « N’ayant que cet habit de mettable, je crois qu’on pourrait lui
                laisser porter dans la situation où elle est. » On se rapaisa, et il vint me trouver.
                Je voulais me déshabiller, mais il m’en empêcha et <app>
                   <rdg wit="#A">me</rdg>
-               </app> dit qu’une autre fois, je ne devais pas me soucier des saillies de <seg xml:id="RM_R65_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL22" type="relationship_mention"><persName ref="#P169">monsieur son
+               </app> dit qu’une autre fois, je ne devais pas me soucier des saillies de <seg xml:id="RM_R65_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL22" type="relationship_mention"><persName ref="#P169">monsieur son
                      père</persName></seg>, que cela lui arrivait à tout moment, qu’on devait faire
                semblant de ne pas le comprendre. Je profitai très bien de cette première leçon à
                l’avenir, mais dans cette occasion j’espérai <anchor corresp="#facs_85" xml:id="normalized_facs_85"/>le vaincre par ma soumission. Je changeai donc
@@ -512,7 +512,7 @@
                chagrins. Se pouvait-il autrement, ô mon Dieu, je commençais à vous oublier et je ne
                pensais qu’à mon idole, à qui je sacrifiais toutes mes pensées, mon cœur et tous les
                moments de ma vie.</p>
-            <p xml:id="P.72" ana="#T1 #S2 #S9">En partant, <seg xml:id="RM_R72_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma chère tante</persName></seg> me
+            <p xml:id="P.72" ana="#T1 #S2 #S9">En partant, <seg xml:id="RM_R72_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma chère tante</persName></seg> me
                donna plusieurs beaux et <app>
                   <rdg wit="#A">bons</rdg>
                   <rdg wit="#W">salutaires</rdg>
@@ -539,7 +539,7 @@
             <p xml:id="P.78" ana="#T1 #S4">Mais j’en reviens à mon sujet. Le <persName ref="#P162">comte de Schwerin</persName>
                trouvait trop de naïveté dans ma conduite pour pouvoir garder ce divertissement seul
                pour <app>
-                  <rdg wit="#A">lui. Il en fit part à <seg xml:id="RM_R78__1" ana="http://gams.uni-graz.at/o:mgs.persons#REL23" type="relationship_mention"><persName ref="#P205">une de ses parentes</persName></seg> qui était à
+                  <rdg wit="#A">lui. Il en fit part à <seg xml:id="RM_R78__1" ana="https://gams.uni-graz.at/o:mgs.persons#REL23" type="relationship_mention"><persName ref="#P205">une de ses parentes</persName></seg> qui était à
                      la Cour, et que pour</rdg>
                </app> plusieurs intérêts propres, m’enviait <anchor corresp="#facs_98" xml:id="normalized_facs_98"/>mon bonheur. Elle voulait donner la fête de ma vue à
                   <persName ref="#P65">l’Electrice
@@ -582,9 +582,9 @@
                  <persName ref="#P22">l’Electrice</persName>, <app>
                   <rdg wit="#W">à présent reine d'Angleterre </rdg>
                </app>, mais qu’il me ferait dire l’heure.</p>
-            <p xml:id="P.86">Les premiers jours, <seg xml:id="RM_R86_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon beau-père</persName></seg> ne voulut me faire voir à
+            <p xml:id="P.86">Les premiers jours, <seg xml:id="RM_R86_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon beau-père</persName></seg> ne voulut me faire voir à
                personne. Dès ce que quelque <anchor corresp="#facs_108" xml:id="normalized_facs_108"/>visite venait, on me congédiait. <app>
-                  <rdg wit="#W">Il n’y avait que chez <seg xml:id="RM_R86_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL25" type="relationship_mention">ma belle-sœur, <persName ref="#P155">madame
+                  <rdg wit="#W">Il n’y avait que chez <seg xml:id="RM_R86_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL25" type="relationship_mention">ma belle-sœur, <persName ref="#P155">madame
                            de C.</persName></seg>, où j’osais aller, et encore devait-elle être
                      seule.</rdg>
                </app> Je trouvais cette conduite <app>
@@ -593,17 +593,17 @@
                que d’en cacher ma surprise près d’un mois, mais ce qui m’était insupportable,
                c’était qu’à table il y avait <app>
                   <rdg wit="#W">toujours</rdg>
-               </app> ou quelque ministre ou quelque savant ; <seg xml:id="RM_R86_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
+               </app> ou quelque ministre ou quelque savant ; <seg xml:id="RM_R86_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
                   beau-père</persName></seg> aimait à raisonner avec eux sur toutes sortes de sujets
                au-dessus de ma portée, et j’étais au désespoir de me voir si idiote que je ne
-               pouvais pas me mêler de la conversation. Je n’osais parler bas avec <seg xml:id="RM_R86_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL26" type="relationship_mention"><persName ref="#P170">ma
+               pouvais pas me mêler de la conversation. Je n’osais parler bas avec <seg xml:id="RM_R86_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL26" type="relationship_mention"><persName ref="#P170">ma
                      belle-sœur</persName></seg> qui était dans la maison <app>
                   <rdg wit="#W">et que je nommerai la <persName ref="#P170">comtesse
                         Ottonette</persName>., ni avec mon amie, la <persName ref="#P399">frêle de
                            Sonsfeld<certainty locus="value">
                            <desc>Vermutung auf Grund des Alters</desc>
                         </certainty>
-                     </persName>, par respect pour <seg xml:id="RM_R86_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
+                     </persName>, par respect pour <seg xml:id="RM_R86_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
                            beau-père</persName></seg>
                   </rdg>
                </app>. Ainsi nous sortions plus souvent de table sans dire mot. Si j’eusse alors
@@ -619,7 +619,7 @@
                   <rdg wit="#W">Pendant que j’étais dans ces mortelles frayeurs, mon</rdg>
                   <rdg wit="#A">Mon</rdg>
                </app>
-               <seg xml:id="RM_R92_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">beau-père</persName></seg> me dit qu’il avait prié <persName ref="#P20 #P18 #P786">deux margraves <note type="persons">
+               <seg xml:id="RM_R92_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">beau-père</persName></seg> me dit qu’il avait prié <persName ref="#P20 #P18 #P786">deux margraves <note type="persons">
                      <listPerson>
                         <person corresp="#P20">
                            <name>
@@ -678,7 +678,7 @@
                      </persName> et la <persName ref="#P208">frêle de Wylich-Lottum</persName>
                      étaient avec lui. <note type="editorial">Textverlust</note>
                   </rdg>
-               </app> à le faire revenir de ses évanouissements. Lorsque <seg xml:id="RM_R92_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
+               </app> à le faire revenir de ses évanouissements. Lorsque <seg xml:id="RM_R92_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
                   beau-père</persName></seg> vint m’appeler pour le dîner, je croyais qu’il me
                menait au supplice, et je laisse à juger de ma contenance à ce repas qui d’ailleurs
                était superbe et de quatorze couverts. Tout le monde s’empressait de me distraire, et
@@ -686,7 +686,7 @@
                avec mes plus grands ennemis. J’envoyais à tout moment <app>
                   <rdg wit="#A">savoir</rdg>
                   <rdg wit="#W">demander</rdg>
-               </app> des nouvelles du <persName ref="#P162">comte de Schwerin</persName>, et <seg xml:id="RM_R92_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
+               </app> des nouvelles du <persName ref="#P162">comte de Schwerin</persName>, et <seg xml:id="RM_R92_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
                      beau-père</persName></seg> s’en aperçut. Il me railla beaucoup pour surcroît de
                mon infortune. Il en demanda même pardon aux <persName ref="#P18 #P20">princes <note type="persons">
                         <listPerson>
@@ -707,7 +707,7 @@
                         </listPerson>
                      </note>
                   </persName>, excusant sur ma jeunesse l’empressement que j’avais. Cela me
-               dépita si fort que je pensai éclater. Mais un événement qui arriva fit changer <seg xml:id="RM_R92_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
+               dépita si fort que je pensai éclater. Mais un événement qui arriva fit changer <seg xml:id="RM_R92_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL24" type="relationship_mention"><persName ref="#P169">mon
                      beau-père</persName></seg> de ton. On le vint avertir que le <persName ref="#P162">comte de Schwerin</persName> ne donnait presque plus de marques de vie
                et que ses évanouissements ne le quittaient plus. Il s’émut un peu et retomba tout
                d’un coup <anchor corresp="#facs_122" xml:id="normalized_facs_122"/>dans un grand
@@ -762,7 +762,7 @@
                alors très bien avec le <persName ref="#P162">comte de Schwerin</persName>. J’étais
                charmée, j’étais de tous les festins, <app>
                   <rdg wit="#A">fêtes, etc,</rdg>
-               </app> où <seg xml:id="RM_R105_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
+               </app> où <seg xml:id="RM_R105_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL6" type="relationship_mention"><persName ref="#P82">ma
                      belle-mère</persName></seg> allaient. Chacun me donnait des instructions comme
                je devais me conduire dans le monde, parmi lesquelles il y en avait de fort
                pernicieuses. Le <persName ref="#P162">comte de Schwerin</persName> ne m’en donnait
@@ -849,12 +849,12 @@
                   <placeName ref="#O4">leurs terres</placeName>, et le &gt;<persName ref="#P162">comte de Schwerin</persName>
                demanda avec insistance que nous devions loger dans les chambres où j’avais toujours
                été. Quelle fut ma joie de revoir mon cabinet ! Dès que j’y entrai, je répandis
-               quantité de larmes, de même que dans les chambres de <seg xml:id="RM_R119_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma chère tante</persName></seg>. Non, je
+               quantité de larmes, de même que dans les chambres de <seg xml:id="RM_R119_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL15" type="relationship_mention"><persName ref="#P5">ma chère tante</persName></seg>. Non, je
                ne puis exprimer tous les sentiments de ce temps-là. <app>
                   <rdg wit="#W">Tantôt je riais, j’étais charmée, tantôt je pleurais et demandais
                      mille pardons à la défunte de lui avoir donné tant de chagrin.</rdg>
-               </app> On nous donna toutes sortes <anchor corresp="#facs_158" xml:id="normalized_facs_158"/>de plaisirs. <seg xml:id="RM_R119_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL17" type="relationship_mention"><persName ref="#P80">Mon oncle</persName></seg> nous avait
-               permis d’emmener <seg xml:id="RM_R119_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL27" type="relationship_mention"><persName ref="#P422">ma cousine</persName></seg>, ainsi mon contentement <app>
+               </app> On nous donna toutes sortes <anchor corresp="#facs_158" xml:id="normalized_facs_158"/>de plaisirs. <seg xml:id="RM_R119_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL17" type="relationship_mention"><persName ref="#P80">Mon oncle</persName></seg> nous avait
+               permis d’emmener <seg xml:id="RM_R119_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL27" type="relationship_mention"><persName ref="#P422">ma cousine</persName></seg>, ainsi mon contentement <app>
                   <rdg wit="#A">était</rdg>
                   <rdg wit="#W">semblait être</rdg>
                </app> accompli. Vous ne le vouliez point, mon Dieu, vous vouliez que ma vie fût un
@@ -862,7 +862,7 @@
                étourderie extrême, ne m’arrêtant qu’à ce qui me frappait l’imagination avec une
                vivacité inexprimable.</p>
             <p xml:id="P.126" ana="#T1 #S5 #S10" corresp="/o:mgs.timeline#T31">
-               <seg xml:id="RM_R126_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL28" type="relationship_mention"><persName ref="#P173">Mon
+               <seg xml:id="RM_R126_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL28" type="relationship_mention"><persName ref="#P173">Mon
                      beau-frère</persName></seg> était de retour à <placeName ref="#O6">Berlin</placeName> , son mariage avait échoué en <placeName ref="#O49">Hollande</placeName>. Il se moquait ouvertement de ma prétendue stérilité, ce qui
                m’était extrêmement sensible. Enfin, tous ces démêlés durèrent jusqu’au mois d’<date type="month-year" when-iso="1708-08">août de 1708</date>
                <note type="editorial">Die Jahreszahl ist in Ms A fälschlich von 1708 auf 1709
@@ -938,7 +938,7 @@
                            </person>
                         </listPerson>
                      </note>
-                  </persName> qui était encore avec moi était à la Cour chez <seg xml:id="RM_R132_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL29 http://gams.uni-graz.at/o:mgs.persons#REL30" type="relationship_mention"><persName ref="#P205">sa
+                  </persName> qui était encore avec moi était à la Cour chez <seg xml:id="RM_R132_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL29 https://gams.uni-graz.at/o:mgs.persons#REL30" type="relationship_mention"><persName ref="#P205">sa
                   sœur</persName></seg>, ce qui me mettait dans un embarras que je ne savais que
                dire, et il semblait que je devenais stupide. Le <persName ref="#P162">comte de
                   Schwerin</persName> le retrouvait encore <app>
@@ -971,7 +971,7 @@
                j’écris et que le <persName ref="#P162">comte de Schwerin</persName> serait capable de l’humeur dont il est. <app>
                   <rdg wit="#W">De le dire encore, alors ces discours, je le puis dire avec vérité,
                      ne me faisaient point d’impression, mais je les haïssais, parce qu’ils étaient
-                     contraires à mon amitié. Sans en pénétrer le danger, on me les autres, que <seg xml:id="RM_R140_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon
+                     contraires à mon amitié. Sans en pénétrer le danger, on me les autres, que <seg xml:id="RM_R140_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon
                            mari</persName></seg> s’en servait d’armes pour me combattre. <anchor corresp="#facs_178" xml:id="normalized_facs_178"/>Tous leurs discours me
                      faisaient horreur, et mon naturel n’avait aucun penchant pour les écouter, on
                      me l’a reproché même alors, et le<persName ref="#P162">comte de Schwerin</persName> même me
@@ -980,19 +980,19 @@
                </app>
             </p>
             <p xml:id="P.146" ana="#T1 #S8 #S9 #S10" corresp="/o:mgs.timeline#T36">Enfin mon terme
-               approchait, et le <seg xml:id="RM_R146_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg> se résolut à faire faire un très beau
+               approchait, et le <seg xml:id="RM_R146_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg> se résolut à faire faire un très beau
                meuble qui aurait dû être fait pour les noces. Tantôt il disait <anchor corresp="#facs_184" xml:id="normalized_facs_184"/>qu’il m’en faisait présent,
-               tantôt c’était des deux mille écus de <seg xml:id="RM_R146_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon père</persName></seg>. L’affaire est restée même
+               tantôt c’était des deux mille écus de <seg xml:id="RM_R146_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon père</persName></seg>. L’affaire est restée même
                indécise jusqu'à présent. Je m’en servis pour la première fois dans les couches de
-                  <seg xml:id="RM_R146_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon second
+                  <seg xml:id="RM_R146_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon second
                      fils</persName></seg>, qui vint au monde le <date type="full-date" when-iso="1710-10-19">19 octobre 1710</date>. Dès <app>
                   <rdg wit="#A">ce</rdg>
-               </app> que je fus relevée de couches, le <seg xml:id="RM_R146_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg> alla voir <placeName ref="#O121">sa terre</placeName> que <persName ref="#P16">le roi</persName> lui
+               </app> que je fus relevée de couches, le <seg xml:id="RM_R146_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg> alla voir <placeName ref="#O121">sa terre</placeName> que <persName ref="#P16">le roi</persName> lui
                donna provisionnellement en attendant une autre, puisque celle-ci était du domaine de
                la Couronne.<note type="editorial">Das Gut Storkow südöstlich von Berlin wurde dem
                   Grafen Schwerin vorrübergehend überlassen, vgl. Daumas/Ulbrich, Mémoires, S. 151;
                   Gollmert, Geschichte Bd. 2, S. 319.</note> C’était un château au haut d’une
-               montagne, dont il n’y avait de beau que la vue. Nous y demeurâmes huit jours. Le <seg xml:id="RM_R146_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">comte de
+               montagne, dont il n’y avait de beau que la vue. Nous y demeurâmes huit jours. Le <seg xml:id="RM_R146_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">comte de
                      Schwerin</persName></seg> y était de la meilleure humeur <app>
                   <rdg wit="#A">du monde</rdg>
                </app>, et c’est ce qu’il y avait de rare dans tout le temps que j’ai été mariée.
@@ -1002,15 +1002,15 @@
                devant le monde que railleries piquantes, qui m’étaient plus insoutenables que toutes
                les plus grandes duretés.</p>
             <p xml:id="P.153" ana="#T1 #S2">Nous restâmes un mois dans ce charmant séjour où je
-               promis d’envoyer <seg xml:id="RM_R153_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon
+               promis d’envoyer <seg xml:id="RM_R153_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon
                      second fils</persName></seg>
                <app>
                   <rdg wit="#W">, si je pouvais avoir l'agrément du <persName ref="#P162">comte de
                         Schwerin</persName>
                   </rdg>
-               </app>. Je pris alors congé pour toute ma vie, et nous retournâmes à <placeName ref="#O103">Wesel</placeName> chez <seg xml:id="RM_R153_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon père</persName></seg>, après nous être arrêtés
-               quelque jours <placeName ref="#O129">à moitié chemin</placeName> chez <seg xml:id="RM_R153_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL33" type="relationship_mention"><persName ref="#P441">le
-                  père</persName></seg> de <seg xml:id="RM_R7_P153" ana="http://gams.uni-graz.at/o:mgs.persons#R7" type="relationship_mention">
+               </app>. Je pris alors congé pour toute ma vie, et nous retournâmes à <placeName ref="#O103">Wesel</placeName> chez <seg xml:id="RM_R153_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon père</persName></seg>, après nous être arrêtés
+               quelque jours <placeName ref="#O129">à moitié chemin</placeName> chez <seg xml:id="RM_R153_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL33" type="relationship_mention"><persName ref="#P441">le
+                  père</persName></seg> de <seg xml:id="RM_R7_P153" ana="https://gams.uni-graz.at/o:mgs.persons#R7" type="relationship_mention">
                   <persName ref="#P98">la <app>
                         <rdg wit="#A">demoiselle</rdg>
                         <rdg wit="#W">frêle</rdg>
@@ -1050,16 +1050,16 @@
                </app> Cour. <app>
                   <rdg wit="#A">J’y fus</rdg>
                   <rdg wit="#W">tous les soirs,</rdg>
-               </app> même encore le soir avant que j’accouchai de <seg xml:id="RM_R159_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">ma fille</persName></seg>, le <app>
+               </app> même encore le soir avant que j’accouchai de <seg xml:id="RM_R159_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">ma fille</persName></seg>, le <app>
                   <rdg wit="#W">lendemain [du]</rdg>
                </app>
                <date type="full-date" when-iso="1712-07-26">26 juillet 1712</date>. Mais je m’en
                trouvais si mal qu’on envoya chercher le <persName ref="#P162">comte de
                   Schwerin</persName>. Il mena <persName ref="#P54">le médecin</persName> du
                   <persName ref="#P16">roi</persName> avec lui, et j’accouchai dans le moment de
-               leur arrivée. J’étais charmée de la naissance de <seg xml:id="RM_R159_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">cette fille</persName></seg>, et
+               leur arrivée. J’étais charmée de la naissance de <seg xml:id="RM_R159_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">cette fille</persName></seg>, et
                c’était le bouquet dont je fis présent <app>
-                  <rdg wit="#A">à <seg xml:id="RM_R159_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg> le</rdg>
+                  <rdg wit="#A">à <seg xml:id="RM_R159_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg> le</rdg>
                   <rdg wit="#W">au <persName ref="#P162">comte de Schwerin</persName> pour son</rdg>
                </app> jour de <app>
                   <rdg wit="#A">sa</rdg>
@@ -1070,7 +1070,7 @@
                   <rdg wit="#W">ce pauvre</rdg>
                   <rdg wit="#A">cette</rdg>
                </app>
-               <seg xml:id="RM_R159_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">enfant</persName></seg> de fleurs dans un bassin et le lui envoyai dans sa
+               <seg xml:id="RM_R159_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">enfant</persName></seg> de fleurs dans un bassin et le lui envoyai dans sa
                chambre. Il se ré<anchor corresp="#facs_199" xml:id="normalized_facs_199"/>jouit
                beaucoup de ma folie, et ce sont là des saillies dont j’étais fertile à tous moments.
                C’était même ma plus grande étude<app>
@@ -1084,12 +1084,12 @@
                   <app>
                      <rdg wit="#W">La reine</rdg>
                   </app>
-               </persName> vint en ville exprès pour tenir <seg xml:id="RM_R159_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">l’enfant</persName></seg> au
+               </persName> vint en ville exprès pour tenir <seg xml:id="RM_R159_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">l’enfant</persName></seg> au
                baptême, et <persName ref="#P23">la princesse royale</persName> y assista. Il
                semblait que <persName ref="#P162">
                   <app>
                      <rdg wit="#A">
-                        <seg xml:id="RM_R159_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon
+                        <seg xml:id="RM_R159_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon
                               mari</persName></seg>
                      </rdg>
                   </app>
@@ -1098,8 +1098,8 @@
                   <rdg wit="#W">
                      <persName ref="#P162">le comte de Schwerin</persName>
                   </rdg>
-               </app> eût plus de joie de la naissance de <seg xml:id="RM_R159_7" ana="http://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">cette fille</persName></seg>, que
-               de <seg xml:id="RM_R159_8" ana="http://gams.uni-graz.at/o:mgs.persons#REL36 http://gams.uni-graz.at/o:mgs.persons#REL37" type="relationship_mention"><persName ref="#P167 #P231">ses fils
+               </app> eût plus de joie de la naissance de <seg xml:id="RM_R159_7" ana="https://gams.uni-graz.at/o:mgs.persons#REL35" type="relationship_mention"><persName ref="#P435">cette fille</persName></seg>, que
+               de <seg xml:id="RM_R159_8" ana="https://gams.uni-graz.at/o:mgs.persons#REL36 https://gams.uni-graz.at/o:mgs.persons#REL37" type="relationship_mention"><persName ref="#P167 #P231">ses fils
                         <note type="persons">
                         <listPerson>
                            <person corresp="#P167">
@@ -1121,7 +1121,7 @@
                   </persName></seg>
                <app>
                   <rdg wit="#W">qui, tout petits qu'ils étaient, firent leur révérence à <persName ref="#P101">la reine</persName>, qu'elle en était charmée</rdg>
-               </app>. <seg xml:id="RM_R159_9" ana="http://gams.uni-graz.at/o:mgs.persons#REL38" type="relationship_mention"><persName ref="#P98">La sœur
+               </app>. <seg xml:id="RM_R159_9" ana="https://gams.uni-graz.at/o:mgs.persons#REL38" type="relationship_mention"><persName ref="#P98">La sœur
                      cadette</persName></seg> de la<persName ref="#P205">
                   <app>
                      <rdg wit="#A">demoiselle </rdg>
@@ -1131,7 +1131,7 @@
                   <rdg wit="#A">tout</rdg>
                   <rdg wit="#W">mon cœur et</rdg>
                </app> mon attachement ; et je puis dire avec vérité que de ma vie je n’ai aimé
-               personne après le <seg xml:id="RM_R159_10" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg> avec <app>
+               personne après le <seg xml:id="RM_R159_10" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg> avec <app>
                   <rdg wit="#A">autant d’</rdg>
                   <rdg wit="#W">cet</rdg>
                </app> attachement que <persName ref="#P98">cette fille</persName>. <persName ref="#P398">La
@@ -1194,7 +1194,7 @@
                      Cour</persName> qui m’avait causé <app>
                   <rdg wit="#A">tant</rdg>
                </app> de chagrin à <placeName ref="#O6">Berlin</placeName>. Elle était de <placeName ref="#O22">ce pays</placeName>, et après que la Cour fût congédiée, elle s’était
-               retirée chez <seg xml:id="RM_R180_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL34" type="relationship_mention"><persName ref="#P515">son
+               retirée chez <seg xml:id="RM_R180_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL34" type="relationship_mention"><persName ref="#P515">son
                      père</persName></seg>. C’était un coup de foudre pour moi, et je dis dans mon
                premier mouvement : « Excusez-moi le mieux que vous pourrez », <app>
                   <rdg wit="#A">dis-je à</rdg>
@@ -1220,7 +1220,7 @@
                      <app>
                         <rdg wit="#A">le comte</rdg>
                         <rdg wit="#W">monsieur</rdg>
-                     </app> de B.</persName> avec le <seg xml:id="RM_R180_7" ana="http://gams.uni-graz.at/o:mgs.persons#REL92" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg>
+                     </app> de B.</persName> avec le <seg xml:id="RM_R180_7" ana="https://gams.uni-graz.at/o:mgs.persons#REL92" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg>
                et <persName ref="#P642">deux autres
                      cavaliers</persName>. On se mit au jeu, et tout allait à merveille. De
                longtemps je n’avais parue si gaie. Je m’imaginais intérieurement que j’avais eu une
@@ -1273,7 +1273,7 @@
                </app> de monsieur <persName ref="#P449">le feld-maréchal comte de Dohna</persName>,
                où <persName ref="#P42">la comtesse de Dönhoff</persName> voulut absolument nous
                accompagner. J’eusse été charmée qu’elle nous eût épargné cet honneur, mais il fallut
-               y passer. Enfin, elle partit avec <seg xml:id="RM_R194_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL39 http://gams.uni-graz.at/o:mgs.persons#REL40 http://gams.uni-graz.at/o:mgs.persons#REL41 http://gams.uni-graz.at/o:mgs.persons#REL42" type="relationship_mention"><persName ref="#P445 #P519 #P520 #P521">mesdames
+               y passer. Enfin, elle partit avec <seg xml:id="RM_R194_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL39 https://gams.uni-graz.at/o:mgs.persons#REL40 https://gams.uni-graz.at/o:mgs.persons#REL41 https://gams.uni-graz.at/o:mgs.persons#REL42" type="relationship_mention"><persName ref="#P445 #P519 #P520 #P521">mesdames
                   ses sœurs<certainty locus="value">
                      <desc>zwei oder mehr dieser Personen</desc>
                   </certainty>
@@ -1321,7 +1321,7 @@
                <persName ref="#P449">le feld-maréchal</persName>, qui avait des distinctions pour
                moi qui me rendaient souvent confuse, ce qui lui attirait tout mon respect et ma
                vénération, tellement que je puis dire avec vérité que dès mon enfance je l’ai
-               regardé avec les mêmes sentiments que <seg xml:id="RM_R194_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon père</persName></seg>. Mais
+               regardé avec les mêmes sentiments que <seg xml:id="RM_R194_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon père</persName></seg>. Mais
                malheureusement pour moi, après mon changement de religion il a été un de mes plus
                fiers ennemis <anchor corresp="#facs_239" xml:id="normalized_facs_239"/>et plus
                grands persécuteurs, comme la suite le démontrera. Nous étions là une troupe de
@@ -1348,7 +1348,7 @@
                      insoutenables. Il prit d’abord la parole et lui dit : « Madame, c’est une
                      précaution fort inutile, puisque j’ai trop de respect que je vous dois. »
                      <persName ref="#P42">La comtesse de Dönhoff</persName> rougit extrêmement.
-                     <seg xml:id="RM_R194_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL43" type="relationship_mention"><persName ref="#P29">Madame de Schwerin</persName>, la femme du <persName ref="#P161">Grand Écuyer</persName></seg>, se mit à rire et moi de même. Mais
+                     <seg xml:id="RM_R194_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL43" type="relationship_mention"><persName ref="#P29">Madame de Schwerin</persName>, la femme du <persName ref="#P161">Grand Écuyer</persName></seg>, se mit à rire et moi de même. Mais
                      j’avoue, d’un air malin je dis : « Voilà des chambres bien commodes. » Dès que
                      je fus seule avec <persName ref="#P29">mon amie</persName>, je laissais le
                      cours libre à ma vivacité. « Avouez », lui dis-je, « qu’il n’y a dans le monde
@@ -1379,12 +1379,12 @@
                      puis répéter toutes les plaisanteries, qu’il me dit sur ce sujet. En nous
                      éloignant, de temps en temps, j’allais avec <persName ref="#P29">madame de
                         Schwerin</persName>, et <anchor corresp="#facs_241" xml:id="normalized_facs_241"/>
-                     <persName ref="#P522">le comte de Se.</persName> le mettait avec <seg xml:id="RM_R194_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL44" type="relationship_mention"><persName ref="#P523">son épouse</persName></seg> , mais le plus souvent nous étions
+                     <persName ref="#P522">le comte de Se.</persName> le mettait avec <seg xml:id="RM_R194_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL44" type="relationship_mention"><persName ref="#P523">son épouse</persName></seg> , mais le plus souvent nous étions
                      ensemble.</rdg>
-               </app> nous arrivâmes avec des agréments continuels jusqu’à <placeName ref="#O111">Marienwerder</placeName>, où <seg xml:id="RM_R194_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL45" type="relationship_mention"><persName ref="#P503">le beau-frère</persName></seg> de
+               </app> nous arrivâmes avec des agréments continuels jusqu’à <placeName ref="#O111">Marienwerder</placeName>, où <seg xml:id="RM_R194_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL45" type="relationship_mention"><persName ref="#P503">le beau-frère</persName></seg> de
                <persName ref="#P29">madame de Schwerin</persName> est gouverneur. Nous nous y
                arrêtâmes un jour. <persName ref="#P161">Monsieur le Grand Ecuyer</persName> avec
-               <seg xml:id="RM_R194_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL43" type="relationship_mention"><persName ref="#P29">sa charmante épouse</persName></seg> se sépara alors de nous et
+               <seg xml:id="RM_R194_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL43" type="relationship_mention"><persName ref="#P29">sa charmante épouse</persName></seg> se sépara alors de nous et
                prit son chemin par la <placeName ref="#O64">Poméranie</placeName>, où il y a des
                haras du <persName ref="#P17">roi</persName> où il devait faire quelque règlement. Le
                <persName ref="#P162">comte de Schwerin</persName> était d’une humeur charmante
@@ -1549,7 +1549,7 @@
                </app> Je n’accouchai que le <date type="full-date" when-iso="1714-10-21">21 octobre
                   au soir <app>
                      <rdg wit="#W">à huit heures</rdg>
-                  </app>, en 1714</date>, de <seg xml:id="RM_R200_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL46" type="relationship_mention"><persName ref="#P160">mon troisième fils</persName></seg>, qui donna de la joie à toute
+                  </app>, en 1714</date>, de <seg xml:id="RM_R200_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL46" type="relationship_mention"><persName ref="#P160">mon troisième fils</persName></seg>, qui donna de la joie à toute
                la famille, surtout au <persName ref="#P162">comte de Schwerin</persName>
                <app>
                   <rdg wit="#W">qui en était charmé</rdg>
@@ -1562,7 +1562,7 @@
                   <date type="full-date" when-iso="1715-12-22">22 décembre 1715</date>
                <note type="editorial">Hier benutzte die Gräfin offensichtlich den Julianischen
                   Kalender. Nach Gregorianischem Kalender ist das Geburtsdatum der 1. Jänner
-                  1716.</note> d’<seg xml:id="RM_R207_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL47" type="relationship_mention"><persName ref="#P165">un
+                  1716.</note> d’<seg xml:id="RM_R207_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL47" type="relationship_mention"><persName ref="#P165">un
                      quatrième fils</persName></seg>, qui tout joli qu’il était <app>
                   <rdg wit="#A">j’aurais encore mieux souhaité que ce fût une fille, mais</rdg>
                   <rdg wit="#W">ne m'était point le bienvenu, puisque je me souhaitais extrêmenent
@@ -1573,7 +1573,7 @@
                </app> en consoler. <app>
                   <rdg wit="#A">Tout le monde me félicita d’avoir un</rdg>
                   <rdg wit="#W">
-                     <persName ref="#P29">Madame de Schwerin</persName> et <seg xml:id="RM_R207_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">ma belle-sœur<certainty locus="value">
+                     <persName ref="#P29">Madame de Schwerin</persName> et <seg xml:id="RM_R207_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">ma belle-sœur<certainty locus="value">
                               <desc>vermutlich ist diese Schwägerin gemeint</desc>
                            </certainty>
                         </persName></seg> et <persName ref="#P489">la dame<certainty locus="value">
@@ -1678,7 +1678,7 @@
                d’Extraordinaire, je veux vous faire dire vrai. Laissez vos affaires pour quand vous
                serez seuls. » Cette badinerie me réussit. <persName ref="#P42">Madame la comtesse de Dönhoff</persName> parla
                d’un air extrêmement sérieux <app>
-                  <rdg wit="#A">à <persName ref="#P162"><seg xml:id="RM_R221_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mon mari</seg></persName>
+                  <rdg wit="#A">à <persName ref="#P162"><seg xml:id="RM_R221_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mon mari</seg></persName>
                   </rdg>
                   <rdg wit="#W">au <persName ref="#P162">comte de Schwerin</persName>
                   </rdg>
@@ -1714,7 +1714,7 @@
                entièrement sur lui. <app>
                   <rdg wit="#A">
                      <persName ref="#P42">La comtesse
-                           de Dönhoff</persName> mit tout en usage pour détourner <persName ref="#P162"><seg xml:id="RM_R221_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mon
+                           de Dönhoff</persName> mit tout en usage pour détourner <persName ref="#P162"><seg xml:id="RM_R221_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mon
                         mari</seg></persName> de sa mission et le dégoûter de ce voyage, par la
                      haine qu’elle me portait, mais elle ne put y réussir.</rdg>
                </app>
@@ -1731,7 +1731,7 @@
                      d’envoyé de notre cour et qui devait remettre les archives au <persName ref="#P162">comte de Schwerin</persName>, ainsi il</rdg>
                </app> envoya au-devant de nous pour que nous vinssions loger dans sa maison, qui
                était dans le faubourg. <app>
-                  <rdg wit="#A">Il remit les archives à <seg xml:id="RM_R227_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg>. C’était</rdg>
+                  <rdg wit="#A">Il remit les archives à <seg xml:id="RM_R227_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg>. C’était</rdg>
                   <rdg wit="#W">Il était déjà</rdg>
                </app> un homme fort avancé en âge, mais fort agréable dans la conversation <app>
                   <rdg wit="#W">et qui avait été employé sa vie dans de semblables affaires</rdg>
@@ -1739,7 +1739,7 @@
                   <rdg wit="#W">donc là</rdg>
                </app> le premier qui donna les instructions <app>
                   <rdg wit="#W">nécessaires</rdg>
-               </app> au <persName ref="#P162">comte de Schwerin</persName>. <seg xml:id="RM_R227_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL50" type="relationship_mention"><persName ref="#P34">Le
+               </app> au <persName ref="#P162">comte de Schwerin</persName>. <seg xml:id="RM_R227_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL50" type="relationship_mention"><persName ref="#P34">Le
                   baron de Danckelmann</persName></seg>, conseiller <app>
                   <rdg wit="#A">aulique </rdg>
                </app>de <persName ref="#P61">l’Empereur</persName>
@@ -1789,7 +1789,7 @@
                résolutions que j’avais prises de ne me mêler de rien, quoique <persName ref="#P197">le comte de Virmond</persName> m’avait <app>
                   <rdg wit="#A">préposé (sic)</rdg>
                   <rdg wit="#W">préparé</rdg>
-               </app> que ce serait de mon secours dont <seg xml:id="RM_R227_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg> aurait le plus de besoin. Je
+               </app> que ce serait de mon secours dont <seg xml:id="RM_R227_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg> aurait le plus de besoin. Je
                voulus me défendre d’eux par la raillerie en disant qu’effectivement j’avais <app>
                   <rdg wit="#A">beaucoup d’esprit.</rdg>
                   <rdg wit="#W">terriblement besoin d’instruction, puisque je me représentais être
@@ -1854,7 +1854,7 @@
                   Strattmann</persName> me mena chez <persName ref="#P24">l’Impératrice douairière
                   Amalie</persName>. J’y fus reçue comme aux autres Cours, et comme j’étais très
                connue à la Cour <anchor corresp="#facs_294" xml:id="normalized_facs_294"/>d’<placeName ref="#O24">Hanovre</placeName>, cela m’attira une longue
-               conversation avec Sa Majesté. <seg xml:id="RM_R240_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL51 http://gams.uni-graz.at/o:mgs.persons#REL52" type="relationship_mention"><persName ref="#P62 #P63">Les archiduchesses <note type="persons">
+               conversation avec Sa Majesté. <seg xml:id="RM_R240_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL51 https://gams.uni-graz.at/o:mgs.persons#REL52" type="relationship_mention"><persName ref="#P62 #P63">Les archiduchesses <note type="persons">
                         <listPerson>
                            <person corresp="#P62">
                               <name>
@@ -1937,7 +1937,7 @@
                   <rdg wit="#W">beaucoup</rdg>
                </app>. C’est pourquoi j’aimais mieux passer <anchor corresp="#facs_304" xml:id="normalized_facs_304"/>dans son esprit pour sotte, que de découvrir ce qui
                pouvait faire tort au<persName ref="#P162">comte de Schwerin</persName>. Je lui dis d’un air innocent :
-               « Pourquoi ne le demandez-vous pas à <seg xml:id="RM_R254_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg> ? » Il reprit d’un air vif :
+               « Pourquoi ne le demandez-vous pas à <seg xml:id="RM_R254_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg> ? » Il reprit d’un air vif :
                « Il ne veut pas me le dire, <app>
                   <rdg wit="#W">dit-il,</rdg>
                </app> et cela ne peut certainement pas <app>
@@ -2016,7 +2016,7 @@
                et les mieux reçues en Cour.</p>
             <p xml:id="P.275" ana="#T1 #S1 #S5">Quelques semaines après cet événement, <persName ref="#P34">monsieur de Danckelmann</persName> nous pria à dîner dans son jardin.
                La compagnie était extrêmement nombreuse, et monsieur <persName ref="#P51">le comte
-                  de Dünewald</persName> et <seg xml:id="RM_R275_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL53" type="relationship_mention"><persName ref="#P50">son épouse</persName></seg> y étaient
+                  de Dünewald</persName> et <seg xml:id="RM_R275_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL53" type="relationship_mention"><persName ref="#P50">son épouse</persName></seg> y étaient
                aussi à table. La religion fut mise sur le tapis. <persName ref="#P50">La
                   comtesse</persName> prit d’abord la parole et dit qu’elle avait enfin obtenu la
                grâce de Dieu qu’elle avait demandée avec beaucoup d’insistance, qui était d’être
@@ -2028,7 +2028,7 @@
                </app> qu’on la cherche sans prévention. » <app>
                   <rdg wit="#W">On voulut tourner son discours dans une espèce de raillerie en lui
                      répliquant que la vérité selon ce principe d’à présent avait eu un fort grand
-                     avocat par <seg xml:id="RM_R275_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL54" type="relationship_mention"><persName ref="#P51">monsieur son époux</persName></seg>, mais chez
+                     avocat par <seg xml:id="RM_R275_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL54" type="relationship_mention"><persName ref="#P51">monsieur son époux</persName></seg>, mais chez
                      d’autres, ce ne serait pas de même. Elle s’en défendit, et <persName ref="#P51">le comte</persName> protesta qu’il ne l’avait pas persuadée. « C’est Dieu
                      seul, dit-elle, qui m’attirait et qui m’a convaincue, sans aucune persuasion.
                      »</rdg>
@@ -2107,9 +2107,9 @@
                   <rdg wit="#W">que j'aurais l'honneur de le voir chez la résidence </rdg>
                </app> et qu’il y prendrait le café. Ce fut une grâce si distinguée que j’avoue j’en
                eus bien de la vanité. Il y vint, madame la <persName ref="#P181">comtesse de
-                  Strattmann</persName>, madame <persName ref="#P10"><seg xml:id="RM_R288_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL55" type="relationship_mention">sa belle-sœur</seg></persName> et le <persName ref="#P162">comte de Schwerin</persName> étaient avec moi. On but du café, <app>
+                  Strattmann</persName>, madame <persName ref="#P10"><seg xml:id="RM_R288_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL55" type="relationship_mention">sa belle-sœur</seg></persName> et le <persName ref="#P162">comte de Schwerin</persName> étaient avec moi. On but du café, <app>
                   <rdg wit="#A">et la <persName ref="#P181">comtesse de Strattmann</persName> lui
-                     présenta <persName ref="#P159"><seg xml:id="RM_R288_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL56" type="relationship_mention">mon
+                     présenta <persName ref="#P159"><seg xml:id="RM_R288_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL56" type="relationship_mention">mon
                            fils</seg></persName>. Il le prit</rdg>
                   <rdg wit="#W">lui fit la grâce de le prendre</rdg>
                </app> dans ses bras, on lui dit qu’il devait le garder, il <app>
@@ -2119,7 +2119,7 @@
                </app>, le <persName ref="#P162">comte de Schwerin</persName> ne voudrait pas me le
                donner. » <app>
                   <rdg wit="#A">
-                     <persName ref="#P162"><seg xml:id="RM_R288_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mon mari</seg></persName>
+                     <persName ref="#P162"><seg xml:id="RM_R288_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mon mari</seg></persName>
                   </rdg>
                   <rdg wit="#W">
                      <persName ref="#P162">Le comte de Schwerin</persName>
@@ -2130,7 +2130,7 @@
                   <rdg wit="#W">« Comment, dit <persName ref="#P138">le prince</persName>, ayez de
                      soin asteure. Je l’avère bien, j’accepterez de grand cœur cet offre généreux.
                      »</rdg>
-               </app> Plût à Dieu que <persName ref="#P159"><seg xml:id="RM_R288_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL56" type="relationship_mention">mon fils</seg></persName> eût ce bonheur, peut-être que la
+               </app> Plût à Dieu que <persName ref="#P159"><seg xml:id="RM_R288_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL56" type="relationship_mention">mon fils</seg></persName> eût ce bonheur, peut-être que la
                divine providence l’y conduira avec le temps par sa miséricorde infinie. Je suis sûre
                que <persName ref="#P138">cet illustre et généreux prince</persName> ne lui refusera
                jamais sa protection. <app>
@@ -2165,8 +2165,8 @@
                </app>
                <persName ref="#P161">Le Grand Ecuyer de Schwerin</persName>
                <note type="editorial">In Ms W offensichtlich irrtümlich: Pr. E. de S.</note> dîna
-               chez nous avec <seg xml:id="RM_R294_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL43" type="relationship_mention"><persName ref="#P29">madame son épouse</persName></seg>, <seg xml:id="RM_R294_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL28" type="relationship_mention"><persName ref="#P173">mon
-                     beau-frère</persName></seg>, <seg xml:id="RM_R294_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL57" type="relationship_mention"><persName ref="#P29">ma belle-sœur</persName></seg>
+               chez nous avec <seg xml:id="RM_R294_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL43" type="relationship_mention"><persName ref="#P29">madame son épouse</persName></seg>, <seg xml:id="RM_R294_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL28" type="relationship_mention"><persName ref="#P173">mon
+                     beau-frère</persName></seg>, <seg xml:id="RM_R294_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL57" type="relationship_mention"><persName ref="#P29">ma belle-sœur</persName></seg>
                et <persName ref="#P98">madame de Marwitz</persName>. Ils me firent tous beaucoup
                d’accueils. Dès <app>
                   <rdg wit="#A">ce</rdg>
@@ -2185,11 +2185,11 @@
                </app> d’une telle générosité à mon égard. Cela redoubla ma reconnaissance et adoucit
                extrêmement l’amertume de me revoir à <placeName ref="#O6">Berlin</placeName>. Dès
                qu’on sut mon arrivée, tout le monde me vint voir et me féliciter de mon retour. Dès
-               le premier jour, <seg xml:id="RM_R294_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL58" type="relationship_mention"><persName ref="#P158">ma belle-mère</persName></seg> m’envoya <seg xml:id="RM_R294_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL47" type="relationship_mention"><persName ref="#P165">mon fils</persName></seg>, qui à la
+               le premier jour, <seg xml:id="RM_R294_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL58" type="relationship_mention"><persName ref="#P158">ma belle-mère</persName></seg> m’envoya <seg xml:id="RM_R294_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL47" type="relationship_mention"><persName ref="#P165">mon fils</persName></seg>, qui à la
                vérité était fort joli, surtout son caquet. Le <persName ref="#P162">comte de
                   Schwerin</persName> avait <app>
                   <rdg wit="#W">fort</rdg>
-               </app> envie de le ravoir, mais <seg xml:id="RM_R294_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL58" type="relationship_mention"><persName ref="#P158">ma belle-mère</persName></seg> en était presque
+               </app> envie de le ravoir, mais <seg xml:id="RM_R294_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL58" type="relationship_mention"><persName ref="#P158">ma belle-mère</persName></seg> en était presque
                idolâtre, et il fallut lui laisser <app>
                   <rdg wit="#W">quelques semaines, mais.</rdg>
                </app> Une circonstance que j’ai oubliée, c’est que le jour de l’arrivée du <persName ref="#P162">comte de Schwerin</persName> à <placeName ref="#O6">Berlin</placeName>, il y avait une estafette prête à partir avec les ordres du
@@ -2205,7 +2205,7 @@
                   <rdg wit="#W">bientôt</rdg>
                </app>.</p>
             <p xml:id="P.302" ana="#T1 #S2">
-               <seg xml:id="RM_R302_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL59" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P164 #P165">tous mes enfants <note type="persons">
+               <seg xml:id="RM_R302_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL59" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P164 #P165">tous mes enfants <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -2249,7 +2249,7 @@
                   <rdg wit="#W">que <persName ref="#P163">madame d'<placeName ref="#O145">Amtitz</placeName>
                      </persName> nous fit voir pendant</rdg>
                </app> quelques jours <app>
-                  <rdg wit="#W">et le ramena ensuite. <persName ref="#P78"><seg xml:id="RM_R302_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention">Mon frère</seg></persName>,
+                  <rdg wit="#W">et le ramena ensuite. <persName ref="#P78"><seg xml:id="RM_R302_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention">Mon frère</seg></persName>,
                      dis-je, dès que nous nous recontrâmes seuls</rdg>
                </app>, <app>
                   <rdg wit="#A">Il</rdg>
@@ -2311,7 +2311,7 @@
             <p xml:id="P.315">Comme j’avais expédié cette lettre à madame la<persName ref="#P181">comtesse de
                   Strattmann</persName>, je reçus le soir étant à table une grande lettre <app>
                   <rdg wit="#W">qui paraissait un ordre</rdg>
-               </app> du <persName ref="#P17">Roi</persName> pour <seg xml:id="RM_R315_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère le
+               </app> du <persName ref="#P17">Roi</persName> pour <seg xml:id="RM_R315_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère le
                      Lieutenant-colonel</persName></seg>. <app>
                   <rdg wit="#A">Celui qui l’apporta me dit que c’était pour l’envoyer à son adresse
                      et qu’il fallait que je donne un billet de réception.</rdg>
@@ -2319,16 +2319,16 @@
                      <persName ref="#P582">Monsieur le conseiller privé de Mark.</persName> me
                      l'envoyait pour être envoyée incessamment. Je devais même un récépissé de ma
                      reception.</rdg>
-               </app> Ce coup m’étourdit. Je vis d’abord que <seg xml:id="RM_R315_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère</persName></seg> était
+               </app> Ce coup m’étourdit. Je vis d’abord que <seg xml:id="RM_R315_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère</persName></seg> était
                rappelé, et je vis tomber les fondements de mes châteaux ruinés ; mais comme dans ce
                temps-là rien ne me rebutait, je priai le <persName ref="#P162">comte de Schwerin</persName>
                de me donner ses clefs, et je fus écrire dans sa chambre pour expédier cette fatale
-               lettre. Plût à Dieu, que je l’eusse gardée une poste, <seg xml:id="RM_R315_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère</persName></seg> était
+               lettre. Plût à Dieu, que je l’eusse gardée une poste, <seg xml:id="RM_R315_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère</persName></seg> était
                parti pour l’<placeName ref="#O55">Italie</placeName>. Enfin, mon temps de calamité
                était venu <app>
                   <rdg wit="#W">et mon heure approchait</rdg>
                </app>, calamité s’entend pour le monde, où je devais paraître en spectacle au
-               public. En envoyant cette lettre, j’écrivis à <seg xml:id="RM_R315_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère</persName></seg> de
+               public. En envoyant cette lettre, j’écrivis à <seg xml:id="RM_R315_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère</persName></seg> de
                persuader au <persName ref="#P129">chevalier de Rabutin</persName> de faire une
                course avec lui à <placeName ref="#O6">Berlin</placeName>, <anchor corresp="#facs_372" xml:id="normalized_facs_372"/>que j’avais quelque chose
                d’importance à lui confier, qui pouvait me rendre heureuse pour toute ma famille et
@@ -2339,7 +2339,7 @@
                   <rdg wit="#A">Tout</rdg>
                </app> ceci se passait au mois de <date type="month-year" when-iso="1719-03">mars</date>. <app>
                   <rdg wit="#W">
-                     <seg xml:id="RM_R315_7" ana="http://gams.uni-graz.at/o:mgs.persons#REL61" type="relationship_mention"><persName ref="#P164">Mon fils
+                     <seg xml:id="RM_R315_7" ana="https://gams.uni-graz.at/o:mgs.persons#REL61" type="relationship_mention"><persName ref="#P164">Mon fils
                            Charles</persName></seg>, l’ainé de ceux qui étaient nés à <placeName ref="#O23">Vienne</placeName> commença à maigrir, et il semblait qu’il
                      devenait étique. Je conjurais <persName ref="#P202">la gouvernante</persName>
                      d’en avoir grand soin, surtout au repas. Elle me disait qu’elle le faisait,
@@ -2353,7 +2353,7 @@
                </app> Tout ce que j’ai cité jusque ici ne me donnait pas encore des moyens pour
                tranquilliser mon intérieur, puisque tant que je restais à <placeName ref="#O6">Berlin</placeName> je ne pouvais parler à des catholiques, avec qui j’eusse pu
                consulter. Voilà ce temps que mes ennemis, selon leur principe, voulaient que je
-               choisisse pour en parler à <seg xml:id="RM_R315_8" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg>. Si je l’eusse fait, je m’eus assurément
+               choisisse pour en parler à <seg xml:id="RM_R315_8" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg>. Si je l’eusse fait, je m’eus assurément
                ôté tous les moyens pour me convertir, et si je lui eusse résisté, le parentage m’eût
                fait enfermer. Le<persName ref="#P162">comte de Schwerin</persName> a eu la probité de me l’avouer lui-même.
                Ainsi, que ce mystère que je lui ai fait ne peut m’être attribué à tromperie. Je
@@ -2372,7 +2372,7 @@
                </app> de chagrin. <persName ref="#P109">La comtesse de W.<certainty locus="value">
                         <desc>unsichere Identifizierunge Identifizierung</desc>
                      </certainty>
-                  </persName> vint me voir le lendemain. Elle est catholique et <seg xml:id="RM_R321_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL62" type="relationship_mention"><persName ref="#P597">son époux<certainty locus="value">
+                  </persName> vint me voir le lendemain. Elle est catholique et <seg xml:id="RM_R321_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL62" type="relationship_mention"><persName ref="#P597">son époux<certainty locus="value">
                         <desc>unsichere Identifizierunge Identifizierung</desc>
                      </certainty>
                   </persName></seg> luthérien. Je n’avais eu l’honneur de la voir qu’une fois à
@@ -2421,7 +2421,7 @@
                positivement la situation de l’affaire à <placeName ref="#O23">Vienne</placeName>.
                J’écrivis à <placeName ref="#O6">Berlin</placeName> pour avoir la permission du
                   <persName ref="#P17">Roi</persName> que le <persName ref="#P162">comte de
-                  Schwerin</persName> osât me prêter de l’argent pour l’achat de <placeName ref="#O39">la terre</placeName>, et je demandai aussi la permission pour que <seg xml:id="RM_R335_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon fils
+                  Schwerin</persName> osât me prêter de l’argent pour l’achat de <placeName ref="#O39">la terre</placeName>, et je demandai aussi la permission pour que <seg xml:id="RM_R335_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon fils
                      aîné</persName></seg> vint me trouver à <placeName ref="#O12">Breslau</placeName> pour prendre possession <app>
                   <rdg wit="#A">de <placeName ref="#O39">la terre</placeName>
                   </rdg>
@@ -2444,7 +2444,7 @@
                            <desc>unsichere Identifizierunge Identifizierung</desc>
                         </certainty>
                      </persName>, dont la quittance est entre les mains du <persName ref="#P162">comte de Schwerin</persName>.</rdg>
-               </app> J’attendais <seg xml:id="RM_R335_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon fils</persName></seg> avec des impatiences inconcevables, mais mon voyage
+               </app> J’attendais <seg xml:id="RM_R335_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon fils</persName></seg> avec des impatiences inconcevables, mais mon voyage
                de <placeName ref="#O23">Vienne</placeName> ayant éclaté en <placeName ref="#O22">Prusse</placeName>, on en détourna le <persName ref="#P162">comte de
                   Schwerin</persName>, et il l’envoya en <placeName ref="#O49">Hollande</placeName>
                avec <persName ref="#P637">un espèce de gouverneur</persName> qu’on lui recommanda en
@@ -2561,7 +2561,7 @@
                Dès le lendemain, <persName ref="#P34">Mr de Danckelmann</persName> arriva avec sa
                lettre, qui était de quatre pages pour le moins, où il racontait au <persName ref="#P162">comte de Schwerin</persName> qu’on disait que je me faisais
                catholique, et que l’achat de <placeName ref="#O39">la terre</placeName> ne serait
-               approuvé qu’en donnant <seg xml:id="RM_R356_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL63" type="relationship_mention"><persName ref="#P231">mon fils aîné</persName></seg>. Il lui marquait l’histoire de
+               approuvé qu’en donnant <seg xml:id="RM_R356_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL63" type="relationship_mention"><persName ref="#P231">mon fils aîné</persName></seg>. Il lui marquait l’histoire de
                l’estafette et tout ce qu’il savait.</p>
             <p xml:id="P.362">En attendant madame la <persName ref="#P181">comtesse de Strattmann</persName> avait parlé
                fortement à <persName ref="#P34">monsieur de Danckelmann</persName>. Elle l’avait avertie en amie de ne
@@ -2624,7 +2624,7 @@
                incontestables à <placeName ref="#O6">Berlin</placeName>. Elle me répliqua : « Mais
                elle veut être trompée, car, dit elle en riant, <persName ref="#P367">le
                   marchand</persName> qu’elle me nomma est marié depuis très longtemps à ce que tout le monde
-               sait, et il a demandé à l’épouser. Elle y fut <anchor corresp="#facs_431" xml:id="normalized_facs_431"/>hier pour se promettre et y trouva <seg xml:id="RM_R369_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL64" type="relationship_mention"><persName ref="#P111">sa
+               sait, et il a demandé à l’épouser. Elle y fut <anchor corresp="#facs_431" xml:id="normalized_facs_431"/>hier pour se promettre et y trouva <seg xml:id="RM_R369_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL64" type="relationship_mention"><persName ref="#P111">sa
                   femme</persName></seg> au lieu de lui, ce qui la met à présent au désespoir, et
                elle a pris la résolution de quitter <placeName ref="#O23">Vienne</placeName> au plus
                tôt. » Toute rare qu’était cette aventure, elle ne me divertit aucunement. Je
@@ -2652,7 +2652,7 @@
                triompher, la divine providence préparait tout à ma chute. Vous le vouliez ainsi, ô
                mon Sauveur, parce que le monde m’occupait. C’était pourtant plus le faux brillant,
                mais l’amour d’un époux tendrement chéri et la vue de mes si <anchor corresp="#facs_438" xml:id="normalized_facs_438"/>
-               <seg xml:id="RM_R375_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">aimables enfants<note type="persons">
+               <seg xml:id="RM_R375_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">aimables enfants<note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -2717,7 +2717,7 @@
                   <rdg wit="#A">et</rdg>
                </app> paraissait se porter parfaitement bien. J’y fus après son départ, et je pris
                congé de tous ceux qui y étaient. C’était le mercredi<note type="editorial">Tatsächlich war der 7. Februar 1720 ein Mittwoch.</note>. <date type="full-date" when-iso="1721-02-08">Le jeudi</date>, je ne sortis point. Je fis tous mes
-               préparatifs de voyage et j’assurai <seg xml:id="RM_R383_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL65" type="relationship_mention"><persName ref="#P624">la
+               préparatifs de voyage et j’assurai <seg xml:id="RM_R383_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL65" type="relationship_mention"><persName ref="#P624">la
                   belle-fille</persName></seg> de madame la <persName ref="#P10">comtesse de
                   Batthyány</persName>
                <app>
@@ -2756,10 +2756,10 @@
                constamment sur ce principe <anchor corresp="#facs_458" xml:id="normalized_facs_458"/>et joignit sa relation au <persName ref="#P162">comte de Schwerin</persName> à la lettre que je lui écrivis
                dès que je fus arrivée.</p>
             <p xml:id="P.396">
-               <seg xml:id="RM_R396_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL66" type="relationship_mention"><persName ref="#P597">Le comte<certainty locus="value">
+               <seg xml:id="RM_R396_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL66" type="relationship_mention"><persName ref="#P597">Le comte<certainty locus="value">
                         <desc>unsichere Identifizierunge Identifizierung</desc>
                      </certainty>
-                  </persName></seg> et la <seg xml:id="RM_R396_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL67" type="relationship_mention"><persName ref="#P109">comtesse de W.<certainty locus="value">
+                  </persName></seg> et la <seg xml:id="RM_R396_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL67" type="relationship_mention"><persName ref="#P109">comtesse de W.<certainty locus="value">
                         <desc>unsichere Identifizierunge Identifizierung</desc>
                      </certainty>
                   </persName></seg> vinrent le lendemain <app>
@@ -2846,27 +2846,27 @@
                </app>, le cœur pénétré de douleur. <note type="marginalia_W">Son départ de Breslau
                   le <date type="full-date" when-iso="1720-05-14">14 de mai 1720</date>.
                </note>J’avais des chevaux de postes, et je fis beaucoup de diligence, tellement que
-               j’arrivai le 17 à <placeName ref="#O27">Crossen</placeName> où je logeai chez <seg xml:id="RM_R410_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL68" type="relationship_mention"><persName ref="#P147">monsieur le
-                     baron de Schönaich, mon beau-frère</persName></seg>. <note type="marginalia_W">Elle loge à Crossen chez son beau-frère.</note> Lui et <seg xml:id="RM_R410_7" ana="http://gams.uni-graz.at/o:mgs.persons#REL70" type="relationship_mention"><persName ref="#P155">madame son épouse</persName></seg> m’y firent mille accueils, ils ne me marquèrent même
+               j’arrivai le 17 à <placeName ref="#O27">Crossen</placeName> où je logeai chez <seg xml:id="RM_R410_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL68" type="relationship_mention"><persName ref="#P147">monsieur le
+                     baron de Schönaich, mon beau-frère</persName></seg>. <note type="marginalia_W">Elle loge à Crossen chez son beau-frère.</note> Lui et <seg xml:id="RM_R410_7" ana="https://gams.uni-graz.at/o:mgs.persons#REL70" type="relationship_mention"><persName ref="#P155">madame son épouse</persName></seg> m’y firent mille accueils, ils ne me marquèrent même
                aucun soupçon. C’était un vendredi au soir, on servit de la viande et du poisson,
                mais je me <anchor corresp="#facs_481" xml:id="normalized_facs_481"/>servis de ma
-               dispense et refusai le poisson. Le samedi, <seg xml:id="RM_R410_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL69" type="relationship_mention"><persName ref="#P163">ma
+               dispense et refusai le poisson. Le samedi, <seg xml:id="RM_R410_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL69" type="relationship_mention"><persName ref="#P163">ma
                   belle-sœur</persName></seg> d’<placeName ref="#O145">Amtitz</placeName>, qui n’est
                éloignée de <placeName ref="#O27">Crossen</placeName> que de trois lieues, vint pour
-               me voir et m’emmena <seg xml:id="RM_R410_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL46" type="relationship_mention"><persName ref="#P160">mon second fils</persName></seg>, qu’elle avait eu toujours avec elle. <note type="marginalia_W">L'histoire de son puîné, qui fut chez sa belle-sœur.</note> Il
+               me voir et m’emmena <seg xml:id="RM_R410_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL46" type="relationship_mention"><persName ref="#P160">mon second fils</persName></seg>, qu’elle avait eu toujours avec elle. <note type="marginalia_W">L'histoire de son puîné, qui fut chez sa belle-sœur.</note> Il
                avait alors environ 5 ans. <app>
                   <rdg wit="#A">Il était</rdg>
                </app> charmant. Il savait déjà beaucoup de mots latins, qu’il <app>
                   <rdg wit="#A">gargounait</rdg>
                   <rdg wit="#W">jargonnait</rdg>
-               </app> le plus plaisamment du monde. <seg xml:id="RM_R410_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL69" type="relationship_mention"><persName ref="#P163">Ma
+               </app> le plus plaisamment du monde. <seg xml:id="RM_R410_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL69" type="relationship_mention"><persName ref="#P163">Ma
                   belle-sœur</persName></seg>, voyant qu’il me charmait, voulut me réjouir de ses
                saillies. « Si vous saviez, <app>
                   <rdg wit="#W">me</rdg>
-               </app> dit-elle, ma sœur, la rare ambition de <seg xml:id="RM_R410_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL46" type="relationship_mention"><persName ref="#P160">votre fils</persName></seg>. » Je ne
+               </app> dit-elle, ma sœur, la rare ambition de <seg xml:id="RM_R410_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL46" type="relationship_mention"><persName ref="#P160">votre fils</persName></seg>. » Je ne
                pouvais bien comprendre où cela aboutirait. « Je lui ai demandé, me dit-elle, ce
                qu’il veut devenir un jour. Il dit qu’il ne veut pas devenir une Excellence, que ce
-               nom est trop commun, mais que celui d’Eminence est plus à son goût. » <note type="marginalia_W">le titre d'éminence</note> Je croyais que <seg xml:id="RM_R410_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL69" type="relationship_mention">ma belle-sœur</seg>
+               nom est trop commun, mais que celui d’Eminence est plus à son goût. » <note type="marginalia_W">le titre d'éminence</note> Je croyais que <seg xml:id="RM_R410_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL69" type="relationship_mention">ma belle-sœur</seg>
                <app>
                   <rdg wit="#A">voulait par là tenter ma religion pour savoir ce que je
                      pensais</rdg>
@@ -2883,12 +2883,12 @@
                ce désir, gravez-lui avec des caractères ineffaçables. <note type="marginalia_W">nescitis quid petatis o ambitio ambientium crux: aut pati aut mori.</note>
             </p>
             <p xml:id="P.416">Le <persName ref="#P162">comte de Schwerin</persName> se promenait
-               avec lui et avec <seg xml:id="RM_R416_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL28" type="relationship_mention"><persName ref="#P173">mon beau-frère</persName></seg>. <seg xml:id="RM_R416_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">Ma belle-sœur</persName></seg>
+               avec lui et avec <seg xml:id="RM_R416_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL28" type="relationship_mention"><persName ref="#P173">mon beau-frère</persName></seg>. <seg xml:id="RM_R416_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">Ma belle-sœur</persName></seg>
                et <persName ref="#P39">la comtesse de Golovkin</persName> m’emmenèrent dans un
                cabinet de verdure où on <app>
                   <rdg wit="#A">bâtit</rdg>
                   <rdg wit="#W">s'assit</rdg>
-               </app>. <seg xml:id="RM_R416_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">Ma
+               </app>. <seg xml:id="RM_R416_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">Ma
                      belle-sœur</persName></seg> commença le discours par le tort que ma longue
                absence m’avait fait, que mes meilleurs amis étaient presque hors d’état de me rendre
                service. <note type="marginalia_W">le discours de sa belle-sœur sur le tort de sa
@@ -2901,7 +2901,7 @@
                </app> de me dire une chose qui sans doute me ferait du chagrin. Je lui répondis que
                non, qu’il faudrait que ce fût une chose bien surprenante, puisque sans cela rien ne
                m’étonnait plus après le changement de <persName ref="#P98">madame de
-                  Marwitz</persName>. A ces mots, <seg xml:id="RM_R416_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">ma belle-sœur</persName></seg>
+                  Marwitz</persName>. A ces mots, <seg xml:id="RM_R416_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">ma belle-sœur</persName></seg>
                rougit et me dit : « C’est d’elle que j’ai à vous parler. <note type="marginalia_W">la disgrâce du roi</note>
                <persName ref="#P17">Le roi</persName> a trouvé très mauvais que vous vous soyez
                montrée lorsqu’il a passé. Il l’a pris, comme si vous le braviez et a défendu à
@@ -2922,7 +2922,7 @@
                traitée en cousine, mais en fille. J’ai vu plusieurs années par ses yeux, je n’ai
                jamais dit non là où elle a dit oui. Si elle peut m’oublier en conscience, je lui en
                laisse la disposition. Elle a de l’esprit, et j’espère qu’elle aura le cœur bon. Elle
-               saura ce qu’elle aura à faire. » <seg xml:id="RM_R416_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">Ma belle-sœur</persName></seg> continua et me dit que la
+               saura ce qu’elle aura à faire. » <seg xml:id="RM_R416_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention"><persName ref="#P38">Ma belle-sœur</persName></seg> continua et me dit que la
                   <persName ref="#P206">frelle de Sonsfeld</persName> l’avait priée de me faire ses
                compliments et de me dire qu’elle était au désespoir de n’oser me voir, mais que
                   <persName ref="#P23">la reine</persName> lui avait fait entendre que <persName ref="#P17">Sa Majesté</persName> espérait bien que je ne me hasarderai pas de
@@ -2934,7 +2934,7 @@
                besoin, moi, <app>
                   <rdg wit="#W">dis-je,</rdg>
                </app> de dire oui ou non. Ceux qui disent que je le suis doivent montrer leurs
-               preuves. » Sur cela, <seg xml:id="RM_R416_7" ana="http://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention">ma
+               preuves. » Sur cela, <seg xml:id="RM_R416_7" ana="https://gams.uni-graz.at/o:mgs.persons#REL48" type="relationship_mention">ma
                   belle-sœur</seg> s’embarrassa beaucoup. Je repris la parole et lui dis : « C’est
                   <anchor corresp="#facs_490" xml:id="normalized_facs_490"/>la chose du monde la
                plus extraordinaire qu’on soit si embarrassé de ma conscience. Hé, dis-je, ne
@@ -2949,7 +2949,7 @@
                   terre</placeName>, sans pourtant lui avouer que j’étais catholique. Mais une chose
                qui me résistait beaucoup, c’est que le matin ou le soir, quand on s’en apercevait le
                moins, quand le <persName ref="#P162">comte de Schwerin</persName> se promenait dans
-               le jardin, elle était toujours de la partie. <seg xml:id="RM_R423_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">Ma fille</persName></seg>, toute
+               le jardin, elle était toujours de la partie. <seg xml:id="RM_R423_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">Ma fille</persName></seg>, toute
                enfant qu’elle était, fut la première qui <app>
                   <rdg wit="#A">décela</rdg>
                   <rdg wit="#W">découvrit</rdg>
@@ -2979,7 +2979,7 @@
                   <bibl ana="#B22">Wer nur den lieben Gott lässt walten</bibl>
                </hi>. J’en fus frappée et admirai dans mon intérieur la bonté de la <app>
                   <rdg wit="#W">adorable</rdg>
-               </app> providence qui m’envoyait de si heureuses circonstances pour apaiser <seg xml:id="RM_R429_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon
+               </app> providence qui m’envoyait de si heureuses circonstances pour apaiser <seg xml:id="RM_R429_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon
                   époux</persName></seg>. <note type="marginalia_W">le trait de la providence
                   divine</note> Cette chanson roule entièrement sur la volonté et la providence
                divine. Jamais je n’avais chanté, à ce qui <app>
@@ -3005,14 +3005,14 @@
                espérait que puisque tous les obstacles étaient levés, qu’il nous procureraient
                bientôt ce consentement si désiré. <note type="marginalia_W">le voyage de la servante
                   à Vienne</note> Je passai toute la nuit à écrire à <placeName ref="#O23">Vienne</placeName> et à dire toutes mes commissions à <persName ref="#P96">ma Catherine</persName>, qui
-               partit le matin à quatre heures avec <persName ref="#P574">la nourrice</persName> de <seg xml:id="RM_R429_8" ana="http://gams.uni-graz.at/o:mgs.persons#REL56" type="relationship_mention"><persName ref="#P159">mon plus jeune fils <app>
+               partit le matin à quatre heures avec <persName ref="#P574">la nourrice</persName> de <seg xml:id="RM_R429_8" ana="https://gams.uni-graz.at/o:mgs.persons#REL56" type="relationship_mention"><persName ref="#P159">mon plus jeune fils <app>
                         <rdg wit="#W">Eugène</rdg>
                      </app>
                   </persName></seg>, que j’avais amenée de <placeName ref="#O23">Vienne</placeName>. </p>
-            <p xml:id="P.437" ana="#T1 #S10">Le jour de naissance de <seg xml:id="RM_R437_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma fille</persName></seg>
+            <p xml:id="P.437" ana="#T1 #S10">Le jour de naissance de <seg xml:id="RM_R437_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma fille</persName></seg>
                approchait, et j’avais une extrême envie de lui donner le jardin et la maison de
                   <placeName ref="#O17">Charlottenbourg</placeName> que le <persName ref="#P162">comte de Schwerin</persName> m’avait donnés. <note type="marginalia_W">praesagium</note> Le cœur me disait assez que je n’y retournerais plus. J’étais
-               charmée que <seg xml:id="RM_R437_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma
+               charmée que <seg xml:id="RM_R437_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma
                      fille</persName></seg> eût cette marque de ma tendresse pour elle, et je
                comptais même que mon <app>
                   <rdg wit="#A">esprit</rdg>
@@ -3025,7 +3025,7 @@
                pour le sonder. Jusque là, j’avais toujours eu le nom que cette maison m’appartenait,
                et rien ne s’y faisait sans mes ordres. Ainsi, je ne pouvais me douter que <app>
                   <rdg wit="#A">
-                     <seg xml:id="RM_R437_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon
+                     <seg xml:id="RM_R437_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon
                            mari</persName>
                      </seg>
                   </rdg>
@@ -3035,14 +3035,14 @@
                      
                   </rdg>
                </app> s’opposerait à mon projet. Je ne craignais donc rien, sinon qu’il voulût
-               qu’elle restât au <seg xml:id="RM_R437_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">fils aîné</persName></seg>, mais quelle fut ma surprise lorsque <persName ref="#P472">le secrétaire</persName> vint me dire que le <persName ref="#P162">comte de Schwerin</persName> s’était excusé de donner <placeName ref="#O17">cette
-                  terre</placeName> à <seg xml:id="RM_R437_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL72" type="relationship_mention"><persName ref="#P154">sa fille</persName></seg>, qu’elle lui appartenait et qu’il voulait
+               qu’elle restât au <seg xml:id="RM_R437_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">fils aîné</persName></seg>, mais quelle fut ma surprise lorsque <persName ref="#P472">le secrétaire</persName> vint me dire que le <persName ref="#P162">comte de Schwerin</persName> s’était excusé de donner <placeName ref="#O17">cette
+                  terre</placeName> à <seg xml:id="RM_R437_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL72" type="relationship_mention"><persName ref="#P154">sa fille</persName></seg>, qu’elle lui appartenait et qu’il voulait
                la garder. Ce fut pour moi un coup de foudre. <note type="marginalia_W">la donation
                   de son époux anéantie</note> Quoi, dis-je, ai-je donc rêvé pendant <app>
                   <rdg wit="#W">huit ou</rdg>
                </app> dix ans que je l’ai possédée, que le <persName ref="#P162">comte de
                   Schwerin</persName> me l’a donnée en présence de plus de vingt personnes et même
-               de <seg xml:id="RM_R437_7" ana="http://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon
+               de <seg xml:id="RM_R437_7" ana="https://gams.uni-graz.at/o:mgs.persons#REL7" type="relationship_mention"><persName ref="#P81">mon
                      père</persName></seg> ? Je tâchai pourtant de me contraindre, et cachai le
                mieux que je pus tout mon dépit. <note type="marginalia_W">Elle cache son dépit
                   là-dessus.</note> Je songeais qu’il <app>
@@ -3055,7 +3055,7 @@
                   <rdg wit="#A">par d’autres</rdg>
                   <rdg wit="#W">de nouvelles</rdg>
                </app> disgrâces (sic). Je dis froidement au <persName ref="#P472">secrétaire</persName> que je croyais que le <persName ref="#P162">comte de
-                  Schwerin</persName> la destinait à <seg xml:id="RM_R437_8" ana="http://gams.uni-graz.at/o:mgs.persons#REL36" type="relationship_mention"><persName ref="#P167">son fils</persName></seg>, mais qu’il ne voulait pas lui
+                  Schwerin</persName> la destinait à <seg xml:id="RM_R437_8" ana="https://gams.uni-graz.at/o:mgs.persons#REL36" type="relationship_mention"><persName ref="#P167">son fils</persName></seg>, mais qu’il ne voulait pas lui
                dire de peur de lui donner de la vanité. <persName ref="#P472">Le
                   secrétaire</persName> se mit à rire dédaigneusement, me croyant bien dupe et bien
                prévenue. Je me retirai <app>
@@ -3093,7 +3093,7 @@
                </app>
                <app>
                   <rdg wit="#A">
-                     <seg xml:id="RM_R443_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon
+                     <seg xml:id="RM_R443_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon
                            mari</persName></seg>
                   </rdg>
                   <rdg wit="#W">du <persName ref="#P162">comte de Schwerin</persName>. Et <persName ref="#P202">la Wergeau</persName>, quoique témoin alors de toutes les
@@ -3108,7 +3108,7 @@
                chambre du <persName ref="#P162">comte de Schwerin</persName>. Toutes ces
                particularités, quoique des minuties, sont très importantes pour la suite de ma
                narration. Je trouvai le haut de la maison assez commode, mais avec le consentement <app>
-                  <rdg wit="#A">de <seg xml:id="RM_R450_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg>
+                  <rdg wit="#A">de <seg xml:id="RM_R450_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg>
                   </rdg>
                   <rdg wit="#W">du <persName ref="#P162">comte de Schwerin</persName>
                   </rdg>
@@ -3119,7 +3119,7 @@
                   </app> de chambre</persName> et <app>
                   <rdg wit="#W">mettais</rdg>
                </app>
-               <seg xml:id="RM_R450_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL46 http://gams.uni-graz.at/o:mgs.persons#REL47 http://gams.uni-graz.at/o:mgs.persons#REL56" type="relationship_mention"><persName ref="#P159 #P165 #P160">mes trois
+               <seg xml:id="RM_R450_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL46 https://gams.uni-graz.at/o:mgs.persons#REL47 https://gams.uni-graz.at/o:mgs.persons#REL56" type="relationship_mention"><persName ref="#P159 #P165 #P160">mes trois
                      plus jeunes fils <note type="persons">
                         <listPerson>
                            <person corresp="#P159">
@@ -3151,7 +3151,7 @@
                </app> les <app>
                   <rdg wit="#W">chers</rdg>
                </app>
-               <seg xml:id="RM_R450_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4" type="relationship_mention"><persName ref="#P159 #P165 #P160">enfants<note type="persons">
+               <seg xml:id="RM_R450_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4" type="relationship_mention"><persName ref="#P159 #P165 #P160">enfants<note type="persons">
                         <listPerson>
                            <person corresp="#P159">
                               <name>
@@ -3179,7 +3179,7 @@
                   </persName></seg> et <persName ref="#P381">les servantes</persName> devaient
                passer par ma chambre pour <app>
                   <rdg wit="#A">entrer ou</rdg>
-               </app> sortir de la leur. Je mis <persName ref="#P202">la Wergeau</persName> et <seg xml:id="RM_R450_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma
+               </app> sortir de la leur. Je mis <persName ref="#P202">la Wergeau</persName> et <seg xml:id="RM_R450_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma
                      fille</persName></seg> dans celle qui m’était destinée, qui était vis-à-vis de
                la mienne, séparée d’un vestibule de plain-pied. Il y avait derrière ma chambre une
                salle, et une belle chambre de chaque côté. Je prétextai au <persName ref="#P162">comte de Schwerin</persName> qu’en disposant les logements de cette manière, je
@@ -3189,7 +3189,7 @@
                </app> sa belle maison de <placeName ref="#O6">Berlin</placeName>, qui était en
                partie située de cette manière. Il approuva le tout et se remit de la meilleure
                humeur du monde. Mes vues dans cet arrangement étaient d’avoir incessamment les yeux
-               sur <seg xml:id="RM_R450_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes chers enfants <note type="persons">
+               sur <seg xml:id="RM_R450_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes chers enfants <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -3232,7 +3232,7 @@
                   proponit Deus disponit</note> Mais mon Dieu, que les projets humains sont éloignés
                des vôtres ! Toutes mes vues ne tendaient qu’à conserver ces innocentes âmes, et tous
                mes pas étaient autant d’écueils et de pièges que je me tendais à moi-même, puisque
-                  <anchor corresp="#facs_539" xml:id="normalized_facs_539"/>plus j’approchais <seg xml:id="RM_R450_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes enfants <note type="persons">
+                  <anchor corresp="#facs_539" xml:id="normalized_facs_539"/>plus j’approchais <seg xml:id="RM_R450_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes enfants <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -3273,23 +3273,23 @@
                      </note>
                   </persName></seg> de moi, plus j’aigrissais <persName ref="#P202">la
                   Wergeau</persName>, <note type="marginalia_W">les ordres donnés à madame
-                  Wergeau</note> qui avait déjà des ordres sous-main de la <seg xml:id="RM_R450_7" ana="http://gams.uni-graz.at/o:mgs.persons#REL58" type="relationship_mention"><persName ref="#P158">comtesse de Schwerin, ma
+                  Wergeau</note> qui avait déjà des ordres sous-main de la <seg xml:id="RM_R450_7" ana="https://gams.uni-graz.at/o:mgs.persons#REL58" type="relationship_mention"><persName ref="#P158">comtesse de Schwerin, ma
                      belle-mère</persName></seg>, de <app>
                   <rdg wit="#A">les</rdg>
                </app> éloigner de moi autant qu’il serait possible pour que je ne les infectasse pas
                de mon venin. Voilà, mon Dieu, comme on nommait la vérité de votre Eglise. <persName ref="#P202">La Wergeau</persName> avait déjà trahi le secret à la famille de
                Schwerin avant que de partir de <placeName ref="#O6">Berlin</placeName>, et elle en
-               fit la même chose à <placeName ref="#O136">Stargard</placeName>, à <seg xml:id="RM_R450_8" ana="http://gams.uni-graz.at/o:mgs.persons#REL69" type="relationship_mention"><persName ref="#P163">madame de <app>
+               fit la même chose à <placeName ref="#O136">Stargard</placeName>, à <seg xml:id="RM_R450_8" ana="https://gams.uni-graz.at/o:mgs.persons#REL69" type="relationship_mention"><persName ref="#P163">madame de <app>
                         <rdg wit="#A">C.</rdg>
                         <rdg wit="#W">Cleff.</rdg>
                      </app> , ma belle-sœur</persName></seg>. </p>
             <p xml:id="P.456" ana="#T1 #S1" corresp="/o:mgs.timeline#T170">Vers la moitié <app>
                   <rdg wit="#W">du mois</rdg>
-               </app> d’<date type="month-year" when-iso="1720-10">octobre</date>, <seg xml:id="RM_R456_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon fils
+               </app> d’<date type="month-year" when-iso="1720-10">octobre</date>, <seg xml:id="RM_R456_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon fils
                      aîné</persName></seg> arriva d’<placeName ref="#O49">Hollande</placeName> avec
                   <persName ref="#P637">son gouverneur</persName>. Nous étions priés à dîner, <app>
                   <rdg wit="#A">
-                     <seg xml:id="RM_R456_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon
+                     <seg xml:id="RM_R456_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon
                            mari</persName></seg>
                   </rdg>
                   <rdg wit="#W">
@@ -3356,13 +3356,13 @@
                         <rdg wit="#W">la gaîté qui</rdg>
                      </app>
                   </rdg>
-                  <rdg wit="#A">que <seg xml:id="RM_R456_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon fils</persName></seg>
+                  <rdg wit="#A">que <seg xml:id="RM_R456_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL32" type="relationship_mention"><persName ref="#P167">mon fils</persName></seg>
                   </rdg>
                </app> venait d’arriver chez moi, elle <app>
                   <rdg wit="#A">loua</rdg>
                   <rdg wit="#W">eut la complaisance de louer</rdg>
                </app> mon tendre cœur de mère et de reprocher <app>
-                  <rdg wit="#A">à <seg xml:id="RM_R456_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg>
+                  <rdg wit="#A">à <seg xml:id="RM_R456_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg>
                   </rdg>
                   <rdg wit="#W">au <persName ref="#P162">comte de Schwerin</persName>
                   </rdg>
@@ -3398,7 +3398,7 @@
                suite pour trouver un prétexte plausible qui palliât en quelque manière mon exil. <app>
                   <rdg wit="#W">Enfin, il s'en trouvera encore des plus forts, des plus expressifs
                      et qui sont tous incontestables. J'en reviens à mon sujet.</rdg>
-               </app> Je m’expliquai enfin à <seg xml:id="RM_R464_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg>, combien sa méfiance m’avait accablée,
+               </app> Je m’expliquai enfin à <seg xml:id="RM_R464_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg>, combien sa méfiance m’avait accablée,
                et que si je devais y être exposée davantage, que cela me pousserait à toutes sortes
                d’extrémités. Et après quelques contestations de part et d’autre, <app>
                   <rdg wit="#A">il</rdg>
@@ -3410,13 +3410,13 @@
             <p xml:id="P.470" ana="#Ta #S1">
                <app>
                   <rdg wit="#A">Comme on était à table et que le <persName ref="#P655">comte de
-                        Dohna</persName> voulait engager <persName ref="#P162">mon <seg xml:id="RM_R470_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mari</seg></persName> à une
+                        Dohna</persName> voulait engager <persName ref="#P162">mon <seg xml:id="RM_R470_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mari</seg></persName> à une
                      partie de chasse, et comme je savais à quoi tous ces discours
                      aboutissaient,</rdg>
                   <rdg wit="#W">
                      <persName ref="#P655">Un des jeunes comtes de Dohna</persName> dina ce jour-là
                      chez nous. Il nous dit qu’il allait dans quelques jours à une grande partie de
-                     chasse chez <seg xml:id="RM_R470_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL73" type="relationship_mention"><persName ref="#P449">le feldmaréchal comte de Dohna</persName>,
+                     chasse chez <seg xml:id="RM_R470_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL73" type="relationship_mention"><persName ref="#P449">le feldmaréchal comte de Dohna</persName>,
                      son oncle</seg>, où toute sa
                      famille était assemblée. « Pour cela, répliqua <persName ref="#P162">le comte
                         de Schwerin</persName>, je croyais que cela me ferait bien du bien, si je
@@ -3428,7 +3428,7 @@
                      que des préambules pour faire entendre que <persName ref="#P162">le comte de
                         Schwerin</persName> ferait ce voyage. Je tâchais d’interrompre un discours
                      qui m’était si contraire, et</rdg>
-               </app> je me mis à questionner <seg xml:id="RM_R470_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">
+               </app> je me mis à questionner <seg xml:id="RM_R470_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">
                      <app>
                         <rdg wit="#A">mes</rdg>
                         <rdg wit="#W">les</rdg>
@@ -3473,10 +3473,10 @@
                      </note>
                   </persName></seg>. Le <persName ref="P#P655">comte de Dohna</persName>
                <app>
-                  <rdg wit="#A">demanda à <seg xml:id="RM_R470_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma fille</persName></seg>
+                  <rdg wit="#A">demanda à <seg xml:id="RM_R470_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma fille</persName></seg>
                   </rdg>
                   <rdg wit="#W">qui est très poli ne voulut point m'interrompre en visite. Il
-                     s’amusa à railler <seg xml:id="RM_R470_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma fille</persName></seg> en la questionnant</rdg>
+                     s’amusa à railler <seg xml:id="RM_R470_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">ma fille</persName></seg> en la questionnant</rdg>
                </app> si elle voulait <app>
                   <rdg wit="#A">pour se marier</rdg>
                   <rdg wit="#W">épouser</rdg>
@@ -3505,7 +3505,7 @@
                qu’on <app>
                   <rdg wit="#A">me destinait</rdg>
                   <rdg wit="#W">commençait à me destiner</rdg>
-               </app> une pareille retraite et que <seg xml:id="RM_R470_6" ana="http://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">la pauvre enfant</persName></seg> en avait déjà été
+               </app> une pareille retraite et que <seg xml:id="RM_R470_6" ana="https://gams.uni-graz.at/o:mgs.persons#REL71" type="relationship_mention"><persName ref="#P154">la pauvre enfant</persName></seg> en avait déjà été
                   pré<anchor corresp="#facs_586" xml:id="normalized_facs_586"/>venue.  </p>
             <p xml:id="P.476" ana="#T1 #S1 #S2 #S5">J’attendais avec <app>
                   <rdg wit="#W">bien d'</rdg>
@@ -3666,12 +3666,12 @@
                que le blanc est noir. Non, dis-je, ne croyez pas que <persName ref="#P453">le
                   roi</persName> le sache, si ce n’est que le comte de Dohna le lui marque, à cette
                heure qu’il a votre aveu. » « Mais mon Dieu, <app>
-                  <rdg wit="#A">me dit <persName ref="#P162"><seg xml:id="RM_R476_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mon mari</seg></persName>
+                  <rdg wit="#A">me dit <persName ref="#P162"><seg xml:id="RM_R476_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention">mon mari</seg></persName>
                   </rdg>
                   <rdg wit="#W">s'écria <persName ref="#P162">le comte de Schwerin</persName>
                   </rdg>
                </app> , que vous êtes incrédule. Il m’a non seulement assuré que <persName ref="#P17">le roi</persName> le sait, mais il m’a averti que l’on me soupçonne que
-               je me laisserai aller à vos persuasions, et que je me rendrai catholique et <persName ref="#P154 #P159 #P160 #P165 #P167"><seg xml:id="RM_R476_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention">tous les enfants <note type="persons">
+               je me laisserai aller à vos persuasions, et que je me rendrai catholique et <persName ref="#P154 #P159 #P160 #P165 #P167"><seg xml:id="RM_R476_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention">tous les enfants <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -3726,7 +3726,7 @@
                   <rdg wit="#W">pas</rdg>
                </app> le marché de <placeName ref="#O39">Freihan</placeName>. <app>
                   <rdg wit="#W">« Au nom de Dieu, lui dis-je, dites-moi où puis-je vous gagner ? Je
-                     vous jure que dorénavant vous vous mêlieriez seule de l’éducation des <seg xml:id="RM_R482_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">enfants <note type="persons">
+                     vous jure que dorénavant vous vous mêlieriez seule de l’éducation des <seg xml:id="RM_R482_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">enfants <note type="persons">
                               <listPerson>
                                  <person corresp="#P154">
                                     <name>
@@ -3776,7 +3776,7 @@
                   <rdg wit="#W">offrez au <persName ref="#P162">comte de Schwerin</persName>
                   </rdg>
                </app> qu'il m’envoie <anchor corresp="#facs_609" xml:id="normalized_facs_609"/>
-               seule à <placeName ref="#O39">Freihan</placeName>. Je serais alors loin des <seg xml:id="RM_R482_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">enfants, <note type="persons">
+               seule à <placeName ref="#O39">Freihan</placeName>. Je serais alors loin des <seg xml:id="RM_R482_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">enfants, <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -3896,7 +3896,7 @@
                services à votre contentement mutuel, puisque je <anchor corresp="#facs_618" xml:id="normalized_facs_618"/>suis très parfaitement, Madame,</p>
             <p xml:id="P.496">Ce fut cette nuit encore qui fut terrible à passer pour moi. Je
                soutins un combat cruel. Tous mes sentiments de tendresse pour <persName ref="#P162">cet époux</persName> qui me
-               traitait avec tant de rigueur se réveillèrent, <seg xml:id="RM_R496_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes enfants
+               traitait avec tant de rigueur se réveillèrent, <seg xml:id="RM_R496_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes enfants
                         <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
@@ -3951,7 +3951,7 @@
                partir en cas que le <persName ref="#P162">comte de Schwerin</persName> me pressât davantage de me
                déclarer.</p>
             <p xml:id="P.503" ana="#T1 #S1 #S9" corresp="/o:mgs.timeline#T173">J’en reviens à mon
-               sujet. <date type="full-date" when-iso="1720-12-12">Le 12</date>, <seg xml:id="RM_R503_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL74 http://gams.uni-graz.at/o:mgs.persons#REL75 http://gams.uni-graz.at/o:mgs.persons#REL76 http://gams.uni-graz.at/o:mgs.persons#REL77 http://gams.uni-graz.at/o:mgs.persons#REL78" type="relationship_mention"><persName ref="#P30">cette pieuse dame</persName> me fit écrire par <persName ref="#P29 #P671 #P675 #P676 #P677">sa
+               sujet. <date type="full-date" when-iso="1720-12-12">Le 12</date>, <seg xml:id="RM_R503_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL74 https://gams.uni-graz.at/o:mgs.persons#REL75 https://gams.uni-graz.at/o:mgs.persons#REL76 https://gams.uni-graz.at/o:mgs.persons#REL77 https://gams.uni-graz.at/o:mgs.persons#REL78" type="relationship_mention"><persName ref="#P30">cette pieuse dame</persName> me fit écrire par <persName ref="#P29 #P671 #P675 #P676 #P677">sa
                      charmante fille<certainty locus="value">
                         <desc>unklar, eine der Personen</desc>
                      </certainty>
@@ -4034,7 +4034,7 @@
                </app> Je <app>
                   <rdg wit="#W">lui</rdg>
                </app> dis <app>
-                  <rdg wit="#A">au <seg xml:id="RM_R503_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL92" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg>
+                  <rdg wit="#A">au <seg xml:id="RM_R503_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL92" type="relationship_mention"><persName ref="#P162">comte de Schwerin</persName></seg>
                   </rdg>
                </app> qu’on avait examiné tous les billets <app>
                   <rdg wit="#A">des portes et qu’il n’y avait point d’officier prussien,</rdg>
@@ -4092,7 +4092,7 @@
                qu’elle souffre.</p>
             <p xml:id="P.509" ana="#T1 #S3 #S5 #S9">Nous allâmes donc chez <persName ref="#P42">la
                   comtesse de Dönhoff</persName>, où la même compagnie du jour précédent s’était
-               déjà rendue. Elle avait fait venir la musique pour <seg xml:id="RM_R509_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL79 http://gams.uni-graz.at/o:mgs.persons#REL80 http://gams.uni-graz.at/o:mgs.persons#REL81 http://gams.uni-graz.at/o:mgs.persons#REL82 http://gams.uni-graz.at/o:mgs.persons#REL83" type="relationship_mention"><persName ref="#P660 #P661 #P662 #P663 #P664">ses
+               déjà rendue. Elle avait fait venir la musique pour <seg xml:id="RM_R509_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL79 https://gams.uni-graz.at/o:mgs.persons#REL80 https://gams.uni-graz.at/o:mgs.persons#REL81 https://gams.uni-graz.at/o:mgs.persons#REL82 https://gams.uni-graz.at/o:mgs.persons#REL83" type="relationship_mention"><persName ref="#P660 #P661 #P662 #P663 #P664">ses
                         enfants<note type="persons">
                         <listPerson>
                            <person corresp="#P660">
@@ -4137,7 +4137,7 @@
                            </person>
                         </listPerson>
                      </note>
-                  </persName></seg> et <seg xml:id="RM_R509_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">les miens<note type="persons">
+                  </persName></seg> et <seg xml:id="RM_R509_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">les miens<note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -4185,7 +4185,7 @@
                moi, j’appris que <persName ref="#P30">la générale</persName> y avait envoyé
                plusieurs fois pour me prier instamment d’aller chez elle, que <persName ref="#P194">le comte de T.<certainty locus="value">
                      <desc>unsichere Identifizierunge Identifizierung</desc>
-                  </certainty></persName> m’y attendait. J’écrivis à <seg xml:id="RM_R509_5" ana="http://gams.uni-graz.at/o:mgs.persons#REL85 http://gams.uni-graz.at/o:mgs.persons#REL86" type="relationship_mention"><persName ref="#P29 #P671">sa
+                  </certainty></persName> m’y attendait. J’écrivis à <seg xml:id="RM_R509_5" ana="https://gams.uni-graz.at/o:mgs.persons#REL85 https://gams.uni-graz.at/o:mgs.persons#REL86" type="relationship_mention"><persName ref="#P29 #P671">sa
                   chère fille<certainty locus="value">
                      <desc>unklar, vermutlich eine der Personen</desc>
                   </certainty></persName></seg> que si le <persName ref="#P162">comte de
@@ -4194,7 +4194,7 @@
                      <desc>unsichere Identifizierunge Identifizierung</desc>
                   </certainty>
                </persName> de venir chez moi. <date type="full-date" when-iso="1720-12-16">Le lundi
-                  16</date>, Dieu voulut que <seg xml:id="RM_R509_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg> ne sortît point. <persName ref="#P42">La
+                  16</date>, Dieu voulut que <seg xml:id="RM_R509_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon mari</persName></seg> ne sortît point. <persName ref="#P42">La
                   comtesse de Dönhoff</persName> me fit faire un compliment et me fit demander, si
                mon départ était fixé. Je lui fis dire que jusqu’ici je n’avais pas appris que le
                   <persName ref="#P162">comte de Schwerin</persName> eût fixé le jour. Cette
@@ -4205,7 +4205,7 @@
                pas du temps, dis-je avec vivacité, je vous demande si l’on a fixé le jour de ma
                perte, ce jour dont le souvenir me mettra au tombeau. » Elle haussa les épaules et me
                pria de ne lui plus demander, qu’elle souhaiterait de n’avoir jamais entré dans ma
-               maison. « Si vous êtes sincère, dis-je, venez avec moi, vous pourrez ramener <seg xml:id="RM_R509_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">mon
+               maison. « Si vous êtes sincère, dis-je, venez avec moi, vous pourrez ramener <seg xml:id="RM_R509_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">mon
                   enfant</persName></seg> au <persName ref="#P162">comte de Schwerin</persName>,
                dont je suis encore enceinte. Car, ajoutai-je, je prévois bien que je pars pour
                toujours. »</p>
@@ -4272,7 +4272,7 @@
                gracieuses. Il me reçut avec toutes les marques d’une tendre compassion. « Après tout
                ce que j’ai appris du <persName ref="#P227">père Lyndemier</persName>, me dit-il, je
                crains qu’on ne vous trompe, et je ne puis approuver que vous partiez d’ici sans que
-                  <seg xml:id="RM_R544_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162"> monsieur votre époux</persName></seg> vous tienne parole et qu’il
+                  <seg xml:id="RM_R544_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162"> monsieur votre époux</persName></seg> vous tienne parole et qu’il
                vienne vous reprendre ici. Nous ne sommes qu’à trois lieues de <placeName ref="#O108">sa terre</placeName>, il peut aisément faire ce trajet. Et je crains,
                ajouta-t-il, qu’il n’y ait de la trahison dans cette affaire. » Hélas ! mon Dieu,
                   <persName ref="#P120">le prince</persName> avait raison, car dans peu d’heures la
@@ -4294,7 +4294,7 @@
             <p xml:id="P.550">Dès que j’eus lu cette malheureuse lettre, je m’évanouis. Je voulus
                mourir de faim et de misère, et il n’y eut d’extravagance que mon désespoir me
                suggéra. <persName ref="#P174">Le
-                     bourgrave</persName>, <seg xml:id="RM_R550_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL87" type="relationship_mention"><persName ref="#P332">sa femme</persName></seg> et tout ce qui m’approchait me
+                     bourgrave</persName>, <seg xml:id="RM_R550_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL87" type="relationship_mention"><persName ref="#P332">sa femme</persName></seg> et tout ce qui m’approchait me
                semblaient des monstres qui achevaient de me martyriser, et avec ce désespoir
                intérieur. Je dois admirer à présent qu’on ne remarqua que mes larmes dans
                l’intérieur et des plaintes et des soupirs qui ne marquaient que mon invincible amour
@@ -4304,7 +4304,7 @@
                nullement guéries et qui ne peuvent même être escamotées que par l’amour
                surnaturel. J’étais au lit, et tout ce qu’on put faire pour m’apaiser, rien ne
                pouvait me calmer. Enfin, mon amour aveugle et ma douleur me suggérèrent une ruse par
-               où j’espérai regagner <seg xml:id="RM_R550_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg>. Cette ruse ne réussit pas pour lui,
+               où j’espérai regagner <seg xml:id="RM_R550_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg>. Cette ruse ne réussit pas pour lui,
                mais pour le calme de mon âme. Comme on le verra dans la suite, j’étais catholique à
                brûler, cela est certain, rien n’était capable d’émouvoir ma foi, ni ma constance sur
                ce point ; mais je n’étais pas encore assez instruite de plusieurs points dont à
@@ -4312,14 +4312,14 @@
             <p xml:id="P.557">Sans me dire mon crime, l’on me manque de foi.</p>
             <p xml:id="P.563">Ne m’abandonnez point à tout mon désespoir,</p>
             <p xml:id="P.571">Je lui avais dit dans ma lettre avec des termes fort tendres que
-               j’avais espéré que <seg xml:id="RM_R571_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">l’enfant</persName></seg> que je portais serait un nouveau lien de notre amour
+               j’avais espéré que <seg xml:id="RM_R571_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">l’enfant</persName></seg> que je portais serait un nouveau lien de notre amour
                et comme le sceau de notre réconciliation après mon changement de religion, mais que
                je le voyais douloureusement devenir mon ennemi, puisqu’il était (quoique innocent)
                la cause de mon cruel arrêt. « Quoi, dis-je, avez-vous pu vous résoudre à me donner
                une garde là où vous saviez qu’un seul de vos regards me tenait enchaîné ? » Il
                répondait sur cet article qu’il était vrai qu’il avait cru que ce pauvre innocent
                aurait été le lien de notre réunion, mais que <persName ref="#P17">le roi</persName>
-               les rendant responsables de <seg xml:id="RM_R571_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL88" type="relationship_mention"><persName ref="#P171">cet enfant</persName></seg> et que ma conduite ayant fait croire
+               les rendant responsables de <seg xml:id="RM_R571_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL88" type="relationship_mention"><persName ref="#P171">cet enfant</persName></seg> et que ma conduite ayant fait croire
                que je voulais m’évader et le mettre entre des mains catholiques, qu’il avait cru
                agir de prudence de me donner des gardes, qu’il savait combien je les craignais et
                craignant en même temps que l’odeur du tabac ne m’incommodât, ce sont ses
@@ -4334,12 +4334,12 @@
                nuit se passa à discourir. Dès la pointe du jour, il arriva un exprès qui rappela
                   <persName ref="#P202">madame
                      Wergeau</persName>. Le <persName ref="#P162">comte de Schwerin</persName>
-               était sans doute convenu avec elle de tout ce qu’elle devait dire, puisque <persName ref="#P174">le bourgrave</persName> reçut ordre <date type="full-date" when-iso="1721-02-22">le 22</date> de me conduire à <placeName ref="#O56">Königsberg</placeName>, et <seg xml:id="RM_R577_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg> m’écrivit qu’il se fiait à la
-               parole que <seg xml:id="RM_R577_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL93" type="relationship_mention"><persName ref="#P202">madame Wergeau</persName></seg> lui avait donnée de ma part. Les chemins
+               était sans doute convenu avec elle de tout ce qu’elle devait dire, puisque <persName ref="#P174">le bourgrave</persName> reçut ordre <date type="full-date" when-iso="1721-02-22">le 22</date> de me conduire à <placeName ref="#O56">Königsberg</placeName>, et <seg xml:id="RM_R577_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL49" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg> m’écrivit qu’il se fiait à la
+               parole que <seg xml:id="RM_R577_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL93" type="relationship_mention"><persName ref="#P202">madame Wergeau</persName></seg> lui avait donnée de ma part. Les chemins
                étaient impraticables pour toute autre voiture qu’en traîneau, à cause de la
                situation du pays et des neiges épouvantables. <persName ref="#P174">Le
                   bourgrave</persName> était trop charmé d’être quitte de moi qu’il ne tarda pas un
-               moment. Il prépara d’abord son propre traîneau, et <seg xml:id="RM_R577_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL87" type="relationship_mention"><persName ref="#P332">sa femme</persName></seg> m’enveloppa
+               moment. Il prépara d’abord son propre traîneau, et <seg xml:id="RM_R577_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL87" type="relationship_mention"><persName ref="#P332">sa femme</persName></seg> m’enveloppa
                de toutes les couvertes et pelisses qu’elle avait ; mais avant que de partir, je dis
                à <persName ref="#P96">ma
                      Cateste</persName> : « Il faut que je laisse ici un souvenir que j’y ai
@@ -4379,8 +4379,8 @@
                proximité de la maison et que sûrement je tâcherais d’y entrer à la sourdine où
                d’enlever <persName ref="#P154 #P159 #P160 #P165 #P167">les enfants</persName>. Elle versa
                quelques larmes avec ce beau discours et donnait le reste du poison qui manquait
-               encore pour pervertir le cœur et la raison de <seg xml:id="RM_R590_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg>, qui
-               ordonna qu’aucun de ceux qui me servaient n’approchât de <seg xml:id="RM_R590_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes enfants
+               encore pour pervertir le cœur et la raison de <seg xml:id="RM_R590_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL31" type="relationship_mention"><persName ref="#P162">mon époux</persName></seg>, qui
+               ordonna qu’aucun de ceux qui me servaient n’approchât de <seg xml:id="RM_R590_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes enfants
                         <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
@@ -4425,7 +4425,7 @@
                la basse-cour. Je fus instruite de cette nouvelle disgrâce. Elle me toucha
                sensiblement. Mon Dieu, vous disais-je, mon doux Seigneur, suis-je donc réduite aux
                traitements des pestiférés qu’on n’ose m’approcher et que ceux qui me voient n’osent
-               voir <seg xml:id="RM_R590_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes enfants <note type="persons">
+               voir <seg xml:id="RM_R590_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes enfants <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -4466,7 +4466,7 @@
                      </note>
                   </persName></seg> ?</p>
             <p xml:id="P.598" ana="#T1 #S5 #S8 #S9">Je voulus me reposer la nuit ensuite, mais à
-               peine fus-je assoupie que j’entendis jeter un cri à <seg xml:id="RM_R598_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL89" type="relationship_mention"><persName ref="#P171">mon fils</persName></seg> qui me fit
+               peine fus-je assoupie que j’entendis jeter un cri à <seg xml:id="RM_R598_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL89" type="relationship_mention"><persName ref="#P171">mon fils</persName></seg> qui me fit
                éveiller en sursaut. Je demandais de ses nouvelles, mais le silence et les larmes
                m’annoncèrent qu’il était expiré. Je me le fis donner d’abord, mais il n’avait plus
                le moindre mouvement de vie. Je le mis devant moi sur mon lit et achevai de fermer
@@ -4477,20 +4477,20 @@
                cesser mes exclamations et mes démonstrations de joie. Me voilà, dis-je, de nouveau
                confirmée dans ma chère et sainte religion. Quelle preuve plus authentique du secours
                de la mère de Dieu ? Le retour de <persName ref="#P202">la dame Wergeau</persName>
-               interrompit mes louanges et actions de grâces. Elle fut frappée de trouver <seg xml:id="RM_R598_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">cet
+               interrompit mes louanges et actions de grâces. Elle fut frappée de trouver <seg xml:id="RM_R598_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">cet
                   enfant</persName></seg> sur mon lit et me soupçonna de dureté. Mais il y a bien de
                la différence entre une dureté de cœur naturelle et une force d’esprit par étude de
                la religion et d’une constance chrétienne qui se réjouit de souffrir pour son
                bien-aimé, constance que les hérétiques ne peuvent ni comprendre ni goûter. <persName ref="#P202">La Wergeau</persName> voulut me faire des compliments de condoléance,
-               mais je l’interrompis : « Tenez, dis-je en lui montrant <seg xml:id="RM_R598_3" ana="http://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">l’enfant</persName></seg>, voilà les
+               mais je l’interrompis : « Tenez, dis-je en lui montrant <seg xml:id="RM_R598_3" ana="https://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">l’enfant</persName></seg>, voilà les
                fruits de vos persécutions. Dieu a pris ma cause, et il a décidé notre différent et
-               voilà l’accomplissement de ma prédiction. Vous vouliez m’ôter cet <seg xml:id="RM_R598_4" ana="http://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">enfant</persName></seg>, Dieu vous l’arrache ; vous vouliez l’enlever selon les
+               voilà l’accomplissement de ma prédiction. Vous vouliez m’ôter cet <seg xml:id="RM_R598_4" ana="https://gams.uni-graz.at/o:mgs.persons#REL84" type="relationship_mention"><persName ref="#P171">enfant</persName></seg>, Dieu vous l’arrache ; vous vouliez l’enlever selon les
                ordres du <persName ref="#P17">roi</persName>, le roi des rois vous l’enlève pour
                qu’il soit un ange et mon avocat qui plaide actuellement ma cause devant le trône du
                Juste Juge. Ne craignez-vous pas qu’il ne vous accuse du traitement que vous nous
                avez fait souffrir ? » Toutes les <persName ref="#P669">femmes catholiques</persName>
                se joignirent à moi.</p>
-            <p xml:id="P.604">La visite de <seg xml:id="RM_R604_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère</persName></seg> m’avait fort émue, mais la joie de voir
+            <p xml:id="P.604">La visite de <seg xml:id="RM_R604_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL60" type="relationship_mention"><persName ref="#P78">mon frère</persName></seg> m’avait fort émue, mais la joie de voir
                une personne que j’avais si longtemps désirée me remit. Après les premiers
                compliments, il commença à me féliciter de l’état où je me trouvais et qu’il avouait
                [n’avoir] jamais souhaité de voir une personne avec tant d’impatience comme il en
@@ -4531,7 +4531,7 @@
                j’allais faire des visites. <date type="full-date" when-iso="1721-04-15">Le
                   mardi</date>, j’envoyai <persName ref="#P341">le fiscal</persName> au <persName ref="#P162">comte de Schwerin</persName>. Je lui fis dire tout ce que la tendresse
                me put suggérer de plus fort pour le prier de permettre que je le visse avant de
-               partir avec <seg xml:id="RM_R617_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL1 http://gams.uni-graz.at/o:mgs.persons#REL2 http://gams.uni-graz.at/o:mgs.persons#REL3 http://gams.uni-graz.at/o:mgs.persons#REL4 http://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes chers enfants <note type="persons">
+               partir avec <seg xml:id="RM_R617_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL1 https://gams.uni-graz.at/o:mgs.persons#REL2 https://gams.uni-graz.at/o:mgs.persons#REL3 https://gams.uni-graz.at/o:mgs.persons#REL4 https://gams.uni-graz.at/o:mgs.persons#REL5" type="relationship_mention"><persName ref="#P154 #P159 #P160 #P165 #P167">mes chers enfants <note type="persons">
                         <listPerson>
                            <person corresp="#P154">
                               <name>
@@ -4651,7 +4651,7 @@
                j’étais, trouver des douceurs.</p>
             <p xml:id="P.644" ana="#T1 #S5" corresp="/o:mgs.timeline#T209">Le <date type="full-date" when-iso="1721-05-16">16 de mai</date>, ô jour fortuné pour moi, où j’appris pour
                la première fois à vous connaître, ô mon grand patron, <persName ref="#P506">saint Jean
-                  Népomucène</persName> ! Cela arriva ainsi. On m’avertit que <seg xml:id="RM_R644_1" ana="http://gams.uni-graz.at/o:mgs.persons#REL90" type="relationship_mention"><persName ref="#P87">madame la comtesse</persName>, épouse du <persName ref="#P118">Grand
+                  Népomucène</persName> ! Cela arriva ainsi. On m’avertit que <seg xml:id="RM_R644_1" ana="https://gams.uni-graz.at/o:mgs.persons#REL90" type="relationship_mention"><persName ref="#P87">madame la comtesse</persName>, épouse du <persName ref="#P118">Grand
                   Référendaire</persName></seg>, était à la chapelle du château de grand matin et qu’elle
                faisait ses dévotions. Il me prit une envie extraordinaire de savoir pourquoi elle
                communiait ce jour-là. Je courus à la chapelle, et l’y trouvant encore, je le lui
@@ -4721,7 +4721,7 @@
                très petite cellule. Elle me montra la sonnette et me dit que <persName ref="#P352">Monseigneur</persName> dirait la messe le lendemain dans leur église, qu’elle me
                ferait avertir de l’heure et me ferait ouvrir la porte pour que je me rendisse à
                l’église. Je lui répondis par une révérence qui marquait ma soumission. Sur quoi,
-               elle me souhaita le bonsoir avec toute la communauté. Dès que je fus seule avec <seg xml:id="RM_R658_2" ana="http://gams.uni-graz.at/o:mgs.persons#REL91" type="relationship_mention"><persName ref="#P96">ma
+               elle me souhaita le bonsoir avec toute la communauté. Dès que je fus seule avec <seg xml:id="RM_R658_2" ana="https://gams.uni-graz.at/o:mgs.persons#REL91" type="relationship_mention"><persName ref="#P96">ma
                   fille</persName></seg>, mon premier sentiment fut de rire de l’espèce de prison où
                nous étions. Je me mis à badiner du couvent, qui était horrible, et dis en souriant :
                « Il semble que nous soyons des brebis galeuses qui n’osent fréquenter le troupeau. »

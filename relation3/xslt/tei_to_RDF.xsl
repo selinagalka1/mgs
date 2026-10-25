@@ -43,7 +43,7 @@
         "/>
     </xsl:function>
     
-    <!-- Extract namespace prefix (agrelon or mgs) from ana="agrelon:hasChild" or "mgs:isSisterInLawOf" -->
+    <!-- Extract namespace prefix (agrelon or mgs) from ana, e.g. "agrelon:hasChild" -->
     <xsl:function name="ex:ana-prefix" as="xs:string?">
         <xsl:param name="ana" as="xs:string?"/>
         <xsl:variable name="a" select="normalize-space($ana)"/>
@@ -54,7 +54,7 @@
         "/>
     </xsl:function>
 
-    <!-- Extract local name from ana="agrelon:hasChild" or "mgs:isSisterInLawOf" -->
+    <!-- Extract local name from ana, e.g. "agrelon:hasChild" -->
     <xsl:function name="ex:ana-local" as="xs:string?">
         <xsl:param name="ana" as="xs:string?"/>
         <xsl:variable name="a" select="normalize-space($ana)"/>

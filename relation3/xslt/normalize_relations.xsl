@@ -23,12 +23,10 @@
          The general label is retained; the specific label is suppressed as redundant.
          Suppressed entries are replaced by XML comments documenting the decision.
 
-         Current hierarchy:
+         Current hierarchy (only labels that occur in the data):
            childOf   ← sonOf, daughterOf
-           parentOf  ← fatherOf, motherOf
            siblingOf ← sisterOf, brotherOf
            spouseOf  ← husbandOf, wifeOf
-           inLawOf   ← sisterInLawOf, brotherInLawOf, motherInLawOf, fatherInLawOf
 
          Input:  person_index.xml
          Output: person_index.xml with the exploratory listRelation deduplicated
@@ -37,24 +35,19 @@
     <xsl:output indent="yes"/>
 
 
-    <!-- HIERARCHY MAP — extend here to add new parent/child pairs -->
-    <xsl:variable name="hierarchy">
+    <!-- HIERARCHY MAP — extend here to add new parent/child pairs.
+         xmlns="" keeps the <entry> elements in no namespace, so that $hierarchy/entry matches
+         (otherwise they would inherit the TEI default namespace of this stylesheet). -->
+    <xsl:variable name="hierarchy" xmlns="">
         <!-- child / parent -->
         <entry specific="sonOf"          general="childOf"/>
         <entry specific="daughterOf"     general="childOf"/>
-        <entry specific="fatherOf"       general="parentOf"/>
-        <entry specific="motherOf"       general="parentOf"/>
         <!-- sibling -->
         <entry specific="sisterOf"       general="siblingOf"/>
         <entry specific="brotherOf"      general="siblingOf"/>
         <!-- spouse -->
         <entry specific="husbandOf"      general="spouseOf"/>
         <entry specific="wifeOf"         general="spouseOf"/>
-        <!-- in-law -->
-        <entry specific="sisterInLawOf"  general="inLawOf"/>
-        <entry specific="brotherInLawOf" general="inLawOf"/>
-        <entry specific="motherInLawOf"  general="inLawOf"/>
-        <entry specific="fatherInLawOf"  general="inLawOf"/>
     </xsl:variable>
 
 

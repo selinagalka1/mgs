@@ -27,7 +27,7 @@
     <xsl:variable name="tei_doc" select="/"/>
 
     <!-- Base URI for relations in the person index -->
-    <xsl:variable name="persons_base_uri" select="'http://gams.uni-graz.at/o:mgs.persons#'"/>
+    <xsl:variable name="persons_base_uri" select="'https://gams.uni-graz.at/o:mgs.persons#'"/>
 
     <!-- Base URI for text segments in the edition text -->
     <xsl:variable name="text_base_uri" select="'https://gams.uni-graz.at/o:mgs.normalizedText#'"/>
@@ -85,7 +85,7 @@
                 <persName>Selina Galka</persName>
             </respStmt>
             <revisionDesc>
-                <change status="created" when="2026" who="#selinagalka"/>
+                <change status="created" when="2026"/>
             </revisionDesc>
             <licence target="http://creativecommons.org/licenses/by/4.0/"/>
 
