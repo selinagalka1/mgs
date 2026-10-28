@@ -116,7 +116,7 @@
             <relation type="family" xml:id="R14" active="#P29" passive="#P153" name="relativeOf" ana="agrelon:hasRelative"/>
             <relation type="family" xml:id="R26" active="#P564" passive="#P153" name="cousinOf" ana="agrelon:hasCousin"/>
             <relation type="family" xml:id="R15" active="#P10" passive="#P181" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw"/>
-            <relation type="family" xml:id="R16" active="#P121" passive="#P181" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw"/>
+            <relation type="family" xml:id="R16" active="#P121" passive="#P181" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw" cert="medium"/>
             <relation type="family" xml:id="R17" active="#P182" passive="#P181" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw"/>
             <relation type="family" xml:id="R18" active="#P185" passive="#P181" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw"/>
             <relation type="family" xml:id="R20" active="#P5" passive="#P76" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw"/>
@@ -124,7 +124,6 @@
             <relation type="family" xml:id="R22" active="#P28" passive="#P76" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw"/>
             <relation type="family" xml:id="R24" active="#P38" passive="#P42" name="cousinOf" ana="agrelon:hasCousin"/>
             <relation type="family" xml:id="R19" active="#P501" passive="#P13" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw"/>
-            <relation type="family" xml:id="R27" active="#P46" passive="#P153" name="sisterInLawOf" ana="agrelon:hasSiblingInlaw"/>
          </listRelation>
          <!-- Explorative Annotation: 93 Relationsbehauptungen, 84 distinkt nach Normalisierung (Galka 2026) -->
          <listRelation type="family" subtype="exploratory"
@@ -369,7 +368,7 @@
                <faith>katholisch</faith>
                <note type="description">Fürstbischof von Kulm (poln. Chełmno)</note>
                <idno type="GND">https://d-nb.info/gnd/106873129X</idno>
-               <idno type="URL ">https://de.wikipedia.org/wiki/Altenbockum_(Adelsgeschlecht)#cite_note-16</idno>
+               <idno type="URL">https://de.wikipedia.org/wiki/Altenbockum_(Adelsgeschlecht)#cite_note-16</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.645" ana="P.645" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.656" ana="P.656" type="paragraph"/>
@@ -433,7 +432,7 @@
                <faith>evangelisch, H.B.</faith>
                <note type="description">verh. mit Friedrich Wilhelm von Heyden-Bruch (Bruder des
                   Vaters der Gräfin Luise Charlotte von Schwerin)</note>
-               <idno type="URL ">https://commons.wikimedia.org/wiki/File:Gerrit_Alberts_-_Portret_van_Elisabeth_van_Arnhem_-_03225_-_Geldersch_Landschap.jpg</idno>
+               <idno type="URL">https://commons.wikimedia.org/wiki/File:Gerrit_Alberts_-_Portret_van_Elisabeth_van_Arnhem_-_03225_-_Geldersch_Landschap.jpg</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.6" ana="P.6" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.7" ana="P.7" type="paragraph"/>
@@ -530,7 +529,7 @@
                <note type="description">verh. mit Johann Margaretha van Arnhem, Bürgermeister
                   (Arnheim, niederl. Arnhem)</note>
                <idno type="GND">https://d-nb.info/gnd/1019727349</idno>
-               <idno type="URL ">https://mijngelderland.nl/inhoud/verhalen/bewoners-van-rosendael-jan-en-janne-margriete-van-arnhem</idno>
+               <idno type="URL">https://mijngelderland.nl/inhoud/verhalen/bewoners-van-rosendael-jan-en-janne-margriete-van-arnhem</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.7" ana="P.7" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.8" ana="P.8" type="paragraph"/>
@@ -575,7 +574,7 @@
                <faith>evangelisch, H.B.</faith>
                <note type="description">Schwester von Elisabeth van Arnhem, verh. mit Jan / Johan
                   van Arnhem</note>
-               <idno type="URL ">https://www.collectiegelderland.nl/geldersch-landschap-en-kasteelen/object/4368f669-6443-080e-e423-33253c03767b</idno>
+               <idno type="URL">https://www.collectiegelderland.nl/geldersch-landschap-en-kasteelen/object/4368f669-6443-080e-e423-33253c03767b</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.7" ana="P.7" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.7" ana="P.7" type="paragraph"/>
@@ -1760,7 +1759,7 @@
                <sex value="female">f.</sex>
                <faith>evangelisch</faith>
                <note type="confession">Bekenntnis unbekannt</note>
-               <idno type="URL ">https://www.wikitree.com/wiki/Von_Bylandt-1</idno>
+               <idno type="URL">https://www.wikitree.com/wiki/Von_Bylandt-1</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.38" ana="P.38" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.40" ana="P.40" type="paragraph"/>
@@ -1859,7 +1858,7 @@
                <faith>katholisch</faith>
                <note type="description">Generalfeldwachmeister (kaiserlich, Wien)</note>
                <note type="vienna">Diese Person hat die Gräfin in Wien getroffen.</note>
-               <idno type="URL ">https://www.geni.com/people/Marino-Francesco-Caracciolo-V-principe-di-Avellino/6000000015199508649</idno>
+               <idno type="URL">https://www.geni.com/people/Marino-Francesco-Caracciolo-V-principe-di-Avellino/6000000015199508649</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.259" ana="P.259" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.364" ana="P.364" type="paragraph"/>
@@ -2295,7 +2294,7 @@
                <faith>evangelisch, H.B.</faith>
                <idno type="GND">https://d-nb.info/gnd/107979915X</idno>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q11905406</idno>
-               <idno type="URL ">https://www.geni.com/people/Amalie-Louise-von-Dohna-Carwinden-Burggr%C3%A4fin/6000000001548476433</idno>
+               <idno type="URL">https://www.geni.com/people/Amalie-Louise-von-Dohna-Carwinden-Burggr%C3%A4fin/6000000001548476433</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.179" ana="P.179" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.206" ana="P.206" type="paragraph"/>
@@ -3091,7 +3090,7 @@
                <note type="cleric">Bei dieser Person handelt es sich um einen Kleriker.</note>
                <idno type="GND">https://d-nb.info/gnd/117652067</idno>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q1064156</idno>
-               <idno type="URL ">https://de.wikipedia.org/wiki/Charles_Drelincourt</idno>
+               <idno type="URL">https://de.wikipedia.org/wiki/Charles_Drelincourt</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.15" ana="P.15" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.156" ana="P.156" type="paragraph"/>
@@ -3183,7 +3182,7 @@
                <note type="description">Schriftsteller</note>
                <idno type="GND">https://d-nb.info/gnd/118639056</idno>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q310309</idno>
-               <idno type="URL ">https://de.wikipedia.org/wiki/Bernard_le_Bovier_de_Fontenelle</idno>
+               <idno type="URL">https://de.wikipedia.org/wiki/Bernard_le_Bovier_de_Fontenelle</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.23" ana="P.23" type="paragraph"/>
                </linkGrp>
@@ -3315,7 +3314,6 @@
                <faith>konvertiert</faith>
                <note type="konversion">evangelisch A.B., katholisch</note>
                <note type="vienna">Diese Person hat die Gräfin in Wien getroffen.</note>
-               <idno type="GND">https://d-nb.info/gnd/</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.231" ana="P.231" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.231" ana="P.231" type="paragraph"/>
@@ -3337,7 +3335,7 @@
                <note type="confession">Konfession unbekannt</note>
                <idno type="GND">https://d-nb.info/gnd/119160161</idno>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q3592734</idno>
-               <idno type="URL ">https://it.wikipedia.org/wiki/Evaristo_Gherardi</idno>
+               <idno type="URL">https://it.wikipedia.org/wiki/Evaristo_Gherardi</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.156" ana="P.156" type="paragraph"/>
                </linkGrp>
@@ -4098,9 +4096,8 @@
                <sex value="male">m.</sex>
                <faith>evangelisch, H.B.</faith>
                <note type="description">Oberkammerherr (Berliner Hof)</note>
-               <idno type="GND">https://d-nb.info/gnd/</idno>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q1357598</idno>
-               <idno type="URL ">https://de.wikipedia.org/wiki/Ernst_Bogislav_von_Kameke</idno>
+               <idno type="URL">https://de.wikipedia.org/wiki/Ernst_Bogislav_von_Kameke</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.166" ana="P.166" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.166" ana="P.166" type="paragraph"/>
@@ -4263,7 +4260,7 @@
                <faith>evangelisch, A.B.</faith>
                <note type="description">Staatsminister, Generalleutnant (Hessen-Kassel)</note>
                <idno type="GND">https://d-nb.info/gnd/143733745</idno>
-               <idno type="URL ">https://de.wikipedia.org/wiki/Ketteler_(Adelsgeschlecht)</idno>
+               <idno type="URL">https://de.wikipedia.org/wiki/Ketteler_(Adelsgeschlecht)</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.150" ana="P.150" type="paragraph"/>
                </linkGrp>
@@ -4282,7 +4279,7 @@
                <faith>evangelisch</faith>
                <note type="confession">Bekenntnis unbekannt</note>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q2081916</idno>
-               <idno type="URL ">https://de.wikipedia.org/wiki/Friedrich_Kasimir_Kettler</idno>
+               <idno type="URL">https://de.wikipedia.org/wiki/Friedrich_Kasimir_Kettler</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.200" ana="P.200" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.306" ana="P.306" type="paragraph"/>
@@ -4356,7 +4353,7 @@
                <faith>katholisch</faith>
                <note type="description">Schriftsteller</note>
                <note type="cleric">Bei dieser Person handelt es sich um einen Kleriker.</note>
-               <idno type="URL ">https://www.deutsche-biographie.de/sfz44914.html</idno>
+               <idno type="URL">https://www.deutsche-biographie.de/sfz44914.html</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.527" ana="P.527" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.528" ana="P.528" type="paragraph"/>
@@ -4426,7 +4423,7 @@
                <note type="cleric">Bei dieser Person handelt es sich um einen Kleriker.</note>
                <idno type="GND">https://d-nb.info/gnd/129609951</idno>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q12319161</idno>
-               <idno type="URL ">https://fr.wikipedia.org/wiki/Jean_La_Placette</idno>
+               <idno type="URL">https://fr.wikipedia.org/wiki/Jean_La_Placette</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.26" ana="P.26" type="paragraph"/>
                </linkGrp>
@@ -6820,7 +6817,6 @@
                <faith>katholisch</faith>
                <note type="description">Jesuit (Breslau, poln. Wrocław)</note>
                <note type="cleric">Bei dieser Person handelt es sich um einen Kleriker.</note>
-               <idno type="GND">https://d-nb.info/gnd/</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.393" ana="P.393" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.397" ana="P.397" type="paragraph"/>
@@ -10248,7 +10244,7 @@
                <death when="1748">1748</death>
                <sex value="female">f.</sex>
                <faith>evangelisch</faith>
-               <idno type="URL ">http://worldhistory.de/wnf/navbar/wnf.php?oid=16207&amp;sid=</idno>
+               <idno type="URL">http://worldhistory.de/wnf/navbar/wnf.php?oid=16207&amp;sid=</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.414" ana="P.414" type="paragraph"/>
                </linkGrp>
@@ -10603,7 +10599,7 @@
                <death when="1736">1736</death>
                <sex value="female">f.</sex>
                <faith>evangelisch, A.B.</faith>
-               <idno type="URL ">https://de.wikipedia.org/wiki/Christoph_Albrecht_von_Kanitz</idno>
+               <idno type="URL">https://de.wikipedia.org/wiki/Christoph_Albrecht_von_Kanitz</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.179" ana="P.179" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.190" ana="P.190" type="paragraph"/>
@@ -11822,7 +11818,7 @@
                <death when="1717">1717</death>
                <sex value="male">m.</sex>
                <faith>evangelisch, H.B.</faith>
-               <idno type="URL ">https://de.wikipedia.org/wiki/Stammliste_des_mecklenburgisch-pommerschen_Adelsgeschlechts_Schwerin#Linie_Walsleben</idno>
+               <idno type="URL">https://de.wikipedia.org/wiki/Stammliste_des_mecklenburgisch-pommerschen_Adelsgeschlechts_Schwerin#Linie_Walsleben</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.133" ana="P.133" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.133" ana="P.133" type="paragraph"/>
@@ -14584,7 +14580,7 @@
                <note type="vienna">Diese Person hat die Gräfin in Wien getroffen.</note>
                <idno type="GND">https://d-nb.info/gnd/117416487</idno>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q84715</idno>
-               <idno type="URL ">https://www.wikidata.org/wiki/Q84715</idno>
+               <idno type="URL">https://www.wikidata.org/wiki/Q84715</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.283" ana="P.283" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.373" ana="P.373" type="paragraph"/>
@@ -14731,7 +14727,7 @@
                <idno type="GND">https://d-nb.info/gnd/1167826949</idno>
                <idno type="VIAF">https://viaf.org/viaf/11153833192964332208/</idno>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q6451033</idno>
-               <idno type="URL ">https://portal.dnb.de/opac/simpleSearch?query=nid%3D1167826949&amp;cqlMode=true</idno>
+               <idno type="URL">https://portal.dnb.de/opac/simpleSearch?query=nid%3D1167826949&amp;cqlMode=true</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.259" ana="P.259" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.259" ana="P.259" type="paragraph"/>
@@ -14957,7 +14953,7 @@
                <note type="confession">Bekenntnis unbekannt</note>
                <note type="description">Amtshauptmann, Johanniterkomtur</note>
                <idno type="WIKIDATA">https://www.wikidata.org/wiki/Q98458307</idno>
-               <idno type="URL ">https://www.wikidata.org/wiki/Q98458307</idno>
+               <idno type="URL">https://www.wikidata.org/wiki/Q98458307</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.424" ana="P.424" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.591" ana="P.591" type="paragraph"/>
@@ -15391,7 +15387,7 @@
                <sex value="female">f.</sex>
                <faith>evangelisch</faith>
                <note type="confession">Bekenntnis unbekannt</note>
-               <idno type="URL ">https://www.genealogieonline.nl/de/stambomen-van-johan-scholte/I83212.php</idno>
+               <idno type="URL">https://www.genealogieonline.nl/de/stambomen-van-johan-scholte/I83212.php</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.132" ana="P.132" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.153" ana="P.153" type="paragraph"/>
@@ -15529,7 +15525,7 @@
                <sex value="female">f.</sex>
                <faith>evangelisch</faith>
                <note type="confession">Bekenntnis unbekannt</note>
-               <idno type="URL ">https://worldhistory.de/wnf/navbar/wnf.php?oid=16489&amp;sid=</idno>
+               <idno type="URL">https://worldhistory.de/wnf/navbar/wnf.php?oid=16489&amp;sid=</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.83" ana="P.83" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.86" ana="P.86" type="paragraph"/>
@@ -15580,7 +15576,7 @@
                <note type="description">Offizier (kaiserlich)</note>
                <note type="vienna">Diese Person hat die Gräfin in Wien getroffen.</note>
                <idno type="GND">https://d-nb.info/gnd/101976564X</idno>
-               <idno type="URL ">https://de.wikisource.org/wiki/BLK%C3%96%3AWurmbrand-Stuppach%2C_Casimir_Heinrich</idno>
+               <idno type="URL">https://de.wikisource.org/wiki/BLK%C3%96%3AWurmbrand-Stuppach%2C_Casimir_Heinrich</idno>
                <linkGrp type="occurrences">
                   <ptr target="/o:mgs.normalizedText#P.320" ana="P.320" type="paragraph"/>
                   <ptr target="/o:mgs.normalizedText#P.320" ana="P.320" type="paragraph"/>

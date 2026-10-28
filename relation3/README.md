@@ -38,7 +38,7 @@ The normalized TEI P5 text of the memoirs with annotated relationship mentions. 
 ### `person_index.xml`
 The TEI person register and relationship index. It contains:
 - `<listPerson>` — all persons mentioned in the memoirs, with biographical metadata (name, birth/death dates, gender, religious denomination, authority identifiers such as GND). The data has been collected by Ines Peper and Michael Pölzl.
-- `<listRelation>` — 26 project relationship assertions (primarily *sister-in-law* and *female cousin*), encoding the relationship type in `@name` and linking to the ontology via `@ana`
+- `<listRelation>` — 25 project relationship assertions (primarily *sister-in-law* and *female cousin*), encoding the relationship type in `@name` and linking to the ontology via `@ana`
 - `<listRelation subtype="exploratory">` — 93 relationship assertions (84 distinct after normalization) from the exploratory annotation of the 100-paragraph sample, covering 18 relationship types; this is the primary dataset in this repository
 
 In both listRelation sections, `@ana` maps text-near labels (e.g. `daughterOf`) to AgRelOn properties (e.g. `agrelon:hasParent`, `agrelon:hasNieceNephew`, `agrelon:hasSiblingInlaw`). All kinship relation types are covered by AgRelOn; the `mgs:` namespace is used only for person metadata properties (certainty, biographical notes, text links).
