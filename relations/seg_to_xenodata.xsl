@@ -93,9 +93,9 @@
 	</xsl:template>
 	<!-- Converting generic standOff annotations to RDF -->
 	<xsl:template match="//t:standOff//t:*" mode="xenoData">
-		<rdf:Description rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#{$annotation/@xml:id}">
-			<rdf:type rdf:resource="https://tei-c.org/ns/1.0/{$annotation/name()}"/>
-			<rdf:type rdf:resource="https://gams.uni-graz.at/o:mgs.ontology#{$annotation/@type}"/>
+		<rdf:Description rdf:about="https://gams.uni-graz.at/o:mgs.lesefassung#{@xml:id}">
+			<rdf:type rdf:resource="https://tei-c.org/ns/1.0/{local-name()}"/>
+			<rdf:type rdf:resource="https://gams.uni-graz.at/o:mgs.ontology#{@type}"/>
 			<xsl:apply-templates select="*" mode="#current"/><!-- ToDo: define further RDF mappings -->
 		</rdf:Description>
 	</xsl:template>

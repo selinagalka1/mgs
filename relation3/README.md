@@ -4,7 +4,7 @@ Accompanying data and materials for the paper:
 
 **"Relation³: Modeling and relating text describing (family) relationships with structured encoding of the relationships in digital editions"**
 
-> **Note on the data:** The TEI and RDF files in this repository are **exploratory sample data**, not the authoritative edition data. They are based on a manual annotation of a sample of 100 paragraphs distributed across the text, conducted to explore the range of family relationships mentioned in the memoirs. Encoding of person relationships across the full text is planned for a later phase of the project.
+> **Note on the data:** The TEI files in this repository (and the RDF that can be generated from them with the XSLT stylesheets) are **exploratory sample data**, not the authoritative edition data. They are based on a manual annotation of a sample of 100 paragraphs distributed across the text, conducted to explore the range of family relationships mentioned in the memoirs. Encoding of person relationships across the full text is planned for a later phase of the project.
 >
 > The authoritative digital edition is published in GAMS and should be cited as:
 > Digitale Edition der Memoiren der Gräfin Schwerin (1684–1732). Hrsg. von Selina Galka, Ines Peper, Michael Pölzl, Chiara Petrolini, Georg Vogeler und Joëlle Weis, unter Mitarbeit von Sabine Amon. Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (ÖAW) / Institut für Digitale Geisteswissenschaften (Universität Graz), 2026. GAMS – Geisteswissenschaftliches Asset Management System. https://gams.uni-graz.at/context:mgs. Zuletzt geändert: März 2026.

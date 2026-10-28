@@ -13,7 +13,7 @@
 
     For each relation in the exploratory <listRelation subtype="exploratory"> of the person index,
     a <tei:annotation> is created that:
-      - points to the relation via @target and a <ptr>
+      - points to the relation via @target
       - points to all referencing <seg> elements via <ptr>
 
     -->
